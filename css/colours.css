@@ -1,0 +1,54 @@
+:root {
+    /* colours */
+    --theme-primary: #D52B1E;
+    --theme-red: #D52B1E;
+    --theme-red-rgb: 13, 43, 30 ;
+    /* rgba(213, 43, 30, 1) */
+    --theme-secondary: #EEAF00;
+    --theme-yellow: #EEAF00;
+    --theme-yellow-rgb: 238, 175, 0 ;
+    /* rgba(238, 175, 0, 1) */
+    --theme-dark: #231F20;
+    --theme-dark-rgb: 35, 31, 32;
+    /* rgba(35, 31, 32, 1) */
+    --theme-light: #F8F9FA;
+    --theme-light-rgb: 248, 249, 250;
+    /* rgba(248, 249, 250, 1) */
+    --theme-black: #101010;
+    --theme-black-rgb: 16, 16, 16;
+    /* rgba(16, 16, 16, 1) */
+    --theme-blue-dark: #2547bf;
+    --theme-blue-dark-rgb: 37,71,191 ;
+    /* earths */
+    --dark-earth: #675C53;
+    --dark-earth-rgb: 103, 92, 83 ;
+    /* rgba(103, 92, 83, 1) */
+    --mid-earth: #82786F;
+    --mid-earth-rgb: 130, 120, 111 ;
+    /* rgba(130, 120, 111, 1) */
+    --light-earth: #E0DED8 ;
+    --light-earth-rgb: 224, 222, 216 ;
+    /* rgba(224, 222, 216, 1) */
+    --primary: #D52B1E;
+    --primary-rgb: 13, 43, 30 ;
+    /* rgba(213, 43, 30, 1) */
+    --primary-dark: #A12017;
+    --primary-dark-rgb: 161, 32, 23 ;
+    /* rgba(161, 32, 23, 1) */
+    --primary-75: #E6574C;
+    /* rgba(230, 87, 76, 1) */
+    --primary-50: #ED8982;
+    /* rgba(237, 137, 130, 1) */
+    --praimary-25: #F5BCB8;
+    /* rgba(245, 188, 184, 1) */
+    --secondary: #EEAF00;
+    --secondary-dark: #B88700;
+    /* rgba(184, 135, 0, 1) */
+    --secondary-75: #FFC933;
+    /* rgba(255, 201, 51, 1) */
+    --secondary-50: #FFD970;
+    /* rgba(255, 217, 112, 1) */
+    --secondary-25: #FFE9AD;
+    /*  */
+    --white-rgb: 255,255,255 ;
+}

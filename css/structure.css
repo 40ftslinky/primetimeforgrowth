@@ -1,0 +1,90 @@
+/* structure.css */
+
+:root {
+    --column-width: 100% ;
+    --col-mx-width: 80vw;
+}
+
+@media (min-width:48em){
+    :root {
+        --column-width: calc((100% / var(--columns)) - var(--gutter));
+        --col-mx-width: calc((1200px / 2) - 6rem);
+    }
+}
+@media (min-width:75em){
+    :root {
+        --column-width: calc((100% / var(--columns)) - var(--gutter));
+        --col-mx-width: calc((100vw / 2) - 8rem);
+    }
+}
+
+body { background: var(--theme-light); }
+
+/* ----------------------------- TEST ----------------------------- */
+/**
+* WRAPPER
+* Sets a max width, adds a consistent gutter and horizontally
+* centers the contents
+*/
+.body_wrapper {
+    width: 90vw;
+    width: clamp(16rem, 90vw, 70rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+}
+/* ----------------------------- end TEST ----------------------------- */
+
+/* 
+.col_01  {
+    --col-num: 1;
+    width: calc(var(--column-width) * var(--col-num) + (var(--gutter) * (var(--col-num) - 1 )));
+} */
+
+/* .col_04  {
+    --col-num: 4;
+    width: calc((1200 / 12) * var(--col-num) + (var(--gutter) * (var(--col-num) - 1 ) - 4rem));
+} */
+
+main {padding-top: 200px;}
+
+.section {
+    padding: 5% 0;
+}
+
+.column_wrap {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+@media (max-width:48em){
+    .column_wrap {
+        
+        gap: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.column_50 {
+    display: inline;
+    max-width: var(--col-mx-width);
+    width: 600px;
+}
+
+.panel_wrap, .text_wrap {
+    margin: auto 2rem;
+}
+
+.panel {
+    background: #fff;
+    color: var(--theme-dark);
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem rgb(0 0 0 / 8%);
+    padding: 2em;
+    /* clamp(1.37rem,1.21rem + .8vw,1.78rem) clamp(.88rem,.83rem + .24vw,1rem) clamp(1.09rem,1rem + .47vw,1.33rem); */
+    position: relative;
+    overflow: hidden;
+}

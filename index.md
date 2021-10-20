@@ -2,7 +2,7 @@
 
 ## ADBUILDER
 - [x]  [adbuilder](https://40ftslinky.github.io/primetimeforgrowth/adbuilder.html)
-   - [x]  basic styling
+   - [x]  basic styling [styles](https://40ftslinky.github.io/primetimeforgrowth/css/styles.css)
    - [ ]  targetted styling
    - [ ]  
 

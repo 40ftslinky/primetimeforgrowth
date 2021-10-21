@@ -25,8 +25,14 @@
     display: block;
     margin: 1em 0;
     font-size: 0.8rem;
-    max-width: 90%;
+    max-width: 100%;
+    cursor: pointer;
   }
+  .forms label[class*=radio],
+  .forms label[class*=checkbox] {
+    display: inline-block;
+  }
+
   .forms label textarea, .forms label select, 
   .forms label input[type=text], .forms label input[type=email], 
   .forms label input[type=search], .forms label input[type=tel], 
@@ -36,9 +42,17 @@
   .forms label input[type=range], .forms label input[type=date], 
   .forms label input[type=month], .forms label input[type=week], 
   .forms label input[type=time], .forms label input[type=datetime], 
-  .forms label input[type=datetime-local] {
+  .forms label input[type=datetime-local],
+  .forms label input:not([type=radio]),
+  .forms label input:not([type=checkbox]) {
     display: block;
     width: 100%;
+    font-size: 1rem;
+  }
+  .forms label input[type=radio],
+  .forms label input[type=checkbox] {
+    display: inline-block;
+    width: max-content;
     font-size: 1rem;
   }
   .forms textarea, .forms select, .forms input[type=text], .forms input[type=email], .forms input[type=search], .forms input[type=tel], .forms input[type=url], .forms input[type=password], .forms input[type=color], .forms input[type=file], .forms input[type=color], .forms input[type=number], .forms input[type=range], .forms input[type=date], .forms input[type=month], .forms input[type=week], .forms input[type=time], .forms input[type=datetime], .forms input[type=datetime-local] {
@@ -124,10 +138,27 @@ input[type='file'] {
 /* ------------------------------------------------ */
 
 .assets_outer { }
-.asset_group { position: relative; }
+
+.asset_group,
+[class*=_group] { 
+  position: relative;
+  display: block;
+ }
+
+.asset_group label,
+[class*=_group] label{ max-width: 90%; }
 
 .add_outer { 
   width: 90%;
   display: flex;
   justify-content: center;
+}
+
+/* ------------------------------------------------ */
+/* colour picker */
+
+.clr-field button {
+  border-radius: 100%;
+  width: 44px;
+  left: 105%;
 }

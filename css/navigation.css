@@ -37,11 +37,11 @@
     }
 
     header a svg.logo_svg path {
-        fill:var(--theme-primary)    
+        fill:var(--theme-primary);
     }
 
     header a:hover svg.logo_svg path {
-        fill: rgba(var(--theme-red-rgb),0.8);
+        fill: rgba(var(--theme-primary-rgb),0.5);
     }
 
     .nav_header_wrap {

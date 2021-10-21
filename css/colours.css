@@ -1,8 +1,9 @@
 :root {
     /* colours */
     --theme-primary: #D52B1E;
+    --theme-primary-rgb: 213, 43, 30 ;
     --theme-red: #D52B1E;
-    --theme-red-rgb: 13, 43, 30 ;
+    --theme-red-rgb: 213, 43, 30 ;
     /* rgba(213, 43, 30, 1) */
     --theme-secondary: #EEAF00;
     --theme-yellow: #EEAF00;
@@ -30,7 +31,7 @@
     --light-earth-rgb: 224, 222, 216 ;
     /* rgba(224, 222, 216, 1) */
     --primary: #D52B1E;
-    --primary-rgb: 13, 43, 30 ;
+    --primary-rgb: 213, 43, 30 ;
     /* rgba(213, 43, 30, 1) */
     --primary-dark: #A12017;
     --primary-dark-rgb: 161, 32, 23 ;

@@ -28,10 +28,6 @@
     max-width: 100%;
     cursor: pointer;
   }
-  .forms label[class*=radio],
-  .forms label[class*=checkbox] {
-    display: inline-block;
-  }
 
   .forms label textarea, .forms label select, 
   .forms label input[type=text], .forms label input[type=email], 
@@ -49,12 +45,26 @@
     width: 100%;
     font-size: 1rem;
   }
+
+  /* ------------------------------------------------ */
+  /* checkbox fix */
+  /* ------------------------------------------------ */
+
+  .forms label[class*=radio],
+  .forms label[class*=checkbox] {
+    display: inline-block;
+  }
+
   .forms label input[type=radio],
   .forms label input[type=checkbox] {
     display: inline-block;
     width: max-content;
     font-size: 1rem;
   }
+
+  /* ------------------------------------------------ */
+
+
   .forms textarea, .forms select, .forms input[type=text], .forms input[type=email], .forms input[type=search], .forms input[type=tel], .forms input[type=url], .forms input[type=password], .forms input[type=color], .forms input[type=file], .forms input[type=color], .forms input[type=number], .forms input[type=range], .forms input[type=date], .forms input[type=month], .forms input[type=week], .forms input[type=time], .forms input[type=datetime], .forms input[type=datetime-local] {
     margin: 0.12em 0;
     padding: 0.25em 0.4em;

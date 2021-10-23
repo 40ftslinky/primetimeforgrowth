@@ -21,9 +21,14 @@ body, p {
  }
  
  a {
-     text-decoration: none;
-     color: rgba(var(--link-rgb),1.0);;
- }
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+
 
  h1, h2, h3, h4, h5, h6 {
     margin: 3rem 0 1.38rem;

@@ -90,6 +90,6 @@ main {padding-top: 200px;}
 }
 
 .panel_wrap {
-    margin-top: calc( (1.414rem * 1.2) + (0.94em * 2) + 0.4em);
+    margin-top: calc( (2.414rem * 1.2) + (0.94em * 2) + 0.4em);
     /* (h5 size * line-height) + margin-top & -bottom + h2 margin-top */
 }

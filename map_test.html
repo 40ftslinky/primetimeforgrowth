@@ -14,6 +14,16 @@
 
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/map.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
                 
     </head>
     <body>
@@ -59,29 +69,8 @@
 <!--  -->
 <!--  -->
 <!--  -->
-<!-- hero section -->
-<div class="landing hero">
 
-        <section class="section">
-            <div class="column_wrap">
-                <div class="column_50">
-                <div class="text_wrap">
-                    <h5 class="pre-title white">Prime time for growth</h5>
-                    <h2> text goes here</h2>
-                    <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                </div>
-                <div class="column_50">
-                
-                </div>
-            </div>
-        </section>
-
-</div>        
-<!--  -->
-<!--  -->
-<!--  -->
-<!-- second section -->
+<!-- map section -->
         <section class="section">
             <div class="column_wrap">
                 <div class="column_50">
@@ -91,7 +80,7 @@
                     <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 </div>
-                <div class="column_50">
+                <div id="map" class="column_50">
                 
                 </div>
             </div>
@@ -189,6 +178,10 @@
                 crossorigin="anonymous"></script>
         <script src="./js/add_class_shrink.js"></script>
         <script src="./js/custom.js"></script>
+
+        <script src="./js/prime_broadcast.js"></script>
+        <script src="./js/custom_map.js"></script>
+
         
         <script src="" async defer></script>
     </body>

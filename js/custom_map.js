@@ -1,9 +1,8 @@
 // custom leaflet / mapbox call
 
     var mapboxAccessToken = 'pk.eyJ1Ijoib21nY3JlYXRpdmUiLCJhIjoiY2t2MXR1aWlkNnB3dzJvdDlvd3hoeHVubyJ9.Lf2kX5YXQ1IB23ZOXvY9VQ';
-    var mymap = L.map('map').setView([-36.5, 145.5], 6);
-	// var mymap = L.map('map').setView([51.505, -0.09], 13);
-    // center: [-74.5, 40], // starting position [lng, lat]
+    var mymap = L.map('map').setView([-36.5, 145.5], 5);
+	// starting position [lng, lat]
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
 		maxZoom: 18,
@@ -51,22 +50,26 @@
 
 	// get color depending on population  value
 	function getColor(p) {
-		return p > 1000000 ? '#800026' :
-				p > 500000  ? '#BD0026' :
-				p > 200000  ? '#E31A1C' :
-				p > 100000  ? '#FC4E2A' :
-				p > 50000  ? '#FD8D3C' :
-				p > 20000   ? '#FEB24C' :
-				p > 10000   ? '#FED976' :
-							'#ffffff';
+		return  p > 7000000 ? '#370617' :
+                p > 5000000 ? '#6a040f' :
+                p > 3000000 ? '#9d0208' :
+                p > 1000000 ? '#d00000' :
+				p > 500000  ? '#dc2f02' :
+				p > 400000  ? '#e85d04' :
+				p > 300000  ? '#f48c06' :
+				p > 200000  ? '#FD8D3C' :
+				p > 100000   ? '#faa307' :
+				p > 50000   ? '#ffba08' :
+							'#ffc01e';
+    // 370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08-ffc01e
 	}
 
 
 	function style(feature) {
 		return {
 			weight: 2,
-			opacity: 1,
-			color: 'red',
+			opacity: 0.2,
+			color: '#d00000',
 			dashArray: '0',
 			fillOpacity: 0.7,
 			fillColor: getColor(feature.properties.population)
@@ -77,10 +80,11 @@
 		var layer = e.target;
 
 		layer.setStyle({
-			weight: 5,
-			color: 'red',
+			weight: 2,
+			opacity: 1,
+			color: 'white',
 			dashArray: '',
-			fillOpacity: 0.7
+			fillOpacity: 0.2
 		});
 
 		if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
@@ -107,6 +111,7 @@
 			mouseout: resetHighlight,
 			click: zoomToFeature
 		});
+        layer.bindPopup("You clicked "+feature.properties.name+ " region");
 	}
 
 	geojson = L.geoJson(broadcastData, {
@@ -117,13 +122,13 @@
     mymap.attributionControl.addAttribution('Broadcast data &copy; <a href="http://prime7.com.au/">Prime7</a>');
 
 
-	var popup = L.popup();
+	// var popup = L.popup();
 
-	function onMapClick(e) {
-		popup
-			.setLatLng(e.latlng)
-			.setContent("You clicked the map at " + e.latlng.toString())
-			.openOn(mymap);
-	}
+	// function onMapClick(e) {
+	// 	popup
+	// 		.setLatLng(e.latlng)
+	// 		.setContent("You clicked the map at " + e.latlng.toString())
+	// 		.openOn(mymap);
+	// }
 
 	mymap.on('click', onMapClick);

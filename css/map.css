@@ -8,17 +8,42 @@
    color:#dedede;
 }
 
-.info {
+#map .leaflet-container {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
+}
+
+#map .info {
    padding: 6px 8px;
-   font: 14px/16px 'Montserrat' Arial, Helvetica, sans-serif;
+   font: 14px/16px 'Montserrat', Arial, Helvetica, sans-serif;
    background: white;
-   background: rgba(255,255,255,0.8);
+   background: rgba(255,255,255,0.9);
    box-shadow: 0 0 15px rgba(0,0,0,0.2);
    border-radius: 5px;
 }
-.info h4 {
-   font: 14px/16px 'Montserrat' Arial, Helvetica, sans-serif !important;
+#map .leaflet-top .info h4 {
+   font: 14px/16px 'Montserrat', Arial, Helvetica, sans-serif !important;
    font-size: .8rem;
    margin: 0 0 5px;
    color: #777;
+}
+#map .leaflet-top .info.leaflet-control  {
+    /* font: 12px/1.5 'Montserrat' Arial, Helvetica, sans-serif !important; */
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif !important;
+    font-size: .8rem;
+    color: #2d2d2d;
+ }
+
+.leaflet-bottom {}
+
+#map .leaflet-popup-content {
+    /* font: 12px/1.5 'Montserrat' Arial, Helvetica, sans-serif !important; */
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
+    font-size: .8rem;
+    color: #2d2d2d;
+}
+
+#map > #victoria,
+svg.leaflet-zoom-animated path:last-of-type {
+    /* display: none; */
+    /* z-index: 0; */
 }

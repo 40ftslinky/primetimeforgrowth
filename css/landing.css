@@ -1,1 +1,94 @@
 /* landing.css */
+
+.hero {
+    height: 90vh;
+    width: 100vw;
+    /* background: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.landing {
+    background-image: url(../img/landing_hero_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero section {
+    position: absolute;
+    z-index: 111;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+[class*='slide'].overlay {
+    position: absolute;
+    
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.slide-in_left {
+    z-index: 11;
+    right: 10%;
+    background-image: url(../img/red_slide.svg);
+    /* filter:opacity(60%) saturate(2) contrast(2) brightness(.8); */
+    mix-blend-mode: multiply;
+}
+.slide-in_right {
+    z-index: 22;
+    left: 75%;
+    background-image: url(../img/black_slide.svg);
+    /* filter:opacity(60%) saturate(2) contrast(2) brightness(.8); */
+    mix-blend-mode: multiply;
+}
+
+/* <svg width="1440" height="726" viewBox="0 0 1440 726" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:multiply" opacity="0.8">
+<path d="M1301.69 -19L888.729 742H2431V-19H1301.69Z" fill="#231F20"/>
+</g>
+<g style="mix-blend-mode:multiply">
+<path d="M601.253 742L1014.22 -19H-532V742H601.253Z" fill="#D52B1E"/>
+</g>
+</svg> */
+
+/* Brand Element/two-up */
+
+position: absolute;
+width: 2963px;
+height: 761px;
+left: -532px;
+top: -19px;
+
+
+
+/* Vector */
+
+/* position: absolute;
+left: 47.95%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #231F20;
+mix-blend-mode: multiply;
+opacity: 0.8; */
+
+
+/* Vector */
+/* 
+position: absolute;
+left: 0%;
+right: 47.82%;
+top: 0%;
+bottom: 0%;
+
+background: #D52B1E;
+mix-blend-mode: multiply; */

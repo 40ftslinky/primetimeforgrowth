@@ -9,6 +9,13 @@
     justify-content: flex-end;
     gap: 1rem;
 }
+.button_wrap_left {
+    margin: 2rem 0 2rem auto;
+    width: var(--col-mx-width);
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
 
 .button {
     font-size: 14px;
@@ -36,28 +43,60 @@
     border-radius: 0px;
 }
 
-.next {
+.next, .dark_btn{
     background-color: var(--theme-dark);
     color: #fff;
     border-color: var(--theme-dark);
 }
-.next:hover {
+.next:hover, .dark_btn:hover {
     background-color: rgba(var(--theme-black-rgb),0.7);
     color: #fff;
     border-color: rgba(var(--theme-black-rgb),0.9);
 }
 
-.back {
-    background-color: white;
+.back, .ghost {
+    background-color: rgba(var(--theme-black-rgb),0.0);
     color: var(--theme-dark);
     border-color: var(--theme-dark);
 }
-.back:hover {
+.back:hover, .ghost:hover {
     background-color: rgba(var(--theme-black-rgb),0.3);
     color: white;
     border-color: rgba(var(--theme-black-rgb),0.3);
 }
 
+.ghost_white {
+    background-color: rgba(var(--white-rgb),0);
+    color: white;
+    border-color: white;
+}
+.ghost_white:hover {
+    background-color: rgba(var(--white-rgb),0.7);
+    color: white;
+    border-color: rgba(var(--white-rgb),0.7);
+}
+
+.white_btn {
+    background-color: rgba(var(--white-rgb),1);
+    color: var(--theme-dark);
+    border-color: white;
+}
+.white_btn:hover {
+    background-color: rgba(var(--white-rgb),0.7);
+    color: var(--theme-dark);
+    border-color: rgba(var(--white-rgb),0.7);
+}
+
+.arrow_btn {
+    background-color: rgba(var(--theme-black-rgb),0.0);
+    color: var(--theme-dark);
+    border-color: rgba(var(--theme-black-rgb),0.0);
+}
+.arrow_btn:hover {
+    background-color: rgba(var(--theme-black-rgb),0.3);
+    color: white;
+    border-color: rgba(var(--theme-black-rgb),0.3);
+}
 
 /* ------------------- */
 

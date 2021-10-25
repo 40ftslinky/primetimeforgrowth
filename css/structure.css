@@ -48,7 +48,7 @@ body { background: var(--theme-light); }
     width: calc((1200 / 12) * var(--col-num) + (var(--gutter) * (var(--col-num) - 1 ) - 4rem));
 } */
 
-main {padding-top: 200px;}
+main {padding-top: var(--header-height);}
 
 .section {
     padding: 5% 0;

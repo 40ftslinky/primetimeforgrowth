@@ -7,13 +7,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Home / Landing</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
  
 
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/styles.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
                 
     </head>
     <body>
@@ -61,23 +63,31 @@
 <!--  -->
 <!-- hero section -->
 <div class="landing hero">
-
-        <section class="section">
-            <div class="column_wrap">
-                <div class="column_50">
+    <div class="slide-in_left overlay aos-item" data-aos="slide-right" data-aos-mirror="true"></div>
+    <div class="slide-in_right overlay" data-aos="slide-left" data-aos-delay="500" data-aos-mirror="true"></div>
+            <!-- <img src="./img/red_slide.svg" alt=""> -->
+    
+    <section class="section">
+        <div class="column_wrap">
+            <div class="column_50">
                 <div class="text_wrap">
-                    <h5 class="pre-title white">Prime time for growth</h5>
-                    <h2> text goes here</h2>
-                    <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                </div>
-                <div class="column_50">
-                
+                <h5 class="pre-title white">Ad Building for everyone</h5>
+                <h2  class="white">Prime Time for Growth</h2>
+                <p class="large white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="button_wrap_left">
+                    <button class="button white_btn">Build an Ad</button>
+                    <button class="button ghost_white">Learn More</button>
                 </div>
             </div>
-        </section>
+            </div>
+            <div class="column_50">
+            
+            </div>
+        </div>
+    </section>
 
-</div>        
+</div>
+
 <!--  -->
 <!--  -->
 <!--  -->
@@ -86,9 +96,12 @@
             <div class="column_wrap">
                 <div class="column_50">
                 <div class="text_wrap">
-                    <h5 class="pre-title">heading level 5</h5>
-                    <h2>heading level 2</h2>
+                    <h5 class="pre-title">/ Introduction</h5>
+                    <h2>Get on TV for only $2000</h2>
                     <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="button_wrap-left">
+                        <button class="arrow_btn">Learn more</button>
+                    </div>
                 </div>
                 </div>
                 <div class="column_50">
@@ -96,6 +109,26 @@
                 </div>
             </div>
         </section>
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- section -->
+<section class="section">
+    <div class="column_wrap">
+        <div class="column_50">
+        <div class="text_wrap">
+            <h5 class="pre-title">heading level 5</h5>
+            <h2>heading level 2</h2>
+            <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            
+        </div>
+        </div>
+        <div class="column_50">
+        
+        </div>
+    </div>
+</section>
 
 
 <!-- ... -->
@@ -189,6 +222,16 @@
                 crossorigin="anonymous"></script>
         <script src="./js/add_class_shrink.js"></script>
         <script src="./js/custom.js"></script>
+        <!-- AOS animate -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init(
+                {
+                    duration: 750,
+                    easing: 'ease-in-out',
+                }
+            );
+        </script>
         
         <script src="" async defer></script>
     </body>

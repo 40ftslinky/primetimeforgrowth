@@ -3,6 +3,8 @@
     var mapboxAccessToken = 'pk.eyJ1Ijoib21nY3JlYXRpdmUiLCJhIjoiY2t2MXR1aWlkNnB3dzJvdDlvd3hoeHVubyJ9.Lf2kX5YXQ1IB23ZOXvY9VQ';
     var mymap = L.map('map').setView([-36.5, 145.5], 5);
 	// starting position [lng, lat]
+	mymap.createPane('labels');
+	mymap.getPane('labels').style.zIndex = 650;
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
 		maxZoom: 18,

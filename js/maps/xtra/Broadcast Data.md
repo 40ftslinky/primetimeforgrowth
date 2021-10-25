@@ -99,3 +99,5 @@ Sydney
 https://mapshaper.org/
 https://geoman.io/geojson-editor
 http://geojson.io/#map=9/-28.6514/152.7305
+https://data.gov.au/search?q=boundaries
+https://en.wikipedia.org/wiki/Local_government_areas_of_New_South_Wales#Maps_showing_local_government_areas_in_New_South_Wales

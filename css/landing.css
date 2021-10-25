@@ -41,14 +41,24 @@
     background-image: url(../img/red_slide.svg);
     /* filter:opacity(60%) saturate(2) contrast(2) brightness(.8); */
     mix-blend-mode: multiply;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
 }
+
 .slide-in_right {
     z-index: 22;
     left: 75%;
     background-image: url(../img/black_slide.svg);
     /* filter:opacity(60%) saturate(2) contrast(2) brightness(.8); */
     mix-blend-mode: multiply;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
 }
+
 
 /* <svg width="1440" height="726" viewBox="0 0 1440 726" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g style="mix-blend-mode:multiply" opacity="0.8">
@@ -61,11 +71,11 @@
 
 /* Brand Element/two-up */
 
-position: absolute;
+/* position: absolute;
 width: 2963px;
 height: 761px;
 left: -532px;
-top: -19px;
+top: -19px; */
 
 
 

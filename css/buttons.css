@@ -1,6 +1,5 @@
 /* buttons.css */
 
-
 .button_wrap {
     margin: 2rem 0 2rem auto;
     max-width: 410px;
@@ -9,18 +8,32 @@
     justify-content: flex-end;
     gap: 1rem;
 }
+
 .button_wrap_left {
-    margin: 2rem 0 2rem auto;
+    margin: 2rem 0;
     width: var(--col-mx-width);
     display: flex;
     justify-content: flex-start;
     gap: 1rem;
+}
+@media screen and ( max-width: 400px ){
+    [class*="button_wrap"]{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
 }
 
 .button {
     font-size: 14px;
     border-radius: 0px;
     min-width: 150px;
+}
+@media screen and ( max-width: 400px ){
+    .button {
+        display: block;
+        width: 100%;
+    }
 }
 
 .button {    
@@ -91,11 +104,15 @@
     background-color: rgba(var(--theme-black-rgb),0.0);
     color: var(--theme-dark);
     border-color: rgba(var(--theme-black-rgb),0.0);
+    margin-left: -0.5em;
+}
+.arrow_btn::after {
+    content: ">";
 }
 .arrow_btn:hover {
-    background-color: rgba(var(--theme-black-rgb),0.3);
-    color: white;
-    border-color: rgba(var(--theme-black-rgb),0.3);
+    background-color: rgba(var(--theme-black-rgb),0.01);
+    color: var(--theme-black);
+    /* border-color: rgba(var(--theme-black-rgb),0.3); */
 }
 
 /* ------------------- */

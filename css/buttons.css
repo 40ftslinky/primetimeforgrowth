@@ -8,10 +8,9 @@
     justify-content: flex-end;
     gap: 1rem;
 }
-
 .button_wrap_left {
     margin: 2rem 0;
-    width: var(--col-mx-width);
+    max-width: var(--col-mx-width);
     display: flex;
     justify-content: flex-start;
     gap: 1rem;

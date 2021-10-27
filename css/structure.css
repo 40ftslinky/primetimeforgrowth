@@ -22,7 +22,7 @@
 
 body { background: var(--theme-light); }
 
-#adbuilder_form main {
+#adbuilder_form main, #media main {
     padding-top: var(--header-height);
 }
 
@@ -65,13 +65,13 @@ body { background: var(--theme-light); }
 }
 .column_60 {
     display: inline;
-    max-width: var(--col-mx-width);
+    max-width: calc((1200px * 6/10) - 3rem );
     width: calc(var(--col-width) * 6);
     /* width: 600px; */
 }
 .column_40 {
     display: inline;
-    max-width: var(--col-mx-width);
+    max-width: calc(1200px * 4/10);
     width: calc(var(--col-width) * 4);
     /* width: 600px; */
 }
@@ -87,7 +87,7 @@ body { background: var(--theme-light); }
 }
 @media screen and ( max-width: 1080px ){
     .panel_wrap, .text_wrap {
-        margin: auto 0;
+        /* margin: auto 0; */
     }
 }
 

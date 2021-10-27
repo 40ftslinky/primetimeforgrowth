@@ -3,6 +3,8 @@
 :root {
     --column-width: 100% ;
     --col-mx-width: 80vw;
+    --col-width: calc((100vw / 10));
+
 }
 
 @media (min-width:48em){
@@ -24,8 +26,7 @@ body { background: var(--theme-light); }
     padding-top: var(--header-height);
 }
 
-.section {
-    
+.section {    
     overflow: hidden;
 }
 .section:first-of-type {
@@ -62,8 +63,20 @@ body { background: var(--theme-light); }
     max-width: var(--col-mx-width);
     width: 600px;
 }
+.column_60 {
+    display: inline;
+    max-width: var(--col-mx-width);
+    width: calc(var(--col-width) * 6);
+    /* width: 600px; */
+}
+.column_40 {
+    display: inline;
+    max-width: var(--col-mx-width);
+    width: calc(var(--col-width) * 4);
+    /* width: 600px; */
+}
 @media screen and ( max-width: 1080px ){
-    .column_50 {
+    .column_50, .column_60, .column_40 {
         max-width: 90vw;
         width: 100%;
     }

@@ -7,28 +7,29 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>AdBuilder v01</title>
+        <title>Sign up / Sign in</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- <script src="./js/custom.js"></script> -->
+ 
 
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/styles.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://kit.fontawesome.com/08e8c4f6cf.js" crossorigin="anonymous"></script>                
+
     </head>
-<!--  -->
-<!--  -->
-<!--  -->    
-    <body id="adbuilder_form" >
+    <body id="signup">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
         <main>
 <!-- ... -->
 <!-- HEADER -->
 <!-- ... -->
             <header class="header">
-              
+                
                 <div class="nav_header_wrap">
             
                     <div class="logo">
@@ -61,107 +62,94 @@
 <!--  -->
 <!--  -->
 <!--  -->
+<!-- hero section -->
+<div class="landing hero">
+    <!-- <div class="img_overlay"></div> -->
+    <div class="slide-in_left-double  aos-item" data-aos="slide-right" data-aos-mirror="true" ></div>
+    <div class="slide-in_right " data-aos="slide-left" data-aos-delay="500" data-aos-mirror="true"></div>
+            <!-- <img src="./img/red_slide.svg" alt=""> -->
+    
+    <section class="section">
+        <div class="column_wrap">
+            <div class="column_60">
+                <div class="text_wrap">
+                <h5 class="pre-title white">/ Sign Up</h5>
+                <h2  class="white">Create an account</h2>
+                <p class="normal white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="button_wrap_left">
+                    <button class="button white_btn">Why</button>
+                    <button class="button ghost_white">Learn More</button>
+                </div>
+            </div>
+            </div>
+            <div class="column_40">
+                <div class="panel_wrap ">
+                    <div class="panel forms wrapper col_04 dark_trans_bg">
+                        <h4  class="white">Sign up / Log in</h4>
+
+                        <form id="form_02">         
+                            <!-- file upload -->
+                            <div class="form_outer">
+                                <label>
+                                    Email
+                                    <input type="email">
+                                </label>
+                                <label>
+                                    Password
+                                    <input type="password" value="password">
+                                </label>
+                                <div class="_group">
+                                    <label class="checkbox white">
+                                        <input type="checkbox"> I accept <b>Terms & Conditions</b>
+                                    </label> 
+                                </div>
+                                <div class="button_wrap_left">
+                                    <button type="button" class="red_btn button">Submit</button>
+                                </div>
+                                <div class="_group white small">
+                                    Already have an account? <a href="" class="white">Sign In</a>
+                                </div>
+
+                            </div>
+                            
+                        </form>
+                    </div>
+                    
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- section -->
 <section class="section">
     <div class="column_wrap">
         <div class="column_50">
         <div class="text_wrap">
-            <h5 class="pre-title">/ Stage 1 - Details</h5>
-            <h2> text goes here</h2>
+            <h5 class="pre-title">/ heading level 5</h5>
+            <h2>heading level 2</h2>
             <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="button_wrap-left">
+                <button class="arrow_btn ">Learn more</button>
+            </div>
         </div>
         </div>
         <div class="column_50">
-        <div class="panel_wrap">
-            <div class="panel forms wrapper col_04">
-            <form id="form_01">         
-                <label>
-                    Text input
-                    <input type="text" value="default value">
-                </label>
-                <label>
-                    Email input
-                    <input type="email">
-                </label>
-                
-                <label>
-                    Tel input
-                    <input type="tel">
-                </label>
-                <label>
-                    URL input
-                    <input type="url" placeholder="http://">
-                </label>
-                
-                
-                <label>
-                    <input type="checkbox"> Checkbox input
-                </label> 
-                <label>
-                    Select field
-                    <select>
-                        <option>Option 01</option>
-                        <option>Option 02</option>
-                    </select>
-                </label>
-                <label>
-                    Textarea
-                    <textarea cols="30" rows="5" >Textarea text</textarea>
-                </label> 
-            </form>
-            </div>
-            <div class="button_wrap">
-            <button type="button" class="back button">Back</button>
-            <button type="button" class="next button">Next</button>
-
-            </div>
-        </div>
+        
         </div>
     </div>
 </section>
-<!--  -->
-<!--  -->
-<!--  -->
-<section class="section">
-    <div class="column_wrap">
-        <div class="column_50">
-            <div class="text_wrap">
-                <h5 class="pre-title">/ Stage 2 - Fixes</h5>
-                <h2> Specific Style Fixes</h2>
-                <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-        <div class="column_50">
-            <div class="panel_wrap">
-                <div class="panel forms wrapper col_04">
-                    <form id="form_02">         
-                        <!-- file upload -->
-                        <div class="assets_outer">
-                            <label class="file">
-                                <input type="file" id="file" aria-label="File browser example">
-                                <span class="file-custom"></span>
-                            </label>
-                        </div>
-                        <div class="add_outer">
-                            <button class="add_asset">+</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="button_wrap">
-                    <button type="button" class="back button">Back</button>
-                    <button type="button" class="next button">Next</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>        
-<!--  -->
-<!--  -->
-<!--  -->
-        
 
-        <!-- ... -->
-        <!-- FOOTER -->
-        <!-- ... -->
+
+<!-- ... -->
+<!-- FOOTER -->
+<!-- ... -->
 
         <footer class="footer">
             <div class="footer_wrapper">            
@@ -250,5 +238,17 @@
                 crossorigin="anonymous"></script>
         <script src="./js/add_class_shrink.js"></script>
         <script src="./js/custom.js"></script>
+        <!-- AOS animate -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init(
+                {
+                    duration: 750,
+                    easing: 'ease-in-out',
+                }
+            );
+        </script>
+        
+        <script src="" async defer></script>
     </body>
 </html>

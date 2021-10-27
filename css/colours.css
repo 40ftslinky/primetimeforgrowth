@@ -74,6 +74,11 @@
     color: var(--theme-light);
 }
 
+.dark_trans_bg {
+    background-color: rgba(var(--theme-dark-rgb),0.9) !important;
+    color: var(--theme-light);
+}
+
 .secondary_bg {
     background-color: var(--secondary);
     color: var(--white);

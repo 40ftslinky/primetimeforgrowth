@@ -5,7 +5,7 @@
 }
 
 .hero, .img_overlay {
-    height: 100vh;
+    height: 101vh;
     width: 100vw;
     padding-top: var(--header-height);
     display: flex;
@@ -13,6 +13,22 @@
     justify-content: center;
     overflow: hidden;
     flex-wrap: wrap;
+}
+.section {
+    position: relative;
+}
+.section_bg_inner {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
 }
 
 .landing {
@@ -26,8 +42,7 @@
     position: relative;
 }
 @media screen and ( max-width: 1080px ){
-    .hero {
-        
+    .hero  {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -45,14 +60,26 @@
     max-width: 90vw;
 }
 @media screen and ( max-width: 1080px ){
-    .hero section {
+    .hero section  {
         position: relative;
     }
 }
 
-[class*='slide'].overlay {
-    position: absolute;
-    
+
+/* ------------------------------------------ */
+/* sliding sections */
+/* ------------------------------------------ */
+
+
+[class*='slide'] {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+
+[class*='slide'] {
+    position: absolute;    
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -60,11 +87,11 @@
     width: 100vw;
     overflow: hidden;
 }
-[class*='slide'].overlay[class*='right'] {
+[class*='slide'][class*='right'] {
     background-position: center left;
 }
 @media screen and ( max-width: 1080px ){
-    [class*='slide'].overlay {
+    [class*='slide'] {
         min-height: 100%;
     }
 }
@@ -73,24 +100,27 @@
     z-index: 11;
     right: 10%;
     background-image: url(../img/red_slide.svg);
-    /* filter:opacity(60%) saturate(2) contrast(2) brightness(.8); */
     mix-blend-mode: multiply;
-    -webkit-transition: all .25s ease-out;
-    -moz-transition: all .25s ease-out;
-    -o-transition: all .25s ease-out;
-    transition: all .25s ease-out;
 }
-
+.slide-in_left-down {
+    z-index: 11;
+    right: 13.5%;
+    background-image: url(../img/red_slide_down.svg);
+    mix-blend-mode:overlay;
+    opacity: 0.8;
+}
 .slide-in_right {
     z-index: 22;
     left: 75%;
     background-image: url(../img/black_slide.svg);
-    /* filter:opacity(60%) saturate(2) contrast(2) brightness(.8); */
     mix-blend-mode: multiply;
-    -webkit-transition: all .25s ease-out;
-    -moz-transition: all .25s ease-out;
-    -o-transition: all .25s ease-out;
-    transition: all .25s ease-out;
+}
+.slide-in_right-down {
+    z-index: 22;
+    left: 75%;
+    background-image: url(../img/black_slide.svg);
+    mix-blend-mode: overlay;
+    opacity: 0.1;
 }
 @media screen and ( max-width: 1080px ){
     .slide-in_left {

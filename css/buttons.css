@@ -52,7 +52,6 @@
 }
 
 .button:hover {
-    
     border-radius: 0px;
 }
 
@@ -107,12 +106,36 @@
     margin-left: -0.5em;
 }
 .arrow_btn::after {
-    content: ">";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    content: " \f30b";
+    color: inherit;
+}
+.arrow_white_btn::after:hover {
+    color: var(--theme-black);
 }
 .arrow_btn:hover {
     background-color: rgba(var(--theme-black-rgb),0.01);
+    background-color: transparent;
     color: var(--theme-black);
     /* border-color: rgba(var(--theme-black-rgb),0.3); */
+}
+.arrow_white_btn {
+    background-color: transparent;
+    color: var(--theme-light);
+    border-color: rgba(var(--theme-black-rgb),0.0);
+    margin-left: -0.5em;
+}
+.arrow_white_btn::after {
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    content: " \f30b";
+    color: var(--theme-light);
+}
+.arrow_white_btn::after:hover {
+    color: rgba(var(--theme-light-rgb),0.8);
+}
+.arrow_white_btn:hover {
+    background-color: transparent;
+    color: rgba(var(--theme-light-rgb),0.8);
 }
 
 /* ------------------- */

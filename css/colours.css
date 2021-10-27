@@ -63,4 +63,18 @@
 }
 .white_bg {
     background-color: white;
+    color: var(--theme-dark);
+}
+
+.dark {
+    color: var(--theme-dark);
+}
+.dark_bg {
+    background-color: var(--theme-dark);
+    color: var(--theme-light);
+}
+
+.secondary_bg {
+    background-color: var(--secondary);
+    color: var(--white);
 }

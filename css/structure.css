@@ -20,48 +20,31 @@
 
 body { background: var(--theme-light); }
 
-/* ----------------------------- TEST ----------------------------- */
-/**
-* WRAPPER
-* Sets a max width, adds a consistent gutter and horizontally
-* centers the contents
-*/
-.body_wrapper {
-    width: 90vw;
-    width: clamp(16rem, 90vw, 70rem);
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    position: relative;
-}
-/* ----------------------------- end TEST ----------------------------- */
-
-/* 
-.col_01  {
-    --col-num: 1;
-    width: calc(var(--column-width) * var(--col-num) + (var(--gutter) * (var(--col-num) - 1 )));
-} */
-
-/* .col_04  {
-    --col-num: 4;
-    width: calc((1200 / 12) * var(--col-num) + (var(--gutter) * (var(--col-num) - 1 ) - 4rem));
-} */
-
 main {
     /* padding-top: var(--header-height); */
 }
 
 .section {
-    padding: 5% 0;
+    
+    overflow: hidden;
+}
+.section:first-of-type {
+    /* padding-top: var(--header-height); */
 }
 @media (min-width:48em) and (max-width:52em){
     .section {
-        padding: 5%;
+        /* padding: 5%; */
+    }
+}
+@media screen and ( max-width: 1080px ){
+    .section {
+        position: relative;
     }
 }
 
 .column_wrap {
+    position: relative;
+    padding: 5% 0;
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -110,3 +93,33 @@ main {
     margin-top: calc( (2.414rem * 1.2) + (0.94em * 2) + 0.4em);
     /* (h5 size * line-height) + margin-top & -bottom + h2 margin-top */
 }
+
+
+
+/* ----------------------------- TEST ----------------------------- */
+/**
+* WRAPPER
+* Sets a max width, adds a consistent gutter and horizontally
+* centers the contents
+*/
+.body_wrapper {
+    width: 90vw;
+    width: clamp(16rem, 90vw, 70rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+}
+/* ----------------------------- end TEST ----------------------------- */
+
+/* 
+.col_01  {
+    --col-num: 1;
+    width: calc(var(--column-width) * var(--col-num) + (var(--gutter) * (var(--col-num) - 1 )));
+} */
+
+/* .col_04  {
+    --col-num: 4;
+    width: calc((1200 / 12) * var(--col-num) + (var(--gutter) * (var(--col-num) - 1 ) - 4rem));
+} */

@@ -103,7 +103,7 @@
     mix-blend-mode: multiply;
 }
 .slide-in_left-down {
-    z-index: 11;
+    z-index: 12;
     right: 13.5%;
     background-image: url(../img/red_slide_down.svg);
     mix-blend-mode:overlay;

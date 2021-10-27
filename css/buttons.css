@@ -24,19 +24,21 @@
     }
 }
 
-.button {
+button, .button {
     font-size: 14px;
     border-radius: 0px;
     min-width: 150px;
+    position: relative;
+    cursor: pointer;
 }
 @media screen and ( max-width: 400px ){
-    .button {
+    button, .button {
         display: block;
         width: 100%;
     }
 }
 
-.button {    
+button, .button {    
     font-weight: 500;
     padding: .5em 1em;
     line-height: 1.7em!important;
@@ -51,6 +53,7 @@
     transition-property: all!important;
 }
 
+button:hover, 
 .button:hover {
     border-radius: 0px;
 }

@@ -20,8 +20,8 @@
 
 body { background: var(--theme-light); }
 
-main {
-    /* padding-top: var(--header-height); */
+#adbuilder_form main {
+    padding-top: var(--header-height);
 }
 
 .section {

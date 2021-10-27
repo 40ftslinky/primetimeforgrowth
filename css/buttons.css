@@ -1,7 +1,7 @@
 /* buttons.css */
 
 .button_wrap {
-    margin: 2rem 0 2rem auto;
+    margin: 2rem 2rem 2rem auto;
     max-width: 410px;
     width: var(--col-mx-width);
     display: flex;

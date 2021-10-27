@@ -112,7 +112,7 @@ h1 {
 }
 
 h2 {
-	margin-top: 0.4em;
+	margin-top: 0.4em !important;
 	margin-bottom: 0.4em;
 }
 
@@ -204,7 +204,7 @@ li {
 /* optional */
 /* limit your line-lengths to increase readability */
 article {
-    max-width: 60ch;
+    /* max-width: 60ch; */
 }
 
 /* use clamp for fluid type (** for headings only? **) */

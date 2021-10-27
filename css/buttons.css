@@ -24,7 +24,8 @@
     }
 }
 
-button, .button {
+/* button,  */
+.button {
     font-size: 14px;
     border-radius: 0px;
     min-width: 150px;
@@ -32,13 +33,15 @@ button, .button {
     cursor: pointer;
 }
 @media screen and ( max-width: 400px ){
-    button, .button {
+    /* button,  */
+    .button {
         display: block;
         width: 100%;
     }
 }
 
-button, .button {    
+/* button,  */
+.button {    
     font-weight: 500;
     padding: .5em 1em;
     line-height: 1.7em!important;

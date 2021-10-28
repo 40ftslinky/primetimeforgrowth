@@ -218,10 +218,10 @@ article {
 
 */
 
-h1,
-h2,
-h3,
-p {
+h1, :not(#checkout)h1,
+h2, :not(#checkout)h2,
+h3, :not(#checkout)h3,
+p :not(#checkout)p, {
   font-size: clamp(
     var(--fluid-type-min, 1rem),
     calc(1rem + var(--fluid-type-target, 3vw)),

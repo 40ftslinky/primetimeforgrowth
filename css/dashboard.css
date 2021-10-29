@@ -5,26 +5,187 @@
 
 }
 
-#dashboard_job {
- overflow-x: auto;
- overflow-y: hidden;
-}
+#dashboard_job {}
 
 
 th {
     text-align: left;
     font-weight: 500;
     border: none;
-    padding: 0.2em 0.5em;
-  }
-  
-  th span,
-  td span {
-    display: block;
-  }
-  
-  table {
+}
+
+td, th {
+    padding: 0.25em 1em;
+    /* min-width: 5em; */
+    border-bottom: 1px solid #ddd;
+}
+
+th span,
+td span,
+span {
+    display: inline-block;
+    /* min-width: 5em; */
+    overflow-wrap:normal;
+    word-wrap:normal;
+    hyphens:none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 15ch;
+}
+
+table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+  
+table a {
+    text-decoration: underline;
+    color: #000;
+}
+
+
+.data-body {
+  width: 100%;
+}
+
+.scroll-check {
+  width: 100%;
+  height: 500px;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 700px) {
+  .scroll-check {
+    overflow-x: scroll;
+  }
+}
+
+.select {
+    /* display: none; */
+}
+
+.data-body {
+    width: 100%;
   }
   
+  .scroll-check {
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+  }
+  @media screen and (max-width: 700px) {
+    .scroll-check {
+      overflow-x: scroll;
+    }
+  }
+
+
+#data-table {
+    width: 100%;
+    /* min-width: 600px; */
+}
+#data-table .table__row--header {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+#data-table .table__row--header th:first-child {
+    text-align: center;
+}
+#data-table .table__row--header .header__title {
+    display: block;
+    padding: 1rem 0;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#data-table .table__row {
+    height: 4rem;
+}
+#data-table .table__row:nth-child(odd) {
+    background-color: #fdfdfd;
+}
+#data-table .table__row .id {
+    text-align: center;
+}
+#data-table .table__row .price,
+#data-table .table__row .merchant {
+    font-weight: 400;
+    font-size: 1rem;
+}
+#data-table .table__row .date,
+#data-table .table__row .charge {
+    text-transform: capitalize;
+    font-size: 0.85rem;
+    color: #8a8a8a;
+}
+
+#data-table .progress_label {
+    text-align: right;
+}
+#data-table progress {
+    width: 100%;
+    min-width: 5em;
+}
+/* 
+<li class="status open">Open</li>
+  <li class="status in-progress">In Progress</li>
+  <li class="status dead">Dead</li> */
+
+#data-table progress {
+    
+}
+
+  @media screen and (max-width: 860px) {
+    #data-table col:nth-child(1) {
+      display: none;
+    }
+  }
+  
+
+  /* status */
+
+
+span.status.open:before {
+    background-color: #25de00;
+    /* border-color: #78D965; */
+    border-color: #fff;
+    box-shadow: 0px 0px 4px 1px #94E185;
+}
+span.status.pending:before {
+    background-color: #ff8000;
+    /* border-color: #FFB161; */
+    border-color: #fff;
+    box-shadow: 0px 0px 4px 1px #FFC182;
+}
+span.status.declined:before {
+    background-color: #C9404D;
+    /* border-color: #C42C3B; */
+    border-color: #fff;
+    box-shadow: 0px 0px 4px 1px #C9404D;
+}
+span.status.approved:before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: '\f00c';
+    color: #25de00;
+    border:none;
+    border-radius: 10px;
+}
+
+span.status:before {
+    content: ' ';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    margin-left: 4px;
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+
+  .access-locked {
+      color: var(--gray-500) ;
+  }

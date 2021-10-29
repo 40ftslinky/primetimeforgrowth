@@ -2,5 +2,29 @@
 
 #dashboard_list {
     display: fixed;
-    
+
 }
+
+#dashboard_job {
+ overflow-x: auto;
+ overflow-y: hidden;
+}
+
+
+th {
+    text-align: left;
+    font-weight: 500;
+    border: none;
+    padding: 0.2em 0.5em;
+  }
+  
+  th span,
+  td span {
+    display: block;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  

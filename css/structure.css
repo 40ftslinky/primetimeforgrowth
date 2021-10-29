@@ -57,26 +57,25 @@ body { background: var(--theme-light); }
         align-items: center;
     }
 }
+[class*="column_"]:not(.column_wrap) {
+    display: inline;
+    max-width: calc((1200px * var(--columns)/10) - 3rem );
+    width: calc(var(--col-width) * var(--columns));
+}
+.column_100 { --columns: 10; }
+.column_90 { --columns: 9; }
+.column_80 { --columns: 8; }
+.column_70 { --columns: 7; }
+.column_60 { --columns: 6; }
+.column_50 { --columns: 5; }
+.column_40 { --columns: 4; }
+.column_30 { --columns: 3; }
+.column_20 { --columns: 2; }
+.column_10 { --columns: 1; }
 
-.column_50 {
-    display: inline;
-    max-width: var(--col-mx-width);
-    width: 600px;
-}
-.column_60 {
-    display: inline;
-    max-width: calc((1200px * 6/10) - 3rem );
-    width: calc(var(--col-width) * 6);
-    /* width: 600px; */
-}
-.column_40 {
-    display: inline;
-    max-width: calc(1200px * 4/10);
-    width: calc(var(--col-width) * 4);
-    /* width: 600px; */
-}
+
 @media screen and ( max-width: 1080px ){
-    .column_50, .column_60, .column_40 {
+    [class*="column_"]:not(.column_wrap), .column_50, .column_60, .column_40 {
         max-width: 90vw;
         width: 100%;
     }

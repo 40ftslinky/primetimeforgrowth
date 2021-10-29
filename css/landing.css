@@ -14,7 +14,7 @@
     overflow: hidden;
     flex-wrap: wrap;
 }
-#account .hero {
+#account .hero, #dashboard .hero {
     height: 50vh;
 }
 
@@ -49,6 +49,12 @@
 }
 
 #account .hero{
+    background-image: url(../img/signup_hero_bg.jpg);
+    background-blend-mode: multiply;
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+}
+
+#dashboard .hero{
     background-image: url(../img/signup_hero_bg.jpg);
     background-blend-mode: multiply;
     background-color: rgba(var(--theme-dark-rgb),0.5);

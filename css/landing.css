@@ -14,6 +14,10 @@
     overflow: hidden;
     flex-wrap: wrap;
 }
+#account .hero {
+    height: 50vh;
+}
+
 .section {
     position: relative;
 }
@@ -37,11 +41,19 @@
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
         url(../img/landing_hero_bg.jpg); */
 }
+
 #signup .hero{
     background-image: url(../img/signup_hero_bg.jpg);
     background-blend-mode: multiply;
     background-color: rgba(var(--theme-dark-rgb),0.5);
 }
+
+#account .hero{
+    background-image: url(../img/signup_hero_bg.jpg);
+    background-blend-mode: multiply;
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+}
+
 .hero {
     background-repeat: no-repeat;
     background-position: center;
@@ -70,6 +82,7 @@
     .hero section,
     #signup .hero  {
         position: relative;
+        width: 80vw;
     }
 }
 

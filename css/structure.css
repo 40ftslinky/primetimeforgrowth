@@ -85,6 +85,10 @@ body { background: var(--theme-light); }
 .panel_wrap, .text_wrap {
     margin: auto 2rem;
 }
+.hero .panel_wrap, .hero .text_wrap {
+    margin: auto 0;
+}
+
 @media screen and ( max-width: 1080px ){
     .panel_wrap, .text_wrap {
         /* margin: auto 0; */

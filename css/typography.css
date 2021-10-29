@@ -68,11 +68,11 @@ small, .text_small {font-size: 0.8rem;}
 
 h1 {
     margin-top: 0;
-    font-size: 5.653rem;
+    /* font-size: 5.653rem; */
 }
-
+/* 
 h2 {font-size: 3.998rem;}
-h3 {font-size: 2.827rem;}
+h3 {font-size: 2.827rem;} */
 h4 {font-size: 1.999rem;}
 h5 {font-size: 1.414rem;}
 h6 {font-size: 1.0rem;}
@@ -109,6 +109,7 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
 	margin-top: 0.53em;
 	margin-bottom: 0.53em;
+	line-height: 1.05;
 }
 
 h2 {
@@ -218,16 +219,6 @@ article {
 
 */
 
-h1, :not(#checkout)h1,
-h2, :not(#checkout)h2,
-h3, :not(#checkout)h3,
-p :not(#checkout)p, {
-  font-size: clamp(
-    var(--fluid-type-min, 1rem),
-    calc(1rem + var(--fluid-type-target, 3vw)),
-    var(--fluid-type-max, 1.3rem)
-  );
-}
 
 h1 {
     --fluid-type-min: 2.5rem;
@@ -260,4 +251,33 @@ h3 {
 p {
     max-width: 60ch;
 }
+
+
+/* 
+clamp(minimum, preferred, maximum); 
+*/
+
+/* 
+font-size: clamp(
+    var(--fluid-type-min, 1rem),
+    calc(1rem + var(--fluid-type-target, 3vw)),
+    var(--fluid-type-max, 1.3rem)
+); 
+*/
+
+
+
+h1, :not(#checkout) h1,
+h2, :not(#checkout) h2,
+h3, :not(#checkout) h3 {
+    /* font-size: clamp(2.67rem,2.07rem + 3vw,4.21rem); */
+    font-size: clamp(var(--fluid-type-min, 1rem), calc(1rem + var(--fluid-type-target, 3vw)), var(--fluid-type-max, 1.3rem));
+    max-width: 22ch;
+}
+
+h2 {
+    font-size: clamp(2.14rem,1.74rem + 1.99vw,3.16rem);
+    max-width: 30ch;
+}
+
 /* ----------------------------- end TEST ----------------------------- */

@@ -26,3 +26,11 @@
 });
 
 // need to add the file name of the upload to field after successful upload
+
+
+jQuery(document).ready(function( $ ) {
+    $('[data-toggle="popover"]').popover({
+       placement: 'top',
+       trigger: 'hover'
+    });
+ });

@@ -7,6 +7,8 @@
 
 #dashboard_job {}
 
+/* -------------------------------------------- */
+/* table elements */
 
 th {
     text-align: left;
@@ -55,8 +57,9 @@ table a {
 
 .scroll-check {
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   overflow-y: scroll;
+  margin-bottom: 5%;
 }
 @media screen and (max-width: 700px) {
   .scroll-check {
@@ -64,24 +67,16 @@ table a {
   }
 }
 
-.select {
-    /* display: none; */
+
+/* -------------------------------------------- */
+/* select row */
+
+.select.hide {
+    display: none;
 }
 
-.data-body {
-    width: 100%;
-  }
-  
-  .scroll-check {
-    width: 100%;
-    height: 500px;
-    overflow-y: scroll;
-  }
-  @media screen and (max-width: 700px) {
-    .scroll-check {
-      overflow-x: scroll;
-    }
-  }
+/* -------------------------------------------- */
+
 
 
 #data-table {
@@ -122,6 +117,9 @@ table a {
     color: #8a8a8a;
 }
 
+/* -------------------------------------------- */
+/* progress bar */
+
 #data-table .progress_label {
     text-align: right;
 }
@@ -129,23 +127,20 @@ table a {
     width: 100%;
     min-width: 5em;
 }
-/* 
-<li class="status open">Open</li>
-  <li class="status in-progress">In Progress</li>
-  <li class="status dead">Dead</li> */
+
 
 #data-table progress {
     
 }
 
-  @media screen and (max-width: 860px) {
+@media screen and (max-width: 860px) {
     #data-table col:nth-child(1) {
-      display: none;
+        display: none;
     }
-  }
+}
   
-
-  /* status */
+/* -------------------------------------------- */
+/* status */
 
 
 span.status.open:before {
@@ -167,7 +162,7 @@ span.status.declined:before {
     box-shadow: 0px 0px 4px 1px #C9404D;
 }
 span.status.approved:before {
-    font-family: "Font Awesome 5 Free"; 
+    font-family: 'Font Awesome 5 Free', 'FontAwesome'; 
     font-weight: 900; 
     content: '\f00c';
     color: #25de00;
@@ -184,8 +179,106 @@ span.status:before {
     margin-left: 4px;
     border: 1px solid #000;
     border-radius: 10px;
+}
+
+/* -------------------------------------------- */
+/* edit / access */
+
+.access-locked {
+    color: var(--gray-500) ;
+}
+
+
+/* -------------------------------------------- */
+/* groups */
+
+.select_group {
+    display: block;
+}
+.select_wrapper, .checkbox_wrapper {
+    display: inline-block;
+}
+
+/* long text solution ? */
+.long_text {
+    cursor: pointer;
+}
+.long_text::after {    
+	display:block;
+    background:#fff;
+	position: absolute;
+    /* top:0; */
+    z-index: 999;
+    visibility: hidden;
+    opacity:0;
+    box-shadow: 0px 0px 4px 1px #ededed;
+    padding: 1rem;
+    border: solid 1px #dedede;
+    border-radius: 2px;
+    transition: all 0.25s ease-in-out;
+    content: " (" attr(data) ")";
+}
+.long_text:hover::after { 
+    visibility: visible;
+    opacity:1;
+}
+
+#dashboard select {
+    /* reset */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* SVG background image */
+    /* background-image:
+    url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-position: calc(100% - .5em) center;
+    background-size:
+        0.8em; */
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 4px;
+    padding-right: 3em;
   }
 
-  .access-locked {
-      color: var(--gray-500) ;
+#dashboard select, #dashboard option {
+    width:10em;
+    max-width: 20ch;
+}  
+#dashboard select {
+    background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em ),
+    calc(100% - 15px) calc(1em ),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+}
+
+#dashboard select:focus {
+    background-image:
+      linear-gradient(45deg, black 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, black 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: rgba(var(--theme-dark-rgb),0.3);
+    outline: 0;
+  }
+  
+  
+  #dashboard select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 rgba(var(--theme-dark-rgb),0.3);
   }

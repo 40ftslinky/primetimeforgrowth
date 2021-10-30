@@ -113,6 +113,7 @@
                 You need to complete job # XXXXX please click here
             </div>
 
+            <h5 class="warning">Customer Dashboard</h5>
             <div class="dashboard_job scroll-check">
 
                 <table id="data-table" >
@@ -185,7 +186,7 @@
                                 </div>
                             </th>                            
                             <th scope="row" class="job"><span>JOB_0001</span></th>
-                            <td class="campaign"><span>Campaign name is quite long</span></td>
+                            <td class="campaign"><span class="long_text" data="Campaign name is quite long">Campaign name is quite long</span></td>
                             <td class="progress">
                                 <div >
                                     <label for="file"><span class="progress_label">30%</span>
@@ -216,9 +217,11 @@
                                 </div>
                             </td>
                             <td class="status"><span class="status approved">Approved</span></td>
-                            <td class="region"><span>Tamworth,
-                                Orange / Dubbo / Wagga,
-                                Canberra</span></td>
+                            <td class="region">
+                                <span class="long_text" data="Tamworth, Orange / Dubbo / Wagga, Canberra">
+                                    Tamworth, Orange / Dubbo / Wagga, Canberra
+                                </span>
+                            </td>
                             <td class="assets"><span><a href="">Assets</a></span></td>
                             <td class="invoice"><span>PRI_00001</span></td>
                             <td class="edit"><span><i class="fas fa-edit access-locked"></i><i class="fas fa-lock"></i></span></td>
@@ -249,6 +252,146 @@
                 </table>
 
             </div>
+
+            <h5 class="warning">Producer Dashboard</h5>
+            <div class="dashboard_job scroll-check">
+
+                <table id="data-table" >
+                    <thead class="">
+                        <tr class="table__row--header">
+                            <th class="select">
+                                <div class="checkbox_wrapper">
+                                    <input type="checkbox" class="checkbox">
+                                </div>
+                            </th>
+                            <th scope="col"><span class="header__title">Job #</span></th>
+                            <th scope="col"><span class="header__title">Campaign</span></th>
+                            <th scope="col"><span class="header__title">Region</span></th>
+                            <th scope="col"><span class="header__title">Assets</span></th>
+                            <th scope="col"><span class="header__title">Approved</span></th>
+                            <th scope="col"><span class="header__title">Editor</span></th>
+                            <th scope="col"><span class="header__title">Confirm</span></th>
+                            <th scope="col"><span class="header__title">Status</span></th>
+                            <th scope="col"><span class="header__title">Complete</span></th>
+                      </tr>
+                    </thead>
+                    <tbody class="table__body">
+                        <tr class="table__row">
+                            <th class="select">
+                                <div class="checkbox_wrapper">
+                                    <input type="checkbox" class="checkbox">
+                                </div>
+                            </th>
+                            <th scope="row" class="job">0</th>
+                            <td class="campaign" >
+                                <span class="long_text" data="Campaign Name is quite long">
+                                    Campaign Name is quite long
+                                </span>
+                            </td>
+                            <td class="region"><span>Region</span></td>
+                            <td class="assets"><span><a href="">Assets</a></span></td>
+                            <td class="approved">                                    
+                                <div class="checkbox_wrapper">
+                                    <input type="checkbox" class="checkbox">
+                                </div>
+                            </td>
+                            <td class="editor">
+                                <label>
+                                    <select>
+                                        <option selected>Select Editors Name</option>
+                                        <option>Option 01</option>
+                                        <option>Option 02</option>
+
+                                    </select>
+                                </label>
+                            </td>
+                            <td class="confirm">                                    
+                                <div class="checkbox_wrapper">
+                                    <input type="checkbox" class="checkbox">
+                                </div>
+                            </td>
+                            <td class="status">
+                                <label>
+                                    <select>
+                                        <option selected>Status</option>
+                                        <option>Approved</option>
+                                        <option>Declined</option>
+                                        <option>Pending</option>
+
+                                    </select>
+                                </label>
+                            </td>
+                            <td class="approve">
+                                <div class="checkbox_wrapper">
+                                    <input type="checkbox" class="checkbox">
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h5 class="warning">Editor Dashboard</h5>
+            <div class="dashboard_job scroll-check">
+
+                <table id="data-table" >
+                    <thead class="">
+                        <tr class="table__row--header">
+                            <th class="select">
+                                <div class="checkbox_wrapper">
+                                    <input type="checkbox" class="checkbox">
+                                </div>
+                            </th>                            <th scope="col"><span class="header__title">Job #</span></th>
+                            <th scope="col"><span class="header__title">Campaign</span></th>
+                            <th scope="col"><span class="header__title">Status</span></th>
+                            <th scope="col"><span class="header__title">Assets</span></th>
+                            <th scope="col"><span class="header__title">Progress</span></th>
+                            <th scope="col"><span class="header__title">Edit</span></th>
+                            <th scope="col"><span class="header__title">Confirm</span></th>
+                      </tr>
+                    </thead>
+                    <tbody class="table__body">
+                        <tr class="table__row">
+                            <th class="select">
+                                <div class="checkbox_wrapper">
+                                    <input type="checkbox" class="checkbox">
+                                </div>
+                            </th>
+                            <th scope="row" class="job">0</th>
+                            <td class="campaign">Campaign</td>
+                            <td class="status">
+                                <label>
+                                    <select>
+                                        <option selected>Status</option>
+                                        <option>Accepted</option>
+                                        <option>Declined</option>
+                                    </select>
+                                </label>
+                            </td>
+                            <td class="assets"><span><a href="">Assets</a></span></td>
+                            <td class="progress">
+                                <label>
+                                    <select>
+                                        <option selected>Progress</option>
+                                        <option>Stage 1 - Accepted</option>
+                                        <option>Stage 2 - Submitted for Voiceover</option>
+                                        <option>Stage 3 - Submitted for Approval</option>
+                                        <option>Stage 4 - Submitted to ClearAds</option>
+                                    </select>
+                                </label>
+                            </td>
+                            
+                            <td class="edit"><span><i class="fas fa-edit access-locked"></i><i class="fas fa-lock"></i></span></td>                         
+                            <td class="confirm">
+                                <div class="checkbox_wrapper">
+                                    <input type="checkbox" class="checkbox">
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
             <div class="">
                 <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>

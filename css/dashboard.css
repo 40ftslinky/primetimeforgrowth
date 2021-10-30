@@ -161,6 +161,12 @@ span.status.declined:before {
     border-color: #fff;
     box-shadow: 0px 0px 4px 1px #C9404D;
 }
+span.status.undefined:before {
+    background-color: #dadada;
+    /* border-color: #C42C3B; */
+    border-color: #fff;
+    box-shadow: 0px 0px 4px 1px #dadada;
+}
 span.status.approved:before {
     font-family: 'Font Awesome 5 Free', 'FontAwesome'; 
     font-weight: 900; 

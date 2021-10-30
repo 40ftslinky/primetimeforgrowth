@@ -130,7 +130,6 @@
                             <th scope="col"><span class="header__title">Region</span></th>
                             <th scope="col"><span class="header__title">Assets</span></th>
                             <th scope="col"><span class="header__title">Invoice #</span></th>
-
                             <th scope="col"><span class="header__title">Edit</span></th>
                       </tr>
                     </thead>
@@ -145,8 +144,9 @@
                             <td class="campaign">Campaign</td>
                             <td class="progress">
                                 <div >
-                                    <label for="file"><span class="progress_label">0%</span>
-                                        <progress id="file" max="100" value="0"> 0% </progress>
+                                    <label for="progress">
+                                        <span class="progress_label">0%</span>
+                                        <progress id="progress" max="100" value="0"> 0% </progress>
                                     </label>
                                 </div>
                             </td>
@@ -167,8 +167,9 @@
                             <td class="campaign">Susan</td>
                             <td class="progress">
                                 <div >
-                                    <label for="file"><span class="progress_label">70%</span>
-                                        <progress id="file" max="100" value="70"> 70% </progress>
+                                    <label for="progress">
+                                        <span class="progress_label">70%</span>
+                                        <progress id="progress" max="100" value="70"> 70% </progress>
                                     </label>
                                 </div>
                             </td>
@@ -189,8 +190,9 @@
                             <td class="campaign"><span class="long_text" data="Campaign name is quite long">Campaign name is quite long</span></td>
                             <td class="progress">
                                 <div >
-                                    <label for="file"><span class="progress_label">30%</span>
-                                        <progress id="file" max="100" value="30"> 30% </progress>
+                                    <label for="progress">
+                                        <span class="progress_label">30%</span>
+                                        <progress id="progress" max="100" value="30"> 30% </progress>
                                     </label>
                                 </div>
                             </td>
@@ -211,8 +213,9 @@
                             <td class="campaign"><span>Campaign</span></td>
                             <td class="progress">
                                 <div >
-                                    <label for="file"><span class="progress_label">0%</span>
-                                        <progress id="file" max="100" value="0"> 0% </progress>
+                                    <label for="progress">
+                                        <span class="progress_label">0%</span>
+                                        <progress id="progress" max="100" value="0"> 0% </progress>
                                     </label>
                                 </div>
                             </td>
@@ -236,8 +239,9 @@
                             <td class="campaign">Larry</td>
                             <td class="progress">
                                 <div >
-                                    <label for="file"><span class="progress_label">0%</span>
-                                        <progress id="file" max="100" value="0"> 0% </progress>
+                                    <label for="progress">
+                                        <span class="progress_label">0%</span>
+                                        <progress id="progress" max="100" value="0"> 0% </progress>
                                     </label>
                                 </div>
                             </td>
@@ -341,11 +345,13 @@
                                 <div class="checkbox_wrapper">
                                     <input type="checkbox" class="checkbox">
                                 </div>
-                            </th>                            <th scope="col"><span class="header__title">Job #</span></th>
+                            </th>
+                            <th scope="col"><span class="header__title">Job #</span></th>
                             <th scope="col"><span class="header__title">Campaign</span></th>
                             <th scope="col"><span class="header__title">Status</span></th>
                             <th scope="col"><span class="header__title">Assets</span></th>
                             <th scope="col"><span class="header__title">Progress</span></th>
+                            <th scope="col"><span class="header__title">Stage</span></th>
                             <th scope="col"><span class="header__title">Edit</span></th>
                             <th scope="col"><span class="header__title">Confirm</span></th>
                       </tr>
@@ -381,6 +387,12 @@
                                 </label>
                             </td>
                             
+                            <td class="stage">
+                                <span class="status open"></span>
+                                <span class="status open"></span>
+                                <span class="status pending"></span>
+                                <span class="status undefined"></span>
+                            </td>                         
                             <td class="edit"><span><i class="fas fa-edit access-locked"></i><i class="fas fa-lock"></i></span></td>                         
                             <td class="confirm">
                                 <div class="checkbox_wrapper">

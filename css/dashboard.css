@@ -7,6 +7,31 @@
 
 #dashboard_job {}
 
+
+/* -------------------------------------------- */
+/* WARNINGS */
+
+.warnings_group {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.pending i{ 
+    color: orange;
+}
+.warning i {
+    color: red;
+}
+
+/* -------------------------------------------- */
+/* select row */
+
+.select.hide {
+    display: none;
+}
+
 /* -------------------------------------------- */
 /* table elements */
 
@@ -68,12 +93,6 @@ table a {
 }
 
 
-/* -------------------------------------------- */
-/* select row */
-
-.select.hide {
-    display: none;
-}
 
 /* -------------------------------------------- */
 
@@ -115,6 +134,14 @@ table a {
     text-transform: capitalize;
     font-size: 0.85rem;
     color: #8a8a8a;
+}
+
+/* -------------------------------------------- */
+/* cell / span */
+.select, .campaign, .region, .assets {}
+
+.assets {
+    text-align: center;
 }
 
 /* -------------------------------------------- */

@@ -67,9 +67,11 @@ body { background: var(--theme-light); }
 .column_90 { --columns: 9; }
 .column_80 { --columns: 8; }
 .column_70 { --columns: 7; }
+.column_twothird { --columns: calc(10/6); }
 .column_60 { --columns: 6; }
 .column_50 { --columns: 5; }
 .column_40 { --columns: 4; }
+.column_third { --columns: calc(10/3); }
 .column_30 { --columns: 3; }
 .column_20 { --columns: 2; }
 .column_10 { --columns: 1; }

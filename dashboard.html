@@ -103,17 +103,24 @@
             <h5 class="pre-title">/ heading level 5</h5>
             <h2>heading level 2</h2>
 
-            <div class="warning_wrap panel column_40 inline">
-                <h5 class="warning">Warning</h5>
-                There's something wrong with job # XXXXX please click here
-            </div>
+            <div class="warnings_group">
 
-            <div class="warning_wrap panel column_40 inline">
-                <h5 class="warning">Warning</h5>
-                You need to complete job # XXXXX please click here
-            </div>
+                <div class="warning_wrap panel column_third inline">
+                    <h5 class="pending"><i class="fas fa-bell"></i>Notice</h5>
+                    There's something wrong with job # XXXXX please deal with it:
+                    <div class="button_wrap_left">
+                        <button class="button ghost">Edit</button>
+                    </div>
+                </div>
 
-            <h5 class="warning">Customer Dashboard</h5>
+                <div class="warning_wrap panel column_third inline">
+                    <h5 class="warning"><i class="fas fa-exclamation-triangle"></i>Warning</h5>
+                    You need to complete job # XXXXX please click here
+                </div>
+
+            </div>
+            
+            <h5 class="title">Customer Dashboard</h5>
             <div class="dashboard_job scroll-check">
 
                 <table id="data-table" >
@@ -177,8 +184,11 @@
                             <td class="region"><span>Region</span></td>
                             <td class="assets"><span><a href="">Assets</a></span></td>
                             <td class="invoice"><span>PRI_00001</span></td>
-                            <td class="edit"><span><i class="fas fa-edit access-locked"></i><i class="fas fa-lock"></i></span></td>
-                         
+                            <td class="edit"><span>
+                                <i class="fas fa-edit access-locked"></i>
+                                <i class="fas fa-lock"></i>
+                                </span>
+                            </td>                          
                         </tr>
                         <tr class="table__row">
                             <th class="select">
@@ -200,8 +210,11 @@
                             <td class="region"><span>Far South Coast</span></td>
                             <td class="assets"><span><a href="">Assets</a></span></td>
                             <td class="invoice"><span>PRI_00001</span></td>
-                            <td class="edit"><span><i class="fas fa-edit access-locked"></i><i class="fas fa-lock"></i></span></td>
-                         
+                            <td class="edit"><span>
+                                <i class="fas fa-edit access-locked"></i>
+                                <i class="fas fa-lock"></i>
+                                </span>
+                            </td>                          
                         </tr>
                         <tr class="table__row">
                             <th class="select">
@@ -227,7 +240,11 @@
                             </td>
                             <td class="assets"><span><a href="">Assets</a></span></td>
                             <td class="invoice"><span>PRI_00001</span></td>
-                            <td class="edit"><span><i class="fas fa-edit access-locked"></i><i class="fas fa-lock"></i></span></td>
+                            <td class="edit"><span>
+                                <i class="fas fa-edit access-locked"></i>
+                                <i class="fas fa-lock"></i>
+                                </span>
+                            </td> 
                         </tr>
                         <tr class="table__row">
                             <th class="select">
@@ -249,15 +266,18 @@
                             <td class="region"><span>Central Coast</span></td>
                             <td class="assets"><span><a href="">Assets</a></span></td>
                             <td class="invoice"><span>PRI_00003</span></td>
-                            <td class="edit"><span><i class="fas fa-edit access-locked"></i><i class="fas fa-lock"></i></span></td>
-                         
+                            <td class="edit"><span>
+                                <i class="fas fa-edit access-locked"></i>
+                                <i class="fas fa-lock"></i>
+                                </span>
+                            </td>                          
                         </tr>
                     </tbody>
                 </table>
 
             </div>
 
-            <h5 class="warning">Producer Dashboard</h5>
+            <h5 class="title">Producer Dashboard</h5>
             <div class="dashboard_job scroll-check">
 
                 <table id="data-table" >
@@ -293,7 +313,13 @@
                                 </span>
                             </td>
                             <td class="region"><span>Region</span></td>
-                            <td class="assets"><span><a href="">Assets</a></span></td>
+                            <td class="assets">
+                                <span>
+                                    <a href="">
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                </span>
+                            </td>
                             <td class="approved">                                    
                                 <div class="checkbox_wrapper">
                                     <input type="checkbox" class="checkbox">
@@ -335,7 +361,7 @@
                 </table>
             </div>
 
-            <h5 class="warning">Editor Dashboard</h5>
+            <h5 class="title">Editor Dashboard</h5>
             <div class="dashboard_job scroll-check">
 
                 <table id="data-table" >
@@ -393,7 +419,11 @@
                                 <span class="status pending"></span>
                                 <span class="status undefined"></span>
                             </td>                         
-                            <td class="edit"><span><i class="fas fa-edit access-locked"></i><i class="fas fa-lock"></i></span></td>                         
+                            <td class="edit"><span>
+                                <i class="fas fa-edit access-locked"></i>
+                                <i class="fas fa-lock"></i>
+                                </span>
+                            </td>                         
                             <td class="confirm">
                                 <div class="checkbox_wrapper">
                                     <input type="checkbox" class="checkbox">

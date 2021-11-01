@@ -47,9 +47,9 @@ td, th {
     border-bottom: 1px solid #ddd;
 }
 
-th span,
-td span,
-span {
+#dashboard th span,
+#dashboard td span,
+#dashboard span {
     display: inline-block;
     /* min-width: 5em; */
     overflow-wrap:normal;
@@ -327,4 +327,8 @@ span.status:before {
       height: 3rem;
       border-radius: 1.5rem;
       background-color: turquoise;
+  }
+
+  .script {
+
   }

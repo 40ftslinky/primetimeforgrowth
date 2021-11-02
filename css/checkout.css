@@ -1,12 +1,12 @@
 /* checkout */
 
 
-.woocommerce {
+#checkout .woocommerce {
     margin: auto 2rem;
 }
 
 /*  */
-.col2-set {
+#checkout .col2-set {
     position: relative;
     padding: 5% 0;
     display: flex;
@@ -22,7 +22,8 @@
 }
 
 /*  */
-.col-1, .checkout_col_2 {
+#checkout .col-1, 
+#checkout .checkout_col_2 {
     max-width: calc((1200px * 0.5) - 3rem );
     width: calc(var(--col-width) * 2);
     height:auto;
@@ -59,7 +60,7 @@
 
 /*  */
 
-#payment .place-order .button {
+#checkout #payment .place-order .button {
     /* font-size: 1.41575em; */
     font-size: 14px;
     width: unset;

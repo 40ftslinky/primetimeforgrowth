@@ -125,9 +125,12 @@ th.product-total, td.product-total,
     background-color: var(--gray-100);
 }
 
+
+/* --------------------------- */
 /* submit button group */
 
 #checkout .form-row.place-order {
     display:flex;
+    flex-direction: column;
     align-items: flex-end;
 }

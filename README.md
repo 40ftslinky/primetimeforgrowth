@@ -8,10 +8,10 @@
 
 ## MEDIA BUILDER
 - [ ]  media builder 
-  [x]  map (via leaflet.js)
+   - [x]  [map](https://40ftslinky.github.io/primetimeforgrowth/map_test.html) (via leaflet.js)
 
 ## BACKEND
-- [ ]  dashboard
+- [ ]  [dashboard](https://40ftslinky.github.io/primetimeforgrowth/dashboard.html)
    - [ ]  client
    - [ ]  customer
    - [ ]  production
@@ -22,7 +22,19 @@
    - [ ]  store
 
 ## MAIN SITE
-- [x]  landing page
+- [x]  [landing page](https://40ftslinky.github.io/primetimeforgrowth/landing.html)
+
+## ACCOUNT
+- [x] [account](https://40ftslinky.github.io/primetimeforgrowth/account.html)
+- [ ] 
+
+## JOB DETAILS
+- [x] [job details](https://40ftslinky.github.io/primetimeforgrowth/jobdetails.html)
+- [ ] 
+
+## FORM ELEMENTS
+- [ ] [forms](https://40ftslinky.github.io/primetimeforgrowth/form_elements.html)
+
 
 ## COMMS
 - [ ]  email template

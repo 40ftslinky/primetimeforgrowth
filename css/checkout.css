@@ -18,3 +18,11 @@
     height:auto;
     position: relative;
 }
+
+#checkout #order_review_heading, 
+#checkout #order_review {
+    /* width: 90% !important;
+    float: left; */
+    margin-left: 0% !important;
+    /* clear: left; */
+}

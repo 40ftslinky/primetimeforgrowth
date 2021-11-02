@@ -70,3 +70,23 @@
 #checkout select::-ms-expand {
     display: none;
 }
+
+/*  */
+
+#checkout #order_review .shop_table thead th {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+#checkout #order_review .shop_table thead th {
+    display: block;
+    padding: 1rem 0;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.product-total,
+.cart-subtotal td,
+.order-total td
+{
+    text-align: right;
+}

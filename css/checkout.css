@@ -78,8 +78,8 @@
     color: #ffffff;
 }
 #checkout #order_review .shop_table thead th {
-    display: block;
-    padding: 1rem 0;
+    /* display: block; */
+    padding: .5rem 1rem;
     text-transform: capitalize;
     font-weight: 400;
 }
@@ -89,4 +89,8 @@ th.product-total, td.product-total,
 .order-total td
 {
     text-align: right;
+}
+
+.order-total {
+    background-color: var(--gray-200);
 }

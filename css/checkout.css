@@ -14,7 +14,7 @@
 #checkout .col2-set,
 #checkout .checkout_col_2 {
     max-width: calc((1200px * 0.5) - 3rem );
-    width: calc(var(--col-width) * 5);
+    width: calc(var(--col-width) * 6);
     height:auto;
     position: relative;
 }

@@ -34,12 +34,15 @@
 .col2-set .form-row-last {
     width: calc(50% - 1rem);   
 }
-
+#checkout .checkout_col_2 {
+    max-width: 400px;
+    margin: 0 auto;
+}
 #checkout #order_review_heading, 
 #checkout #order_review {
-    /* width: 90% !important;
-    float: left; */
-    margin-left: 0% !important;
+    width: unset !important;
+    /* float: left; */
+    margin-left: 0 !important;
     /* clear: left; */
 }
 

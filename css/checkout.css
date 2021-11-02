@@ -10,6 +10,13 @@
     gap: 3rem;
 }
 
+#checkbox form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3em;
+}
+
 /*  */
 #checkout .col2-set,
 #checkout .checkout_col_2 {

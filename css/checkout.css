@@ -14,7 +14,7 @@
     gap: 3rem;
 }
 @media (max-width:48em){
-    .col2-set {
+    #checkout .col2-set {
         gap: 3rem;
         flex-direction: column;
         align-items: center;

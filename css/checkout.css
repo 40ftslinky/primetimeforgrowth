@@ -102,6 +102,10 @@
     width: unset;
 }
 
+#order_review_wrap {
+    padding: 1em;
+    border: 1 solid #0f0f0f;
+}
 
 #checkout #order_review .shop_table thead th {
     background-color: #0f0f0f;

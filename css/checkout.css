@@ -26,6 +26,11 @@
     position: relative;
 }
 
+.col2-set .form-row-first,
+.col2-set .form-row-last {
+    width: 45%;   
+}
+
 #checkout #order_review_heading, 
 #checkout #order_review {
     /* width: 90% !important;

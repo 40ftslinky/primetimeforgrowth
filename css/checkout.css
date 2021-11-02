@@ -10,7 +10,8 @@
     gap: 3rem; */
 }
 
-#checkbox form {
+#checkbox form,
+.checkout.woocommerce-checkout {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;

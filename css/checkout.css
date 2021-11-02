@@ -84,7 +84,7 @@
     font-weight: 400;
 }
 
-.product-total,
+th.product-total, td.product-total,
 .cart-subtotal td,
 .order-total td
 {

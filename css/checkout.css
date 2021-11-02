@@ -94,3 +94,15 @@ th.product-total, td.product-total,
 .order-total {
     background-color: var(--gray-200);
 }
+
+#checkout input[type=text], 
+#checkout input[type=number], 
+#checkout input[type=email], 
+#checkout input[type=tel], 
+#checkout input[type=url], 
+#checkout input[type=password], 
+#checkout input[type=search], 
+#checkout textarea, 
+#checkout .input-text {
+    padding: 0.25rem 0.5rem;
+}

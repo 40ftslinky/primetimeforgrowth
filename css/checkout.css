@@ -1,5 +1,7 @@
 /* checkout */
 
+/* ------------------------------------------------ */
+/* columns */
 
 #checkout .woocommerce {
     background: #fff;
@@ -9,8 +11,6 @@
     padding: 2em;
     /* clamp(1.37rem,1.21rem + .8vw,1.78rem) clamp(.88rem,.83rem + .24vw,1rem) clamp(1.09rem,1rem + .47vw,1.33rem); */
     position: relative;
-    /* overflow: hidden; */
-
 }
 
 #checkbox form,
@@ -34,27 +34,38 @@
 .col2-set .form-row-last {
     width: calc(50% - 1rem);   
 }
+
+/* ------------------------ */
+/* column 02 */
+
 #checkout .checkout_col_2 {
     max-width: 400px;
     margin: 0 auto;
 }
-#checkout #order_review_heading, 
-#checkout #order_review {
-    width: unset !important;
-    /* float: left; */
-    margin-left: 0 !important;
-    /* clear: left; */
-}
 
-#checkout #payment .place-order .button {
-    font-size: 14px;
-    width: unset;
+
+/* ------------------------------------------------ */
+/* form elements */
+
+#checkout input[type=text], 
+#checkout input[type=number], 
+#checkout input[type=email], 
+#checkout input[type=tel], 
+#checkout input[type=url], 
+#checkout input[type=password], 
+#checkout input[type=search], 
+#checkout textarea, 
+#checkout .input-text {
+    padding: 0.25rem 0.5rem;
 }
 
 #checkout select#billing_state {
 
 }
+
+
 /* ------------------------------------------------ */
+/* select overrides */
 
 #checkout select {
     margin: 0.12em 0;
@@ -74,7 +85,23 @@
     display: none;
 }
 
-/*  */
+
+/* ------------------------------------------------ */
+/* order review form elements */
+
+#checkout #order_review_heading, 
+#checkout #order_review {
+    width: unset !important;
+    /* float: left; */
+    margin-left: 0 !important;
+    /* clear: left; */
+}
+
+#checkout #payment .place-order .button {
+    font-size: 14px;
+    width: unset;
+}
+
 
 #checkout #order_review .shop_table thead th {
     background-color: #0f0f0f;
@@ -98,14 +125,8 @@ th.product-total, td.product-total,
     background-color: var(--gray-100);
 }
 
-#checkout input[type=text], 
-#checkout input[type=number], 
-#checkout input[type=email], 
-#checkout input[type=tel], 
-#checkout input[type=url], 
-#checkout input[type=password], 
-#checkout input[type=search], 
-#checkout textarea, 
-#checkout .input-text {
-    padding: 0.25rem 0.5rem;
+/* submit button group */
+
+#checkout .form-row.place-order {
+
 }

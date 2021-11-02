@@ -8,7 +8,7 @@
 
 ## MEDIA BUILDER
 - [ ]  media builder 
-  [ ]  map (via leaflet.js)
+  [x]  map (via leaflet.js)
 
 ## BACKEND
 - [ ]  dashboard
@@ -18,11 +18,11 @@
   
 ## ECOMM
 - [ ]  gateway 
-- [ ]  woocomm
-- [ ]  store
+   - [ ]  woocomm
+   - [ ]  store
 
 ## MAIN SITE
-- [ ]  landing page
+- [x]  landing page
 
 ## COMMS
 - [ ]  email template

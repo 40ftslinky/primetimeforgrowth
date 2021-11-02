@@ -128,5 +128,6 @@ th.product-total, td.product-total,
 /* submit button group */
 
 #checkout .form-row.place-order {
-
+    display:flex;
+    align-items: flex-end;
 }

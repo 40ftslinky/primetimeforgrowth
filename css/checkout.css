@@ -1,0 +1,67 @@
+/* checkout */
+
+
+.woocommerce {
+    margin: auto 2rem;
+}
+
+/*  */
+.col2-set {
+    position: relative;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+@media (max-width:48em){
+    .col2-set {
+        gap: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*  */
+.col-1, .checkout_col_2 {
+    max-width: calc((1200px * 0.5) - 3rem );
+    width: calc(var(--col-width) * 2);
+    height:auto;
+    position: relative;
+}
+@media screen and ( max-width: 1080px ){
+    .col-1, .checkout_col_2 {
+        max-width: 90vw;
+        width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .col2-set .col-1, 
+    .col2-set .col-2 {
+        margin-bottom: 1.618em;
+    }
+}
+
+.col-2 {}
+
+.checkout_col_2 {
+
+}
+
+/*  */
+
+#order_review_heading, #order_review {
+    width: 90% !important;
+    float: left;
+    /* margin-left: 10% !important; */
+    margin-left: 0% !important;
+    clear: left;
+}
+
+/*  */
+
+#payment .place-order .button {
+    /* font-size: 1.41575em; */
+    font-size: 14px;
+    width: unset;
+    white-space: pre-wrap;
+}

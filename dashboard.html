@@ -121,11 +121,15 @@
             </div>
             
             <h5 class="title">Customer Dashboard</h5>
-            <div class="checkbox_wrapper">
-                <input type="checkbox" class="checkbox">
+            
+            <div class="select_all_wrap">
+                <div class="checkbox_wrapper">
+                    <input type="checkbox" class="checkbox">
+                </div>
+                <a href="" class="select_all">Select all</a> | 
+                <a href="" class="select_all">Delete</a>
             </div>
-            <a href="" class="select_all">Select all</a> | 
-            <a href="" class="select_all">Delete</a>
+
             <div class="dashboard_job scroll-check">
 
                 <table id="data-table" >
@@ -141,7 +145,7 @@
                             <th scope="col"><span class="header__title">Status</span></th>
                             <th scope="col"><span class="header__title">Region</span></th>
                             <th scope="col"><span class="header__title">Assets</span></th>
-                            <th scope="col"><span class="header__title">Invoice #</span></th>
+                            <th scope="col"><span class="header__title">Invoice</span></th>
                             <th scope="col"><span class="header__title">Edit</span></th>
                       </tr>
                     </thead>
@@ -165,7 +169,13 @@
                             <td class="status"><span class="status declined">Declined</span></td>
                             <td class="region"><span>Region</span></td>
                             <td class="assets"><span><a href="">Assets</a></span></td>
-                            <td class="invoice"><span>Invoice #</span></td>
+                            <td class="invoice">
+                                <span>
+                                    <a href="">
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                </span>
+                            </td>
                             <td class="edit"><span>Pending</span></td>
                          
                         </tr>
@@ -187,8 +197,20 @@
                             </td>
                             <td class="status"><span class="status open">Open</span></td>
                             <td class="region"><span>Region</span></td>
-                            <td class="assets"><span><a href="">Assets</a></span></td>
-                            <td class="invoice"><span>PRI_00001</span></td>
+                            <td class="assets">
+                                <span>
+                                    <a href="">
+                                        <i class="fas fa-folder"></i>
+                                    </a>
+                                </span>
+                            </td>
+                            <td class="invoice">
+                                <span>
+                                    <a href="">
+                                        <i class="fas fa-file"></i>
+                                    </a>
+                                </span>
+                            </td>
                             <td class="edit"><span>
                                 <i class="fas fa-edit access-locked"></i>
                                 <i class="fas fa-lock"></i>
@@ -214,7 +236,13 @@
                             <td class="status"><span class="status pending">Pending</span></td>
                             <td class="region"><span>Far South Coast</span></td>
                             <td class="assets"><span><a href="">Assets</a></span></td>
-                            <td class="invoice"><span>PRI_00001</span></td>
+                            <td class="invoice">
+                                <span>
+                                    <a href="">
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                </span>
+                            </td>
                             <td class="edit"><span>
                                 <i class="fas fa-edit access-locked"></i>
                                 <i class="fas fa-lock"></i>
@@ -244,7 +272,13 @@
                                 </span>
                             </td>
                             <td class="assets"><span><a href="">Assets</a></span></td>
-                            <td class="invoice"><span>PRI_00001</span></td>
+                            <td class="invoice">
+                                <span>
+                                    <a href="">
+                                        <i class="fas fa-file-invoice"></i>
+                                    </a>
+                                </span>
+                            </td>
                             <td class="edit"><span>
                                 <i class="fas fa-edit access-locked"></i>
                                 <i class="fas fa-lock"></i>
@@ -270,10 +304,16 @@
                             <td class="status"><span class="status declined">Declined</span></td>
                             <td class="region"><span>Central Coast</span></td>
                             <td class="assets"><span><a href="">Assets</a></span></td>
-                            <td class="invoice"><span>PRI_00003</span></td>
+                            <td class="invoice">
+                                <span>
+                                    <a href="">
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                </span>
+                            </td>
                             <td class="edit"><span>
-                                <i class="fas fa-edit access-locked"></i>
-                                <i class="fas fa-lock"></i>
+                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-unlock-alt access-unlocked"></i>
                                 </span>
                             </td>                          
                         </tr>
@@ -299,7 +339,7 @@
                             <th scope="col"><span class="header__title">Assets</span></th>
                             <th scope="col"><span class="header__title">Runtime</span></th>
                             <th scope="col"><span class="header__title">Editor</span></th>
-                            <th scope="col"><span class="header__title">Confirm</span></th>
+                            <th scope="col"><span class="header__title">Submit</span></th>
                             <th scope="col"><span class="header__title">Status</span></th>
                             <th scope="col"><span class="header__title">Complete</span></th>
                       </tr>
@@ -341,8 +381,8 @@
                                 </label>
                             </td>
                             <td class="confirm">                                    
-                                <div class="checkbox_wrapper">
-                                    <input type="checkbox" class="checkbox">
+                                <div class="button_wrapper">
+                                    <button type="submit" class="button dark_btn">Confirm</button>
                                 </div>
                             </td>
                             <td class="status">

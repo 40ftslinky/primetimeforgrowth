@@ -138,7 +138,7 @@ table a {
 
 /* -------------------------------------------- */
 /* cell / span */
-.select, .campaign, .region, .assets {}
+.select, .campaign, .region, .assets, .invoice {}
 
 .assets {
     text-align: center;
@@ -147,17 +147,16 @@ table a {
 /* -------------------------------------------- */
 /* progress bar */
 
+#data-table .progress label {
+    display: flex;
+    flex-direction: column;
+}
 #data-table .progress_label {
     text-align: right;
 }
 #data-table progress {
     width: 100%;
     min-width: 5em;
-}
-
-
-#data-table progress {
-    
 }
 
 @media screen and (max-width: 860px) {
@@ -215,9 +214,23 @@ span.status:before {
 }
 
 /* -------------------------------------------- */
+/* invoice */
+
+.invoice {
+    text-align: center;
+}
+.invoice .fas {
+    margin: 0;
+}
+
+
+/* -------------------------------------------- */
 /* edit / access */
 
 .access-locked {
+    color: var(--gray-500) ;
+}
+.access-unlocked {
     color: var(--gray-500) ;
 }
 

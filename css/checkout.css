@@ -92,7 +92,7 @@ th.product-total, td.product-total,
 }
 
 .order-total {
-    background-color: var(--gray-200);
+    background-color: var(--gray-100);
 }
 
 #checkout input[type=text], 

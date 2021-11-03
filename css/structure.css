@@ -24,7 +24,8 @@ body { background: var(--theme-light); }
 
 #adbuilder_form main, 
 #media main, 
-#map_test main {
+#map_test main,
+#media-time main {
     padding-top: var(--header-height);
 }
 

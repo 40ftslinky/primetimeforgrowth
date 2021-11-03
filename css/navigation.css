@@ -344,7 +344,7 @@ nav .menu-list li .sub_menu-dropdown a {
         width: 100vw;
         display: block;
         position: absolute;
-        /* background: black; */
+        background: black;
         right: 0;
         top: 0;
         z-index: -1;

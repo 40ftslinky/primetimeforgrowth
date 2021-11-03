@@ -7,29 +7,32 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home / Landing</title>
+        <title>Menu test</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+
+        <!-- <script src="./js/custom.js"></script> -->
 
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/styles.css">
 
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://kit.fontawesome.com/08e8c4f6cf.js" crossorigin="anonymous"></script>                
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     </head>
-    <body class="home">
+<!--  -->
+<!--  -->
+<!--  -->    
+    <body id="menu_test" >
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <main>
 <!-- ... -->
 <!-- HEADER -->
 <!-- ... -->
             <header class="header">
-                
+              
                 <div class="nav_header_wrap">
             
                     <div class="logo">
@@ -48,12 +51,49 @@
                         <label for="burger-check" class="burger"></label>
                     <!-- </div> -->
                     <!--  -->
-                        <ul class="menu_list">
-                            <li class="menu_item" >
+                        <ul class="menu-list">
+                            <li class="menu-item" >
+                                <a class="menu-link has-sub" >Learn More</a>
+                                <ul class="sub_menu-dropdown">
+                                    <!-- MAX MENU -->
+                                    <div class="sub_menu-dropdown-wrap">  
+                                      <li class="sub_menu-item">
+                                          <a class="sub_menu-link" href="#submenuitem_01">
+                                              <div class="sub_menu-item_wrapper">
+                                                  <div class="sub_menu-item_heading">Sub menu item</div>
+                                              </div>
+                                          </a>
+                                      </li>
+                                      <li class="sub_menu-item">
+                                        <a class="sub_menu-link" href="#submenuitem_02">
+                                            <div class="sub_menu-item_wrapper">
+                                                <div class="sub_menu-item_heading">Sub menu item 02</div>
+                                            </div>
+                                        </a>
+                                      </li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><span>Buy Media</span></a>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><span>AdBuilder</span></a>
+                            </li>
+                            <li class="menu-item" >
                                 <a class="menu-link" ><span>Link</span></a>
                             </li>
-                            <li class="menu_item" >
-                                <a class="menu-link" ><span>Link</span></a>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><span>Register</span></a>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><div class="avatar">X</div></a>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><div class="notice"><i class="fas fa-bell"></i></div></a>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><div class="shopping"><i class="fas fa-shopping-cart"></i></div></a>
                             </li>
                         </ul>
                     </nav>
@@ -64,137 +104,58 @@
 <!--  -->
 <!-- hero section -->
 <div class="landing hero">
-    <!-- <div class="img_overlay"></div> -->
     <div class="slide-in_left  aos-item" data-aos="slide-right" data-aos-mirror="true" ></div>
-    <div class="slide-in_right " data-aos="slide-left" data-aos-delay="500" data-aos-mirror="true"></div>
-    
+    <div class="slide-in_right-down " data-aos="slide-left" data-aos-delay="500" data-aos-mirror="true"></div>    
     <section class="section">
         <div class="column_wrap">
-            <div class="column_70">
-                <div class="text_wrap">
-                    <h5 class="pre-title white">/ Buy your TV campaign in minutes</h5>
-                    <h1  class="white">It’s Prime Time to Grow your Business with TV</h1>
-                    <p class="large white">Prime Time For Growth is a gamechanger for businesses who want to grow quickly via the power of TV. Never before has TV media and TV ad production been available online for purchase in regional Australia. You can organise your campaign in minutes with the confidence that the entry level campaign includes a quality media schedule on Australia’s highest rating TV network and TV ad production services to match.</p>
-                    <div class="button_wrap_left">
-                        <button class="button white_btn">Build an Ad</button>
-                        <button class="button ghost_white">Learn More</button>
-                    </div>
-                </div>
-            </div>
-            <div class="column_30">
-            
-            </div>
-        </div>
-    </section>
-
-</div>
-
-<!--  -->
-<!--  -->
-<!--  -->
-<!-- second section -->
-
-    <section class="section dark_bg">
-        <div class="section_bg_inner">
-            <div class="slide-in_left-down  aos-item" data-aos="slide-right" data-aos-mirror="true" data-aos-anchor=".section_bg_inner"></div>
-            <!-- <div class="slide-in_right-down " data-aos="slide-left" ></div> -->
-        </div>
-        
-        <div class="column_wrap">
             <div class="column_50">
+                
                 <div class="text_wrap">
-                    <h5 class="pre-title">/ Introduction</h5>
-                    <h2>TV campaigns start from just $1000 </h2>
-                    <p class="large">Prime7 gives you a minimum effective reach of over 100,000 people. So go big. Prime Time it now.</p>
-                    <div class="button_wrap-left">
-                        <button class="arrow_white_btn ">Learn more</button>
-                    </div>
+                    <h5 class="pre-title white">/ List</h5>
+                    <h2  class="white">Job Details</h2>
+                    
                 </div>
             </div>
             <div class="column_50">
-            
-            </div>
-        </div>
+                
     
+            </div>
+        </div>
     </section>
-</div>
+</div>            
 
 <!--  -->
 <!--  -->
 <!--  -->
-<!-- third section -->
-<section class="section secondary_bg">
-    <div class="section_bg_inner">
-        <div class="slide-in_right-down  aos-item" data-aos="slide-left"  data-aos-mirror="true"></div>
-    </div>
-
-    <div class="column_wrap">
-        <div class="column_50">
-        <div class="text_wrap">
-            <h5 class="pre-title">heading level 5</h5>
-            <h2>heading level 2</h2>
-            <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class="button_wrap-left">
-                <button class="arrow_white_btn ">Learn more</button>
-            </div>
-        </div>
-        </div>
-        <div class="column_50">
-            <!-- content -->
-        </div>
-    </div>
-</section>
-<!--  -->
-<!--  -->
-<!--  -->
-<!-- fourth section -->
-<section class="section dark_bg">
-    <div class="section_bg_inner">
-        <div class="slide-in_right-light aos-item" data-aos="slide-left"  data-aos-mirror="true"></div>
-    </div>
-
-    <div class="column_wrap">
-        <div class="column_50">
-        <div class="text_wrap">
-            <h5 class="pre-title">heading level 5</h5>
-            <h2>heading level 2</h2>
-            <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class="button_wrap-left">
-                <button class="arrow_white_btn ">Learn more</button>
-            </div>
-        </div>
-        </div>
-        <div class="column_50">
-            <!-- content -->
-        </div>
-    </div>
-</section>
-<!--  -->
-<!--  -->
-<!--  -->
-<!-- section -->
 <section class="section">
     <div class="column_wrap">
         <div class="column_50">
-        <div class="text_wrap">
-            <h5 class="pre-title">heading level 5</h5>
-            <h2>heading level 2</h2>
-            <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class="button_wrap-left">
-                <button class="arrow_btn ">Learn more</button>
+            <div class="text_wrap">
+                <h5 class="pre-title">/ Menu test</h5>
+                <h2> Menu Test</h2>
+                <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
-        </div>
         <div class="column_50">
-        
+            <div class="panel_wrap">
+
+                <div class="panel forms wrapper col_04">
+                    <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                </div>
+                
+            </div>
         </div>
     </div>
-</section>
+</section>        
+<!--  -->
+<!--  -->
+<!--  -->
+        
 
-
-<!-- ... -->
-<!-- FOOTER -->
-<!-- ... -->
+        <!-- ... -->
+        <!-- FOOTER -->
+        <!-- ... -->
 
         <footer class="footer">
             <div class="footer_wrapper">            
@@ -283,17 +244,6 @@
                 crossorigin="anonymous"></script>
         <script src="./js/add_class_shrink.js"></script>
         <script src="./js/custom.js"></script>
-        <!-- AOS animate -->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init(
-                {
-                    duration: 750,
-                    easing: 'ease-in-out',
-                }
-            );
-        </script>
-        
-        <script src="" async defer></script>
+        <script src="./js/add_class_is-active.js"></script>
     </body>
 </html>

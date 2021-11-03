@@ -3,6 +3,7 @@
 /* ------------------------------------------------ */
 /* columns */
 
+#cart .woocommerce,
 #checkout .woocommerce {
     background: #fff;
     color: var(--theme-dark);

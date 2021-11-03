@@ -22,7 +22,9 @@
 
 body { background: var(--theme-light); }
 
-#adbuilder_form main, #media main, #map_test main {
+#adbuilder_form main, 
+#media main, 
+#map_test main {
     padding-top: var(--header-height);
 }
 

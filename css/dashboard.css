@@ -48,8 +48,7 @@ td, th {
 }
 
 #dashboard th span,
-#dashboard td span,
-#dashboard span {
+#dashboard td span {
     display: inline-block;
     /* min-width: 5em; */
     overflow-wrap:normal;

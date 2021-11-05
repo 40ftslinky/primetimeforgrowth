@@ -157,7 +157,7 @@ input[type='file'] {
 .asset_group,
 [class*=_group] { 
   position: relative;
-  display: block;
+  /* display: block; */
  }
 
 .asset_group label,

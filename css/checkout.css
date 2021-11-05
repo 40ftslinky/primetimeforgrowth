@@ -108,7 +108,8 @@
     border: 1px solid #0f0f0f;
 }
 
-#checkout #order_review .shop_table thead th {
+#checkout #order_review .shop_table thead th,
+.order_details thead th{
     background-color: #0f0f0f;
     color: #ffffff;
 }
@@ -121,12 +122,16 @@
 
 th.product-total, td.product-total,
 .cart-subtotal td,
-.order-total td
+.order-total td,
+.order_details thead tr th:last-of-type,
+.order_details tfoot tr td
 {
     text-align: right;
 }
 
 .order-total {
+    border-top: 2px solid var(--theme-dark);
+    /* border-bottom: 2px solid var(--theme-dark); */
     background-color: var(--gray-100);
 }
 
@@ -138,4 +143,29 @@ th.product-total, td.product-total,
     display:flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+
+/* ORDER RECIEVED */
+
+#checkout section.woocommerce-customer-details, 
+#checkout section.woocommerce-order-details {
+    max-width: calc((1200px * 0.5) - 3rem );
+    /* width: calc(var(--col-width) * 6); */
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+#checkout section.woocommerce-order-details {}
+
+.woocommerce-customer-details address {
+    padding: 2rem;
+    border: 1px solid var(--gray-200);
+}
+
+tfoot tr:last-of-type {
+    border-top: 2px solid var(--theme-dark);
+    /* border-bottom: 2px solid var(--theme-dark); */
+    background-color: var(--gray-100);
 }

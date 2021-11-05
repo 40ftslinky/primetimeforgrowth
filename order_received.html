@@ -7,30 +7,32 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home / Landing</title>
+        <title>Checkout Order-received</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+
+        <!-- <script src="./js/custom.js"></script> -->
 
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/styles.css">
 
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://kit.fontawesome.com/08e8c4f6cf.js" crossorigin="anonymous"></script>                
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     </head>
-    <body class="home">
+<!--  -->
+<!--  -->
+<!--  -->    
+    <body id="checkout" >
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <main>
 <!-- ... -->
 <!-- HEADER -->
 <!-- ... -->
             <header class="header">
-                
+              
                 <div class="nav_header_wrap">
             
                     <div class="logo">
@@ -49,12 +51,49 @@
                         <label for="burger-check" class="burger"></label>
                     <!-- </div> -->
                     <!--  -->
-                        <ul class="menu_list">
-                            <li class="menu_item" >
+                        <ul class="menu-list">
+                            <li class="menu-item" >
+                                <a class="menu-link has-sub" >Learn More</a>
+                                <ul class="sub_menu-dropdown">
+                                    <!-- MAX MENU -->
+                                    <div class="sub_menu-dropdown-wrap">  
+                                      <li class="sub_menu-item">
+                                          <a class="sub_menu-link" href="#submenuitem_01">
+                                              <div class="sub_menu-item_wrapper">
+                                                  <div class="sub_menu-item_heading">Sub menu item</div>
+                                              </div>
+                                          </a>
+                                      </li>
+                                      <li class="sub_menu-item">
+                                        <a class="sub_menu-link" href="#submenuitem_02">
+                                            <div class="sub_menu-item_wrapper">
+                                                <div class="sub_menu-item_heading">Sub menu item 02</div>
+                                            </div>
+                                        </a>
+                                      </li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><span>Buy Media</span></a>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><span>AdBuilder</span></a>
+                            </li>
+                            <li class="menu-item" >
                                 <a class="menu-link" ><span>Link</span></a>
                             </li>
-                            <li class="menu_item" >
-                                <a class="menu-link" ><span>Link</span></a>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><span>Register</span></a>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><div class="avatar">X</div></a>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><div class="notice"><i class="fas fa-bell"></i></div></a>
+                            </li>
+                            <li class="menu-item" >
+                                <a class="menu-link" ><div class="shopping"><i class="fas fa-shopping-cart"></i></div></a>
                             </li>
                         </ul>
                     </nav>
@@ -64,289 +103,151 @@
 <!--  -->
 <!--  -->
 <!-- hero section -->
-<div class="landing hero">
-    <!-- <div class="img_overlay"></div> -->
+<!-- <div class="landing hero">
     <div class="slide-in_left  aos-item" data-aos="slide-right" data-aos-mirror="true" ></div>
-    <div class="slide-in_right " data-aos="slide-left" data-aos-delay="500" data-aos-mirror="true"></div>
-    
+    <div class="slide-in_right-down " data-aos="slide-left" data-aos-delay="500" data-aos-mirror="true"></div>    
     <section class="section">
         <div class="column_wrap">
-            <div class="column_70">
-                <div class="text_wrap">
-                    <h5 class="pre-title white">/ Buy your TV campaign in minutes</h5>
-                    <h1  class="white">It’s Prime Time to Grow your Business with TV</h1>
-                    <p class="large white">
-                        Prime Time For Growth is a gamechanger for businesses who want to grow quickly through the power of TV. Never before has TV media and TV ad production been available online for purchase in regional Australia. You can organise your campaign in minutes with the confidence that the entry level campaign includes a quality media schedule on Australia’s highest rating TV network and TV ad production services to match.
-                    </p>
-                    <div class="button_wrap_left">
-                        <button class="button white_btn">Build a campaign</button>
-                        <button class="button ghost_white">Try it now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="column_30">
-            
-            </div>
-        </div>
-    </section>
-
-</div>
-
-<!--  -->
-<!--  -->
-<!--  -->
-<!-- second section -->
-
-    <section class="section dark_bg">
-        <div class="section_bg_inner">
-            <div class="slide-in_left-down  aos-item" data-aos="slide-right" data-aos-mirror="true" data-aos-anchor=".section_bg_inner"></div>
-            <!-- <div class="slide-in_right-down " data-aos="slide-left" ></div> -->
-        </div>
-        
-        <div class="column_wrap">
             <div class="column_50">
-                <div class="text_wrap">
-                    <h5 class="pre-title">/ Introduction</h5>
-                    <h2>TV campaigns start from just $1000 </h2>
-                    <p class="large">Prime7 gives you a minimum effective reach of over 100,000 people.<sup>*</sup> So go big. Prime Time it now.</p>
-                    <p class="normal">
-                        With a PrimeTime package you can now get your business on television for as little as $1000. Communicate to a minimum of 100,000 people in your direct area - that's about 1 cent per person. PrimeTime packages brings the power of TV to regional businesses just when they need it the most. Whether you're a hairdresser, cafe, restaurant, retailer, or any kind of small or medium size business we can help.
-                    </p>
-                    <p class="normal">
-                        Don't have your own TV commercial? That’s fine, we'll even make it for you. It's all part of the service.
-                    </p>
-                    <p class="small">*figures based on ABS 2016 numbers</p>
-                    <div class="button_wrap-left">
-                        <button class="arrow_white_btn ">Learn more</button>
-                    </div>
-                </div>
-            </div>
-            <div class="column_50">
-                    <h2>Right now, it’s PrimeTime for Growth.<br>
-
-                        It’s time to take care of business.</h2>
-            </div>
-        </div>
-    
-    </section>
-</div>
-
-<!--  -->
-<!--  -->
-<!--  -->
-<!-- third section -->
-<section class="section secondary_bg">
-    <div class="section_bg_inner">
-        <div class="slide-in_right-down  aos-item" data-aos="slide-left"  data-aos-mirror="true"></div>
-    </div>
-
-    <div class="column_wrap">
-        <div class="column_50">
-        <div class="text_wrap">
-            <h5 class="pre-title">/ Your business growth starts here</h5>
-            <h2>Campaigns on Australia’s Highest Rating Network from $1,000</h2>
-            <p class="normal">
-                We have simplified the process of TV to make it easy for any business to grow. Prime Time For Growth, gives your business the opportunity to reach a minimum of 100,000 people in your direct market area multiple times every month for an affordable price. The base schedule includes 160 x 15sec commercials over a 4 week period. If you also need a TV ad, we can make that for you too.
-            </p>
-            <p class="normal">
-                Start local and become a player in your market by buying a campaign in your area. If your business isn’t confined by geography, you can scale up quickly by adding adjacent markets to your campaign.
-            </p>
-
-            <p class="normal">
-                Go to our AdBuilder to make your television commercial.
-            </p>
-            <p class="normal">
-                Go to our CampaignBuilder to organise your TV campaign schedule.
-            </p>
-            <div class="button_wrap-left">
-                <button class="arrow_white_btn ">Learn more</button>
-            </div>
-        </div>
-        </div>
-        <div class="column_50">
-            <!-- content -->
-        </div>
-    </div>
-</section>
-<!--  -->
-<!--  -->
-<!--  -->
-<!-- fourth section -->
-<section class="section dark_bg">
-    <div class="section_bg_inner">
-        <div class="slide-in_right-light aos-item" data-aos="slide-left"  data-aos-mirror="true"></div>
-    </div>
-
-    <div class="column_wrap">
-        <div class="column_50">
-            <div class="text_wrap">
-                <h5 class="pre-title">/ How</h5>
-                <h2>It's Easy!</h2>
-                <p class="normal">
-                    We've made growing your brand on TV easier than its ever been before.
-                </p>
-                <p class="normal">
-                    It only takes two steps
-                </p>
-                <div class="button_wrap-left">
-                    <button class="arrow_white_btn ">Learn more</button>
-                </div>
-            </div>
-        </div>
-        <div class="column_50">
-            <!-- content -->
-        </div>
-    </div>
-    <div class="column_wrap">
-        <div class="column_50">
-            <div class="panel_wrap ">
-                <!-- content -->
-                <h5>Pick your audience package</h5>
-            </div>
-            <div class="button_wrap-left">
-                <button class="white_btn ">Learn more</button>
-            </div>
-        </div>
-        
-        <div class="column_50">
-            <div class="panel_wrap">
-                <!-- content -->
-                <h5>Make your TV advert with our ad-builder</h5>
-            </div>
-            <div class="button_wrap-left">
-                <button class="white_btn ">Learn more</button>
-            </div>
-        </div>
-    </div>
-</section>
-<!--  -->
-<!--  -->
-<!--  -->
-<!-- section -->
-<section class="section">
-    <div class="column_wrap">
-        <div class="column_50">
-            <div class="text_wrap">
-                <h5 class="pre-title">/ TV campaigns optimised</h5>
-                <h2>
-                    You have a business to run, so we have made marketing your business easy.
-                </h2>
-                <p class="normal">
-                    TV has been the most popular way for household members to relax together for many years. There is no medium that communicates simultaneously with a huge audience quite like TV. Like anything, there’s a right and wrong way to do TV. We have made it easy for you to buy a campaign that works by locking in three successful attributes for every Prime Time For Growth campaign.
-                </p>
-                <div class="button_wrap-left">
-                    <button class="arrow_btn ">Learn more</button>
-                </div>
-            </div>
-        </div>
-        <div class="column_50">
-        
-        </div>
-    </div>
-    <div class="column_wrap">    
-        <div class="column_third">
-            <div class="panel_wrap">
-                <div class="panel column_third inline">
-                    <h2>
-                        1.
-                    </h2>
-                    <h5>
-                        A big audience size or ‘reach’
-                    </h5>
-                    <p class="normal">
-                        The potential audience of each PRIME7 market is in excess of hundreds of thousands of viewers. Your campaign will be seen by big numbers
-                    </p>
-                </div>            
-            </div>
-        </div>
-        <div class="column_third">
-            <div class="panel_wrap">
-                <div class="panel column_third inline">
-                    <h2>
-                        2.
-                    </h2>
-                    <h5>
-                        Number of times people see your ad or ‘frequency’
-                    </h5>
-                    <p class="normal">
-                        We best way to measure a TV campaign is with action. The TV commercials for Prime Time For Growth campaigns are deliberately designed to include a marketing offer. You can learn all about building offers in our education hub. Essentially an offer is providing something your audience wants to incentivise purchase.
-                    </p>
-                </div>
                 
-            </div>
-        
-        </div>
-        <div class="column_third">
-            <div class="panel_wrap">
-                <div class="panel column_third inline">
-                    <h2>
-                        3.
-                    </h2>
-                    <h5>
-                        Drive behaviour with your ad.
-                    </h5>
-                    <p class="normal">
-                        We best way to measure a TV campaign is with action. The TV commercials for Prime Time For Growth campaigns are deliberately designed to include a marketing offer. You can learn all about building offers in our education hub. Essentially an offer is providing something your audience wants to incentivise purchase.
-                    </p>
+                <div class="text_wrap">
+                    <h5 class="pre-title white">/ List</h5>
+                    <h2  class="white">Job Details</h2>
+                    
                 </div>
             </div>
-        
+            <div class="column_50">
+                
+    
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>             -->
+
 <!--  -->
 <!--  -->
 <!--  -->
-<!-- section -->
 <section class="section">
     <div class="column_wrap">
-        <div class="column_50">
-            <div class="text_wrap">
-                <h5 class="pre-title">heading level 5</h5>
-                <h2>
-                    heading level 2
-                </h2>
-                <p class="normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <div class="button_wrap-left">
-                    <button class="arrow_btn ">Learn more</button>
+        <div class="column_100">
+            <div class="entry-content">
+
+                <h2>Order received</h2>
+
+                <div class="woocommerce">
+                    <div class="woocommerce-order">
+                    
+                        <div class="column_50"> </div>
+
+                            <div class="order_received_wrap">
+
+                            <p class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received">Thank you. Your order has been received and a receipt has been sent to your email address. Please click the button below to continue with the ad builder process.</p>
+                            <a href="/ad-builder/"><button class="continue_button">Continue with Ad Builder</button></a>	
+                            
+                            </div>
+
+                            <div style="clear: both;"></div>
+
+                            <!--
+                            <ul class="woocommerce-order-overview woocommerce-thankyou-order-details order_details">
+                
+                                <li class="woocommerce-order-overview__order order">
+                                    Order number:					<strong>372</strong>
+                                </li>
+                
+                                <li class="woocommerce-order-overview__date date">
+                                    Date:					<strong>November 4, 2021</strong>
+                                </li>
+                
+                                                    <li class="woocommerce-order-overview__email email">
+                                        Email:						<strong>blanddesign@gmail.com</strong>
+                                    </li>
+                                
+                                <li class="woocommerce-order-overview__total total">
+                                    Total:					<strong><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>620.00</bdi></span></strong>
+                                </li>
+                
+                                                    <li class="woocommerce-order-overview__payment-method method">
+                                        Payment method:						<strong>Dummy Gateway</strong>
+                                    </li>
+                                
+                            </ul>
+                            -->
+                                
+                            <div class="column_wrap">
+                                <div class="woocommerce-order-details column_50">
+                                    
+                                    <h5 class="woocommerce-order-details__title">Order details</h5>
+                                
+                                    <table class="woocommerce-table woocommerce-table--order-details shop_table order_details">
+
+                                        <thead>
+                                            <tr>
+                                                <th class="woocommerce-table__product-name product-name">Product</th>
+                                                <th class="woocommerce-table__product-table product-total">Total</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr class="woocommerce-table__line-item order_item">
+
+                                                <td class="woocommerce-table__product-name product-name">
+                                                    <a href="https://staging.primetimeforgrowth.com.au/product/bendigo/">Bendigo</a> <strong class="product-quantity">×&nbsp;1</strong>	</td>
+
+                                                <td class="woocommerce-table__product-total product-total">
+                                                    <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>620.00</bdi></span>	</td>
+
+                                            </tr>
+
+                                        </tbody>
+                                        
+                                        <tfoot>
+                                            <tr>
+                                                <th scope="row">Subtotal:</th>
+                                                <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>620.00</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Payment method:</th>
+                                                <td>Dummy Gateway</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Total:</th>
+                                                <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>620.00</span></td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                        
+                            </div>
+                        
+                            <div class="woocommerce-customer-details  column_50 inline">
+
+                                <h5 class="woocommerce-column__title">Billing address</h5>
+                            
+                                <address>
+                                    Jeremy Nicholson<br>78 Warren Road<br>Marrickville New South Wales 2204
+                                        <p class="woocommerce-customer-details--phone">+61418385511</p>
+                            
+                                        <p class="woocommerce-customer-details--email">blanddesign@gmail.com</p>
+                                </address>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="column_50">
-        
-        </div>
     </div>
-</section>
+</section>        
 <!--  -->
 <!--  -->
 <!--  -->
-<!-- section -->
-<section class="section">
-    <div class="column_wrap">
-        <div class="column_50">
-            <div class="text_wrap">
-                <h5 class="pre-title">heading level 5</h5>
-                <h2>
-                    heading level 2
-                </h2>
-                <p class="normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <div class="button_wrap-left">
-                    <button class="arrow_btn ">Learn more</button>
-                </div>
-            </div>
-        </div>
-        <div class="column_50">
         
-        </div>
-    </div>
-</section>
-<!-- ... -->
-<!-- FOOTER -->
-<!-- ... -->
+
+        <!-- ... -->
+        <!-- FOOTER -->
+        <!-- ... -->
 
         <footer class="footer">
             <div class="footer_wrapper">            
@@ -435,17 +336,6 @@
                 crossorigin="anonymous"></script>
         <script src="./js/add_class_shrink.js"></script>
         <script src="./js/custom.js"></script>
-        <!-- AOS animate -->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init(
-                {
-                    duration: 750,
-                    easing: 'ease-in-out',
-                }
-            );
-        </script>
-        
-        <script src="" async defer></script>
+        <script src="./js/add_class_is-active.js"></script>
     </body>
 </html>

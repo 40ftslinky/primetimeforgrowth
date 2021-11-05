@@ -131,7 +131,7 @@ header a:hover {
     transition: all 0.25s ease-in-out;
 }
 
-@media screen (max-width: 1080px){
+@media (max-width: 1080px){
     .menu-list .menu-item .menu-link.is-active::after {
         transform: rotate(90deg);
         -webkit-transition: all 0.25s ease-in-out;

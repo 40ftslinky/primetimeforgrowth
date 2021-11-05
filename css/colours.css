@@ -109,5 +109,17 @@
 
 .secondary_bg {
     background-color: var(--secondary);
-    color: var(--white);
+    color: var(--theme-dark);
+}
+
+.primary {
+    color: var(--primary);
+}
+.primary_bg {
+    background-color: var(--primary);
+    color: var(--theme-light);
+}
+.primary_dark_bg {
+    background-color: var(--primary-dark);
+    color: var(--theme-light);
 }

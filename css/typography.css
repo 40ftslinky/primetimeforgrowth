@@ -121,6 +121,9 @@ h2 {
 	margin-top: 0.4em !important;
 	margin-bottom: 0.4em;
 }
+.panel h2, .panel_alt h2 {
+    margin-top: 0 !important;
+}
 
 h3 {
 	margin-top: 0.4em;

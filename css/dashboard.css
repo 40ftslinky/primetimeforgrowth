@@ -11,7 +11,7 @@
 /* -------------------------------------------- */
 /* WARNINGS */
 
-[class*="_group"], .warnings_group {
+.warnings_group {
     display: flex;
     align-content: flex-start;
     align-items: flex-start;

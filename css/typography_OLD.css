@@ -1,53 +1,20 @@
 /* typography */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 /* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css');
 
-:root {
-    --base-font-family: 'Montserrat',Arial,sans-serif;
-    --base-line-height: 1.6;
-    --base-font-percent: 62.5%;
-    --base-font-size: 14px;
-    --base-font-weight: 400;
-    --font-size-base: 1.4rem;
-    --font-size-xs: 1.0rem;
-    --font-size-sm: 1.2rem;
-    --font-size-md: 1.6rem;
-    --font-size-lg: 1.8rem;
-    --font-size-xl: 2.2rem;
-    --font-size-xxl: 2.4rem;
-    --font-size-jumbo: 7.2rem;
-    --font-size-jumbo-sm: 4.2rem;
-}
-
 body {
-	color: var(--theme-dark);
-	font-family: var(--base-font-family);
-    font-size: 14px;
-    font-size: var(--base-font-size);
-    font-weight: 400;
-    font-weight: var(--base-font-weight);
-    line-height: 1.6;
-    line-height: var(--base-line-height);
-	font-style: normal;
-}
-
-h1,h2,h3,h4,h5,h6 {
-	font-weight: 700;
-	line-height: 1.2;
-	font-family: 'Montserrat';
+    color: rgba(var(--theme-black-rgb),1.0);
 }
 
 html {font-size: 100%;} /*16px*/
 
 body, p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-size: var(--base-font-size);
-    line-height: 1.6;
-    line-height: var(--base-line-height); 
+    font-size: 16px;
+    line-height: 1.75;   
 	font-weight: 400;
  }
  
@@ -71,6 +38,7 @@ i {
  h1, h2, h3, h4, h5, h6 {
     margin: 3rem 0 1.38rem;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     line-height: 1.1;
     letter-spacing: -0.025em;
 }
@@ -79,25 +47,69 @@ i {
 .huge{
     font-size: 69px;
     line-height: 100%;
+    /* 4.209rem/67.34px */
 }
+/* 
+h1 { font-size: 53px; line-height: 120%; }
+h1 { font-size: 48px;
+h2 { font-size: 39px; }
+h3 { font-size: 31px; }
+h4 { font-size: 25px; }
+h5 { font-size: 20px; } 
+h5 { font-size: 16px; } 
+
+h1 {font-size: 3.052rem;}
+h2 {font-size: 2.441rem;}
+h3 {font-size: 1.953rem;}
+h4 {font-size: 1.563rem;}
+h5 {font-size: 1.25rem;}
+
+small, .text_small {font-size: 0.8rem;}
+*/
 
 .subheading {
     font-weight: 400;
 }
 
-
+h1 {
+    margin-top: 0;
+    /* font-size: 5.653rem; */
+}
+/* 
+h2 {font-size: 3.998rem;}
+h3 {font-size: 2.827rem;} */
 h4 {font-size: 1.999rem;}
 h5 {font-size: 1.414rem;}
-h5.pre-title {
-    font-size: 1.0rem;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
 h6 {font-size: 1.0rem;}
+
+/* 
+5.653rem/90.44px	
+3.998rem/63.96px	
+2.827rem/45.23px	
+1.999rem/31.99px	
+1.414rem/22.62px	
+1rem/16.00px	
+0.707rem/11.32px	
+0.5rem/8.00px	
+0.354rem/5.66px
+*/
 
 small, .text_small {font-size: 0.707rem;}
 
+body {
+	font-family: 'Montserrat';
+	font-size: 16px;
+	color: var(--theme-dark);
+	line-height: 1.735;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 700;
+	line-height: 1.2;
+	font-family: 'Montserrat';
+}
 
 h1 {
 	margin-top: 0.53em;
@@ -142,17 +154,26 @@ h6 {
     margin-top: 0;
 }
 
-.large { font-size: 16px; }
-.small { font-size: 12px; }
-.micro { font-size: 10px; line-height: 150%; }
+.large { font-size: 18px; }
+.small { font-size: 14px; }
+.micro { font-size: 12px; line-height: 150%; }
 
 
-p, .normal {
+p {
 	margin-top: 1em;
 	margin-bottom: 1.5em;
 	font-family: 'Montserrat';
-	font-size: 14px;
-    font-size: var(--base-font-size);
+	font-size: 1em;
+	font-weight: 400;
+	font-style: normal;
+	/* line-height: 1.735; */
+}
+
+p.normal {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	font-family: 'Montserrat';
+	font-size: 1em;
 	font-weight: 400;
 	font-style: normal;
 }

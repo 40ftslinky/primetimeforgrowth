@@ -198,14 +198,15 @@ body { background: var(--theme-light); }
     }
 }
 
-[class*="_group"] {
+[class*="_group"]:not(.asset_group)  {
     display: flex;
     /* align-content: flex-start;
     align-items: flex-start;
     justify-content: flex-start; */
 }
+
 @media screen and ( max-width: 1080px ){
-    [class*="_group"] {
+    [class*="_group"]:not(.asset_group) {
         flex-direction: column;
     }
 }    

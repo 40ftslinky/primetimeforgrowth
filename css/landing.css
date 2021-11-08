@@ -37,6 +37,12 @@
     /* overflow: hidden; */
     mix-blend-mode: multiply;
 }
+.business_growth {}
+
+.easy .section_bg_inner {
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
 
 .hero, .bg_img {
     background-blend-mode: multiply;
@@ -63,7 +69,7 @@
         url(../img/landing_hero_bg.jpg); */
 }
 
-#home .business_growth.bg_img {
+#home .easy.bg_img {
     background-image: url(../img/_temp_cafe_hero_bg.jpg);
     background-blend-mode: soft-light;
 }
@@ -181,6 +187,13 @@
     z-index: 22;
     left: 75%;
     background-image: url(../img/black_slide.svg);
+    mix-blend-mode: overlay;
+    opacity: 0.1;
+}
+.slide-in_right-down_alt {
+    z-index: 22;
+    left: 60%;
+    background-image: url(../img/black_alt_slide.svg);
     mix-blend-mode: overlay;
     opacity: 0.1;
 }

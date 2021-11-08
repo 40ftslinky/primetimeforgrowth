@@ -53,9 +53,10 @@ header a:hover svg.logo_svg path {
     height: 30px;
     border-radius: 15px;
     background-color: var(--theme-yellow);
-    position: absolute;
-    /* margin: 5px; */
-    transform: translate(-50%, calc(50% - 5px));
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
     line-height: 2;
 }
 .notice i {
@@ -118,7 +119,7 @@ header a:hover {
     height:12px;
     position: absolute;
     right:1rem;
-    margin-top: 9px;
+    margin-top: 0.5rem;
     transform: rotate(0deg);
     -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
@@ -178,6 +179,7 @@ nav ul li {
 }
 nav ul li:hover {
 	background-color: rgba(var(--theme-black-rgb),0.2); 
+	/* background-color: red;  */
 }
 
 nav a {
@@ -297,10 +299,12 @@ nav .menu-list li .sub_menu-dropdown a {
     }
 
 .menu-item {
-    padding: 1rem 0;
+    padding: 1rem 0 1rem;
 }
 .menu-item a {
     padding: 1rem;
+    /* padding-bottom: 0.6rem; */
+
 }
 .menu-item a.btn {
     padding: 1rem 2rem;
@@ -311,9 +315,11 @@ nav .menu-list li .sub_menu-dropdown a {
 .menu-item a.has-sub {
     padding: 1rem 2rem 1rem 1rem ;
 }
-.menu-item a {
-    padding-right: 1.25rem;
+.has-avatar a {
+    padding: 1rem;
 }
+
+
 
 .menu-link span{
     /* font-family: var(--font-link);    */

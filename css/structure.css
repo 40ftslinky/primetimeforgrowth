@@ -5,10 +5,13 @@
     --col-mx-width: 80vw;
     --col-width: calc((100vw / 10));
     --gutter: 2rem;
+    --screen-width-mx: 67.5em; /* 1080px */
+    --screen-width-mob: 48em; /* 768px */
 }
 
-@media (min-width:48em){
-    :root {
+/* @media (min-width:48em){ */
+    @media (min-width:1080px){
+        :root {
         --column-width: calc((100% / var(--columns)) - var(--gutter));
         --col-mx-width: calc((1200px * var(--columns)/10) - 3rem );
         /*  */
@@ -75,7 +78,7 @@ body { background: var(--theme-light); }
     padding-bottom: 0;
 }
 
-@media (max-width:48em){
+@media (max-width:1080px){
     .column_wrap,
     .column_row {
         gap: 1rem;
@@ -115,6 +118,17 @@ body { background: var(--theme-light); }
     position: relative;
 }
 
+@media screen and ( max-width: 1080px ){
+    
+    /* .column_third, 
+    .column_50, .column_40,
+    .column_30,  {
+        max-width: 50vw;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+}
 @media screen and ( max-width: 1080px ){
     [class*="column_"]:not(.column_wrap),
     [class*="column_"]:not(.column_row),

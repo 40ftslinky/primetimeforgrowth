@@ -70,7 +70,11 @@
 }
 
 #home .easy.bg_img {
-    background-image: url(../img/temp_grey_hero_bg.jpg);
+    background-image: url(./../img/_temp_cafe_hero_bg.jpg);
+}
+
+#home .optimised.bg_img {
+    background-image: url(./../img/_temp_grey_hero_bg.jpg);
 }
 
 

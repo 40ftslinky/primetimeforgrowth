@@ -53,10 +53,6 @@ header a:hover svg.logo_svg path {
     height: 30px;
     border-radius: 15px;
     background-color: var(--theme-yellow);
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     line-height: 2;
 }
 .notice i {
@@ -201,6 +197,13 @@ nav ul ul {
 	position: absolute; 
 	top: var(--header-height); /* the height of the main nav */
     left:0;
+}
+@media (max-width: 1080px){ 
+    nav ul ul {
+        position: relative; 
+        top: 0;
+        display: block;
+    }
 }
 
 nav ul li:hover > ul {
@@ -437,9 +440,14 @@ nav .menu-list li .sub_menu-dropdown a {
     
 }
 
-@media  screen and (min-width: 1081px) {
+@media screen and (min-width: 1081px) {
     input.burger-check {
         display:none;
     }
 }
 
+@media  screen and (max-width: 1080px) {
+    .secondary_menu-list {
+        right: 4.5rem;
+    }
+}

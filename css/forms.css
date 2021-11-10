@@ -335,6 +335,8 @@ input[type='file'] {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   border-top: 1px solid var(--gray-200);
+  font-size: var(--font-size-xs);
+
 }
 .subtotal_banner_sect.footer_reached {
   bottom: var(--footer-height);

@@ -218,8 +218,8 @@ article {
 
 h1 {
     --fluid-type-min: 2.5rem;
-    --fluid-type-max: 5rem; /* 80px */
-    --fluid-type-target: 5vw;
+    --fluid-type-max: 4.5rem; /* 80px */
+    --fluid-type-target: 4.5vw;
     /* 
     By increasing the viewport unit, we speed up the rate of growth, 
     which will help to maintain its extra large size. 
@@ -231,12 +231,12 @@ h1 {
   
 h2 {
     --fluid-type-min: 1.8rem;
-    --fluid-type-max: 3rem;
+    --fluid-type-max: 2.5rem;
 }
 
 h3 {
     --fluid-type-min: 1.5rem;
-    --fluid-type-max: 2.5rem;
+    --fluid-type-max: 2rem;
 }
 
 h2,

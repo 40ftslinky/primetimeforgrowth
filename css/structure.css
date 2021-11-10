@@ -7,6 +7,7 @@
     --gutter: 2rem;
     --screen-width-mx: 67.5em; /* 1080px */
     --screen-width-mob: 48em; /* 768px */
+    --footer-height:380px;
 }
 
 /* @media (min-width:48em){ */
@@ -31,8 +32,8 @@ body { background: var(--theme-light); }
 .section {    
     overflow: hidden;
 }
-.section:first-of-type {
-    /* padding-top: var(--header-height); */
+#adbuilder_form .section:first-of-type .column_wrap {
+    padding-top: 0;
 }
 @media (min-width:48em) and (max-width:52em){
     .section {

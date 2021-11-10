@@ -78,9 +78,9 @@
     /* Gray/Gray 900 */
     --gray-900: #212529;
     /* not white on black */
-    background: #C4C1C1;
+    --not-white: #C4C1C1;
     /* not black */
-    background: #181818;
+    --not-black: #181818;
 }
 
 

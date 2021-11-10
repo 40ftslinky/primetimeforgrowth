@@ -361,6 +361,9 @@ input[type='file'] {
 .subtotal_banner_sect .disclaimer {
   font-size: var(--font-size-xs);
 }
+.subtotal_banner_sect .disclaimer a {
+  font-weight: 500;
+}
 
 .subtotal_banner {
   padding: 0 2rem;

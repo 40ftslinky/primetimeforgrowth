@@ -63,6 +63,9 @@ body, p {
     -o-transition: all .25s ease-out;
     transition: all .25s ease-out;
 }
+:not(.button) a:visited {
+    color: var(--not-black);
+}
 
 i {
     font-family: 'FontAwesome';

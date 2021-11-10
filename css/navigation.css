@@ -328,6 +328,10 @@ nav .menu-list li .sub_menu-dropdown a {
     /* font-family: var(--font-link);    */
     color: rgba(var(--menu-link-rgb),0.8);
 }
+.menu-link:hover span{
+    /* font-family: var(--font-link);    */
+    color: rgba(var(--menu-link-rgb),1);
+}
 
 /* ********************************************* */
 /* burger */

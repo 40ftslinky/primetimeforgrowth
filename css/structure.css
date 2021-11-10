@@ -21,6 +21,7 @@
 
 body { background: var(--theme-light); }
 
+#adbuilder main, 
 #adbuilder_form main, 
 #media main, 
 #map_test main,

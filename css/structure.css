@@ -25,8 +25,9 @@ body { background: var(--theme-light); }
 /* #adbuilder_form main,  */
 #media main, 
 #map_test main,
-#media-time main
-#checkout main {
+#media-time main,
+#checkout main,
+#cart main   {
     padding-top: var(--header-height);
 }
 

@@ -176,17 +176,17 @@ tfoot tr:last-of-type {
 /* ------------------------------------------------ */
 /*  */
 
-#cart .woocommerce {
+#cart .woocommerce .section {
     display: flex;
+    flex-direction: row;
 }
 
-
-#cart .shop_table.shop_table_responsive {
-    width: 50%;
-}
-
+#cart .shop_table.shop_table_responsive,
 #cart .woocommerce .shop_table{
-    width: 50%;
+    width: calc(50% - 2rem);
+}
+#cart .shop_table.shop_table_responsive {
+    margin-right: 2rem;
 }
 
 

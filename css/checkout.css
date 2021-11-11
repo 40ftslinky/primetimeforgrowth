@@ -177,13 +177,14 @@ tfoot tr:last-of-type {
 /*  */
 
 #cart .woocommerce .section {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
+    gap: 3rem;
 }
 
 #cart .shop_table_outer,
 #cart .cart-collaterals {
-    width: calc(50% - 2rem);
+    max-width: calc(50% - 2rem);
 }
 #cart .shop_table.shop_table_responsive {
     margin-right: 2rem;
@@ -194,6 +195,7 @@ tfoot tr:last-of-type {
 
 }
 
+.checkout-button {}
 
 
 /* ------------------------------------------------ */
@@ -202,6 +204,30 @@ tfoot tr:last-of-type {
 
 .wc-proceed-to-checkout .button.checkout-button {
     color: white;
+}
+[name="update_cart"],
+.checkout-button.button {    
+    font-weight: 500;
+    padding: .5em 1em;
+    line-height: 1.7em!important;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: all!important;
+    transition-property: all!important;
+}
+.checkout-button.button {    
+    background-color: var(--theme-dark);
+    color: #fff;
+    border-color: var(--theme-dark);
+}
+.checkout-button.button:hover {
+    background-color: rgba(var(--theme-black-rgb),0.7);
+    color: #fff;
+    border-color: rgba(var(--theme-black-rgb),0.9);
 }
 
 

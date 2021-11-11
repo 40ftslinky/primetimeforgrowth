@@ -372,3 +372,17 @@ input[type='file'] {
   /* margin: 0 0 1rem 0; */
   width: 100%;
 }
+
+/*  */
+
+.adbuilder .selected_region {
+  margin: 2rem;
+  padding: 2rem;
+  background: #fff;
+  color: var(--theme-dark);
+  border-radius: .5rem;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 8%);
+  padding: 2em;
+  position: relative;
+  min-height: 0;
+}

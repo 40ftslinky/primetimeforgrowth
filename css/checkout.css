@@ -174,7 +174,7 @@ tfoot tr:last-of-type {
 
 
 /* ------------------------------------------------ */
-/*  */
+/* .cart.customize-support */
 
 #cart .woocommerce .section {
     display: flex !important;
@@ -208,6 +208,8 @@ tfoot tr:last-of-type {
 [name="update_cart"],
 .checkout-button.button {    
     font-weight: 500;
+    font-size: var(--font-size-sm);
+    font-family: var(--base-font-family);
     padding: .5em 1em;
     line-height: 1.7em!important;
     background-size: cover;

@@ -204,3 +204,16 @@ tfoot tr:last-of-type {
 
 /* ------------------------------------------------ */
 /*  */
+
+.customize-support #primary {
+    margin: auto;
+    max-width: calc((1200px) - 3rem);
+    width: calc((1200px) - 3rem);
+}
+
+@media screen and (max-width: 85em) {
+/* @media screen and (max-width: 67.5em) { */
+    .customize-support #primary {
+        width: 100%;
+    }
+}

@@ -176,6 +176,11 @@ tfoot tr:last-of-type {
 /* ------------------------------------------------ */
 /*  */
 
+#cart .woocommerce {
+    display: flex;
+}
+
+
 #cart .shop_table.shop_table_responsive {
     width: 50%;
 }
@@ -190,3 +195,12 @@ tfoot tr:last-of-type {
 /* ------------------------------------------------ */
 /*  */
 
+
+.wc-proceed-to-checkout .button.checkout-button {
+    color: white;
+}
+
+
+
+/* ------------------------------------------------ */
+/*  */

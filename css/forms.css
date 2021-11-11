@@ -391,3 +391,10 @@ input[type='file'] {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.selected_regions div {
+  padding: 0.5rem 1rem;
+  background-color: var(--gray-100);
+}
+.selected_regions div:nth-of-type(2) {
+  background-color: var(--white);
+}

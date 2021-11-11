@@ -181,14 +181,18 @@ tfoot tr:last-of-type {
     flex-direction: row;
 }
 
-#cart .shop_table.shop_table_responsive,
-#cart .woocommerce .shop_table{
+#cart .shop_table_outer,
+#cart .cart-collaterals {
     width: calc(50% - 2rem);
 }
 #cart .shop_table.shop_table_responsive {
     margin-right: 2rem;
 }
 
+.woocommerce-order .order_received_wrap {}
+.woocommerce-order .column_wrap {
+
+}
 
 
 
@@ -217,3 +221,8 @@ tfoot tr:last-of-type {
         width: 100%;
     }
 }
+
+.shop_table_outer, .cart-collaterals {
+    width:50%
+}
+

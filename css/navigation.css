@@ -86,16 +86,18 @@ header a:hover {
 
 .nav_header_wrap {
     margin: auto;
-    max-width: 1440px;
-    width: 75vw;
+    /* max-width: 1440px;
+    width: 75vw; */
+    max-width: calc((1200px) - 3rem);
+    width: calc((1200px) - 3rem);
 }
 
-    @media screen and (max-width: 85em) {
-    /* @media screen and (max-width: 67.5em) { */
-            .nav_header_wrap {
-            width: 100%;
-        }
+@media screen and (max-width: 85em) {
+/* @media screen and (max-width: 67.5em) { */
+        .nav_header_wrap {
+        width: 100%;
     }
+}
 
 
 /* -------------------------------------------- */

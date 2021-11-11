@@ -10,8 +10,10 @@
 
     .footer_wrapper {
         margin: 0 auto;
-        max-width: 1440px;
-        width: 75vw;
+        /* max-width: 1440px;
+        width: 75vw; */
+        max-width: calc((1200px) - 3rem);
+        width: calc((1200px) - 3rem);
     }
     @media screen and (max-width: 67.5em){
         .footer_wrapper {

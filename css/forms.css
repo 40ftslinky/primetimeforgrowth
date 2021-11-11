@@ -386,3 +386,8 @@ input[type='file'] {
   position: relative;
   min-height: 0;
 }
+
+.selected_regions {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

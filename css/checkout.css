@@ -225,6 +225,7 @@ tfoot tr:last-of-type {
     background-color: var(--theme-dark);
     color: #fff;
     border-color: var(--theme-dark);
+    width: fit-content;
 }
 .checkout-button.button:hover {
     background-color: rgba(var(--theme-black-rgb),0.7);

@@ -97,8 +97,13 @@
 }
 .dark_bg {
     background-color: var(--theme-dark);
+    color: var(--theme-light) ;
+}
+.dark_bg h2,
+.dark_bg h5 {
     color: var(--theme-light);
 }
+
 .dark_trans_bg {
     background-color: rgba(var(--theme-dark-rgb),0.9) !important;
     color: var(--theme-light);

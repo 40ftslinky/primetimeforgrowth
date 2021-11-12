@@ -201,6 +201,9 @@ tfoot tr:last-of-type {
 /* ------------------------------------------------ */
 /*  */
 
+#cart header .entry-header {
+    display:none
+}
 
 .wc-proceed-to-checkout .button.checkout-button {
     color: white;

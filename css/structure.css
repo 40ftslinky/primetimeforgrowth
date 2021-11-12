@@ -37,6 +37,10 @@ body { background: var(--theme-light); }
 #adbuilder_form .section:first-of-type .column_wrap {
     padding-top: 0;
 }
+.adbuilder section {
+    min-height: calc(100vh - var(--header-height) - var(--banner-height));
+}
+
 @media (min-width:48em) and (max-width:52em){
     .section {
         /* padding: 5%; */

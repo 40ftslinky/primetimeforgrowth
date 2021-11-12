@@ -189,8 +189,10 @@ input[type='file'] {
   /* margin-top: var(--header-height); */
 }
 
+
 :root {
   --font-size-default: .875rem;
+  --banner-height:100px;
 }
 
 .update_progress .column_wrap {

@@ -40,6 +40,9 @@ body { background: var(--theme-light); }
 .adbuilder section {
     min-height: calc(100vh - var(--header-height) - var(--banner-height));
 }
+.adbuilder section .column_wrap section{
+    min-height: unset;
+}
 
 @media (min-width:48em) and (max-width:52em){
     .section {

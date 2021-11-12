@@ -1,7 +1,7 @@
 /* map.css */
 
 #map{ 
-    height: 70vh; 
+    height: 60vh; 
 }
 #map .leaflet-control a,
 #map .leaflet-control {

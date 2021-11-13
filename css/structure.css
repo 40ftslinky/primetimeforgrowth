@@ -301,3 +301,7 @@ body { background: var(--theme-light); }
     margin-right: 1em;
     display: inline-block;
 }
+.unfixed {
+    position: relative !important;
+    background-color: red;
+}

@@ -1,0 +1,255 @@
+/* adbuilder */
+
+
+/* ------------------------------------------------ */
+
+.assets_outer { }
+
+.asset_group,
+[class*=_group] { 
+  position: relative;
+  /* display: block; */
+ }
+
+.asset_group label,
+[class*=_group] label{ max-width: 90%; }
+
+.add_outer { 
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------------------------ */
+/* colour picker */
+
+.clr-field button {
+  border-radius: 100%;
+  width: 44px;
+  left: 105%;
+}
+
+
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* update banner */
+
+.update_progress {
+  /* height: 60px; */
+  /* margin-top: var(--header-height); */
+}
+.has-banner .update_progress {
+  margin-top: calc(var(--header-height) + var(--banner-height));
+}
+
+:root {
+  --font-size-default: .875rem;
+  --banner-height:100px;
+}
+
+.update_progress .column_wrap {
+  padding: 2% 0 1%;
+}
+
+.progress_update {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 2rem;
+  margin: 0 0 1rem 0;
+  width: 100%;
+
+}
+.progress_update li {
+  flex: 2;
+  position: relative;
+  padding: 0 0 14px 0;
+  font-size: var(--font-size-xs);
+  line-height: 1.5;
+  color: var(--gray-500);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: visible;
+  min-width: 0;
+  text-align: center;
+  border-bottom: 2px solid var(--gray-300);
+}
+.progress_update li:first-child,
+.progress_update li:last-child {
+  flex: 1;
+}
+.progress_update li:last-child {
+  text-align: right;
+}
+.progress_update li:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: var(--gray-300);
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  position: absolute;
+  left: calc(50% - 6px);
+  bottom: -7px;
+  z-index: 3;
+  transition: all .2s ease-in-out;
+}
+.progress_update li:first-child:before {
+  left: 0;
+}
+.progress_update li:last-child:before {
+  right: 0;
+  left: auto;
+}
+.progress_update span {
+  transition: opacity .3s ease-in-out;
+}
+.progress_update li:not(.is-active) span {
+  opacity: 0;
+}
+.progress_update .is-complete:not(:first-child):after,
+.progress_update .is-active:not(:first-child):after {
+  content: "";
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: -2px;
+  left: -50%;
+  z-index: 2;
+  border-bottom: 2px solid var(--gray-500);
+}
+.progress_update li:last-child span {
+  width: 200%;
+  display: inline-block;
+  position: absolute;
+  left: -100%;
+}
+
+.progress_update .is-complete:last-child:after,
+.progress_update .is-active:last-child:after {
+  width: 200%;
+  left: -100%;
+}
+
+.progress_update .is-complete:before {
+  background-color: var(--gray-500);
+}
+
+.progress_update .is-active:before,
+.progress_update li:hover:before,
+.progress_update .is-hovered:before {
+  background-color: var(--white);
+  border-color: var(--gray-500);
+}
+.progress_update li:hover:before,
+.progress_update .is-hovered:before {
+  transform: scale(1.33);
+}
+
+.progress_update li:hover span,
+.progress_update li.is-hovered span {
+  opacity: 1;
+}
+
+.progress_update:hover li:not(:hover) span {
+  opacity: 0;
+}
+
+.x-ray .progress_update,
+.x-ray .progress_update li {
+  border: 1px dashed red;
+}
+
+.progress_update .has-changes {
+  opacity: 1 !important;
+}
+.progress_update .has-changes:before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: calc(50% - 4px);
+  bottom: -20px;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%208%208%22%3E%3Cpath%20fill%3D%22%23ed1c24%22%20d%3D%22M4%200l4%208H0z%22%2F%3E%3C%2Fsvg%3E');
+}
+
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* subtotal banner */
+
+.subtotal_banner_sect {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(var(--white-rgb),0.8);
+  z-index: 999;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--gray-200);
+  font-size: var(--font-size-xs);
+  transition: all 0.25s ease-in-out;
+}
+.subtotal_banner_sect.footer_reached {
+  bottom: var(--footer-height);
+}
+
+.subtotal_banner_sect .column_wrap {
+  padding: 2% 0;
+}
+.subtotal_banner_sect .inline {
+  margin-bottom:0;
+}
+.subtotal_banner_sect .column_third:last-of-type {
+  text-align: right;
+}
+
+.subtotal_banner_sect h5 {
+  margin-top: 0;
+  margin-bottom:0.25em;
+}
+.subtotal_banner_sect h5 sup {
+  font-weight: 300;
+}
+
+.subtotal_banner_sect .disclaimer {
+  font-size: var(--font-size-xs);
+}
+.subtotal_banner_sect .disclaimer a {
+  font-weight: 500;
+}
+
+.subtotal_banner {
+  padding: 0 2rem;
+  /* margin: 0 0 1rem 0; */
+  width: 100%;
+}
+
+/*  */
+
+.adbuilder .selected_region {
+  margin: 2rem;
+  padding: 2rem;
+  background: #fff;
+  color: var(--theme-dark);
+  border-radius: .5rem;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 8%);
+  padding: 2em;
+  position: relative;
+  min-height: 0;
+}
+
+.selected_regions {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.selected_regions div {
+  padding: 0.5rem 1rem;
+  background-color: var(--gray-100);
+}
+.selected_regions div:nth-of-type(2) {
+  background-color: var(--white);
+}

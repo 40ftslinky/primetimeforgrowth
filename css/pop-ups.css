@@ -26,14 +26,14 @@
 
 .production_date_banner_wrap {
     margin: auto;
-    max-width: 1440px;
-    width: 75vw;
+    max-width: var(--mx-width);
+    width: calc((1200px) - 3rem);
     display: flex;
     justify-content: flex-end;
 }
 @media (max-width:520px){
     .production_date_banner_wrap {        
-        width: 90vw;
+        /* width: 90vw; */
         justify-content: center;
     }
 }

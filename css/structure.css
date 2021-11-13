@@ -3,21 +3,29 @@
 :root {
     --column-width: 100% ;
     --col-mx-width: 80vw;
+    /* --mx-width: 90vw; */
+    --mx-width: calc(100% - 3rem);
     --col-width: calc((100vw / 10));
     --gutter: 2rem;
+    --margin: 2rem;
     --screen-width-mx: 67.5em; /* 1080px */
     --screen-width-mob: 48em; /* 768px */
     --sub-banner-height:110px;
     --footer-height:380px;
 }
 
-/* @media (min-width:48em){ */
-    @media (min-width:1080px){
+@media (min-width:1080px){
         :root {
         --column-width: calc((100% / var(--columns)) - var(--gutter));
         --col-mx-width: calc((1200px * var(--columns)/10) - 3rem );
     }
 }
+@media (min-width:75em){
+    :root {
+        --mx-width: calc(1200px - 3rem);
+    }
+}
+
 
 
 body { background: var(--theme-light); }

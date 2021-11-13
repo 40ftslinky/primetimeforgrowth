@@ -9,16 +9,14 @@
     }
 
     .footer_wrapper {
-        margin: 0 auto;
-        /* max-width: 1440px;
-        width: 75vw; */
-        max-width: calc((1200px) - 3rem);
+        margin: 0 auto;        
+        max-width: var(--mx-width);
         width: calc((1200px) - 3rem);
     }
-    @media screen and (max-width: 67.5em){
+    @media screen and (max-width: 75em){
         .footer_wrapper {
             /* width: 100%; */
-            width: calc(100% - 4rem);
+            /* width: calc(100% - 4rem); */
             margin: 0 auto;
         }
     }

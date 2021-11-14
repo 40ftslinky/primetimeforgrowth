@@ -63,6 +63,12 @@ body, p {
     -o-transition: all .25s ease-out;
     transition: all .25s ease-out;
 }
+a * {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
 :not(.button) a:visited {
     color: var(--not-black);
 }

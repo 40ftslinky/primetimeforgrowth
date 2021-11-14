@@ -55,16 +55,28 @@ header a:hover svg.logo_svg path {
     background-color: var(--theme-yellow);
     line-height: 2;
 }
-.notice i {
-    color: orange;
+a:hover .avatar {
+    background-color: white;
+    color: var(--secondary);
 }
+
+.account i ,
+.notice i,
 .shopping i {
     color: white;
 }
+
+a:hover .account i,
+a:hover .shopping i {
+    color: var(--secondary);
+}
+.account i,
 .notice i,
 .shopping i {
+    font-size: 24px;
     margin: 0;
 };
+
 
 
 

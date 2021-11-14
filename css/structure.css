@@ -10,7 +10,7 @@
     --margin: 2rem;
     --screen-width-mx: 67.5em; /* 1080px */
     --screen-width-mob: 48em; /* 768px */
-    --sub-banner-height:110px;
+    --subtotal-height:110px;
     --footer-height:380px;
 }
 
@@ -55,7 +55,7 @@ body { background: var(--theme-light); }
     padding-top: 0;
 }
 .adbuilder section {
-    min-height: calc(100vh - var(--header-height) - var(--sub-banner-height));
+    min-height: calc(100vh - var(--header-height) - var(--subtotal-height));
 }
 .adbuilder section .column_wrap section{
     min-height: unset;
@@ -304,4 +304,8 @@ body { background: var(--theme-light); }
 .unfixed {
     position: relative !important;
     background-color: red;
+    transition: all 0.25s ease-in-out;
+    /* possible solution? */
+    scroll-snap-align: start;
+    /* https://firefox-source-docs.mozilla.org/performance/scroll-linked_effects.html */
 }

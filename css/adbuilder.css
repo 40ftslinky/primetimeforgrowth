@@ -181,9 +181,15 @@
 /* ------------------------------------------------ */
 /* subtotal banner */
 
+html {
+    scroll-snap-type: y proximity;
+}
+
 .subtotal_banner_sect {
   width: 100%;
   position: fixed;
+  /* position: absolute;
+  top: calc(100vh - var(--subtotal-height)); */
   bottom: 0;
   background-color: rgba(var(--white-rgb),0.8);
   z-index: 999;
@@ -192,9 +198,13 @@
   border-top: 1px solid var(--gray-200);
   font-size: var(--font-size-xs);
   transition: all 0.25s ease-in-out;
+  scroll-snap-align: start;
+
+  
 }
 .subtotal_banner_sect.footer_reached {
   bottom: var(--footer-height);
+  scroll-snap-align: start;
 }
 
 .subtotal_banner_sect .column_wrap {

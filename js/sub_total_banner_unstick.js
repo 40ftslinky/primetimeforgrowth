@@ -9,7 +9,7 @@ jQuery(document).ready(function( $ ) {
         var subfootHeight = $('.subtotal_banner_sect').height();
         
         if (winScrolled > docHeight - footHeight - subfootHeight) {
-            console.log("reached bottom!");
+            // console.log("reached bottom!");
             $('.subtotal_banner_sect').addClass('unfixed');
             $('.footer').css('margin-top','0');
         } else {

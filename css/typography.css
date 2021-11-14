@@ -67,6 +67,18 @@ body, p {
     color: var(--not-black);
 }
 
+a:focus {
+    outline: none;
+}
+
+input:focus, textarea:focus, button:focus,
+.form input:focus, 
+.form textarea:focus, 
+.form button:focus {
+    outline: 2px solid var(--gray-200);
+}
+
+
 i {
     font-family: 'FontAwesome';
 }

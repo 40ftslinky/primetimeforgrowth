@@ -67,6 +67,18 @@ a:focus, input:focus, textarea:focus, button:focus {
     font-size: 1rem;
   }
 
+  .forms label input[type=checkbox] {
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+  }
+  .forms label input[type=radio] {
+    vertical-align: bottom;
+    position: relative;
+    top: -3px;
+  }
+
+
   /* ------------------------------------------------ */
 
 #dashboard select,
@@ -176,7 +188,7 @@ select {
   background-size: auto 50%;
   border-radius: 2px;
   border: none;
-  color: #ffffff;
+  /* color: #ffffff; */
   padding: 10px 30px 10px 10px;
   outline: none;
   -moz-appearance: none;

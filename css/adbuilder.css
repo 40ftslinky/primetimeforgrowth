@@ -198,9 +198,7 @@ html {
   border-top: 1px solid var(--gray-200);
   font-size: var(--font-size-xs);
   transition: all 0.25s ease-in-out;
-  scroll-snap-align: start;
-
-  
+  /* scroll-snap-align: start; */
 }
 .subtotal_banner_sect.footer_reached {
   bottom: var(--footer-height);

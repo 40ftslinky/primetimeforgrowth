@@ -19,6 +19,12 @@
     background-color:rgba(var(--theme-dark-rgb),1.0);
 }
 
+@media screen and (max-width: 30em) {
+    .header {
+        padding: 0 5%;
+    }
+}
+
 /* add/remove class via JS onScroll event */
 .hide {
     position: relative;
@@ -53,6 +59,19 @@ header a:hover svg.logo_svg path {
     fill: rgba(var(--theme-primary-rgb),0.9);
 }
 
+@media screen and (max-width: 30em) {
+    header a svg.logo_svg path {
+        transform: scale(0.75);
+        transform-origin: left center;
+    }
+}
+@media screen and (max-width: 24em) {
+    header a svg.logo_svg path {
+        transform: scale(0.5);
+        transform-origin: left center;
+    }
+}
+
 .avatar {
     width: 30px;
     height: 30px;
@@ -60,6 +79,12 @@ header a:hover svg.logo_svg path {
     background-color: var(--theme-yellow);
     line-height: 2;
 }
+@media screen and (max-width: 30em) {
+    .avatar {
+        transform: scale(0.8);
+    }
+}
+
 a:hover .avatar {
     background-color: white;
     color: var(--secondary);
@@ -81,7 +106,26 @@ a:hover .shopping i {
 .shopping i {
     font-size: 24px;
     margin: 0;
-};
+}
+
+
+a .cart_sub_total {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    font-size: var(--font-size-xs) !important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 24em) {
+    .account i,
+    .notice i,
+    .shopping i {
+        font-size: 18px;
+    }
+}
 
 
 
@@ -262,6 +306,8 @@ nav ul ul li {
     font-weight: 400;
 }
 
+
+
 .sub_menu-link {
     width: 200px;
     padding: 0.5em;
@@ -299,14 +345,6 @@ nav .menu-list li .sub_menu-dropdown a {
     position: relative;
 }
 
-
-    @media only screen and (min-width: 1081px){
-        .menu-list .menu-item{
-            /* border-bottom: solid 2px rgba(0,0,0,0); */
-        }
-    }
-
-
 .menu-item{
     display: inline-block;
     color: rgba(var(--menu-link-rgb),0.8);
@@ -323,12 +361,18 @@ nav .menu-list li .sub_menu-dropdown a {
 
 .menu-item {
     padding: 1rem 0 1rem;
+    position: relative; 
 }
 .menu-item a {
     padding: 1rem;
     /* padding-bottom: 0.6rem; */
-
 }
+@media screen and (max-width: 48em) {
+    .menu-item a {
+        padding: 0.5rem;
+    } 
+}
+
 .menu-item a.btn {
     padding: 1rem 2rem;
     border-radius: 60px; 
@@ -341,8 +385,6 @@ nav .menu-list li .sub_menu-dropdown a {
 .has-avatar a {
     padding: 1rem;
 }
-
-
 
 .menu-link span{
     /* font-family: var(--font-link);    */
@@ -473,6 +515,6 @@ nav .menu-list li .sub_menu-dropdown a {
 
 @media  screen and (max-width: 1080px) {
     .secondary_menu-list {
-        right: 4.5rem;
+        right: 12.5%;
     }
 }

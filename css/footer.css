@@ -8,6 +8,11 @@
         margin-top: 5rem;    
         transition: all 0.25s ease-in-out;
     }
+    @media screen and (max-width: 48em){
+        footer, .footer {
+            padding: 2rem 0;
+        }
+    }
 
     .footer_wrapper {
         margin: 0 auto;        

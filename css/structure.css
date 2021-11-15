@@ -109,6 +109,11 @@ body { background: var(--theme-light); }
     /* max-width: 1200px !important; */
     padding: 0 2rem;
 }
+@media screen and ( max-width: 1080px ){
+    .column_group {
+        padding: 0;
+    }
+}
 
 [class*="_group"]:not(.asset_group)  {
     display: flex;
@@ -136,14 +141,25 @@ body { background: var(--theme-light); }
 .column_10 { --columns: 1; }
 
 
- 
+@media screen and ( max-width: 67.5em ){
+    .column_third { 
+        /* --columns: calc(10/2);  */
+        --columns: 4; 
+    }
+    .easy .column_group {
+        flex-direction: row !important;
+        /* flex-wrap: wrap; */
+        gap:2rem;
+    }
+}
+
+
+/* [class*="column_"]:not(.optimised .column_third), */
 [class*="column_"]:not(.column_wrap),
 [class*="column_"]:not(.column_row),
 [class*="column_"]:not(.column_group) {
     max-width: calc((1200px * var(--columns)/10) - 3rem );
-    /* max-width: var(--col-mx-width); */
     width: calc(var(--col-width) * var(--columns));
-    /* width: var(--x-width); */
     height:auto;
     position: relative;
 }
@@ -153,7 +169,8 @@ body { background: var(--theme-light); }
     [class*="column_"]:not(.column_wrap),
     [class*="column_"]:not(.column_row),
     [class*="column_"]:not(.column_group),
-    .column_third, .column_twothird
+    /* [class*="column_"]:not(.column_third), */
+    .column_third, .column_twothird,
     .column_90, .column_80, .column_70,
     .column_70, .column_50, .column_40,
     .column_30, .column_20, .column_10 {
@@ -164,6 +181,19 @@ body { background: var(--theme-light); }
     }
 }
 
+@media screen and ( max-width: 48em ){
+    .easy .column_third { 
+        max-width: 90vw;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .easy .column_group{
+        flex-direction: column !important;
+        gap:2rem;
+    }
+}
+
 [class*="_stretch"] {
     display:flex;
     flex-direction: column;
@@ -171,6 +201,11 @@ body { background: var(--theme-light); }
 }
 .panel_wrap, .text_wrap {
     margin: auto 2rem;
+}
+@media screen and ( max-width: 1080px ){
+    .panel_wrap, .text_wrap {
+        margin: auto;
+    }
 }
 .hero .panel_wrap, .hero .text_wrap {
     margin: auto 0;
@@ -278,13 +313,13 @@ body { background: var(--theme-light); }
     flex-direction: column;
     justify-content: space-between;
 }
-.visible {
+.visible, .logged-in {
     visibility: visible;
     opacity:1;
     display: block;
     transition: all 0.25s ease-in-out;
 }
-.hidden {
+.hidden, .logged-out {
     visibility: hidden;
     opacity:0;
     display: none;

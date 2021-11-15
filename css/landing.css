@@ -14,14 +14,17 @@
     overflow: hidden;
     flex-wrap: wrap;
 }
-@media screen and ( max-width: 1080px ){
+.has-banner .hero, .has-banner .img_overlay {
+    padding-top: calc(var(--header-height) + var(--banner-height));
+}
+/* @media screen and ( max-width: 1080px ){
     .hero, .img_overlay {
         padding-top: var(--header-height);
     }
     .has-banner .hero, .has-banner .img_overlay {
         padding-top: calc(var(--header-height) + var(--banner-height));
     }
-}
+} */
 #account .hero, 
 #dashboard .hero,
 #menu_test .hero {

@@ -113,6 +113,8 @@ h5.pre-title {
     font-size: 1.0rem;
     text-transform: uppercase;
     font-weight: 600;
+    text-indent: -0.6rem;
+    margin-left: 0.8rem;
 }
 
 h6 {font-size: 1.0rem;}
@@ -127,8 +129,8 @@ h1 {
 }
 
 h2 {
-	margin-top: 0.4em !important;
-	margin-bottom: 0.4em;
+	margin-top: 0.8em !important;
+	margin-bottom: 0.8em;
 }
 .panel h2, .panel_alt h2 {
     margin-top: 0 !important;

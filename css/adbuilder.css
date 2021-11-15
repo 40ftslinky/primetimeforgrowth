@@ -21,6 +21,15 @@
 }
 
 /* ------------------------------------------------ */
+/* section 01 */
+
+@media screen and ( max-width: 1080px ){
+    #section_01 .next { 
+        margin-top: 0;
+    }
+}
+
+/* ------------------------------------------------ */
 /* colour picker */
 
 .clr-field button {
@@ -49,7 +58,7 @@
 }
 
 .update_progress .column_wrap {
-  padding: 2% 0 1%;
+  padding: 1% 0 1%;
 }
 
 .progress_update {
@@ -205,8 +214,14 @@ html {
   scroll-snap-align: start;
 }
 
+@media screen and ( max-width: 1080px ){
+    .subtotal_banner_sect {
+        position: relative;
+    }
+}
+
 .subtotal_banner_sect .column_wrap {
-  padding: 2% 0;
+  padding: 1% 0;
 }
 .subtotal_banner_sect .inline {
   margin-bottom:0;
@@ -234,6 +249,11 @@ html {
   padding: 0 2rem;
   /* margin: 0 0 1rem 0; */
   width: 100%;
+}
+@media screen and ( max-width: 1080px ){
+    .subtotal_banner {
+        padding: 0;
+    }
 }
 
 /*  */

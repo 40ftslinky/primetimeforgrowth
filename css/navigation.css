@@ -62,7 +62,8 @@ a:hover .avatar {
 
 .account i ,
 .notice i,
-.shopping i {
+.shopping i, 
+.cart_sub_total {
     color: white;
 }
 

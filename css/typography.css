@@ -249,6 +249,18 @@ h1 {
     */
     max-width: 15ch;
 }
+
+@media screen 
+    and ( min-width: 1080px ) 
+    and ( max-width: 1400px )
+    and ( max-height: 700px )
+    {
+    h1 {
+        --fluid-type-min: 2.5rem;
+        --fluid-type-max: 3.5rem; /* 80px */
+        --fluid-type-target: 3.5vw;
+    }
+}
   
 h2 {
     --fluid-type-min: 1.8rem;

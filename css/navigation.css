@@ -30,10 +30,15 @@
 }
 
 .logo { 
-    float:left;
+    /* float:left; */
     position: absolute;
     top: 10px;
-    width:66px;
+    width:194px;
+}
+.logo_link {
+    height:65px;
+    width:194px;
+    display:block;
 }
 
 header a svg.logo_svg path {

@@ -252,7 +252,7 @@ html {
 }
 @media screen and ( max-width: 1080px ){
     .subtotal_banner {
-        padding: 0;
+        padding: 0 !important;
     }
 }
 

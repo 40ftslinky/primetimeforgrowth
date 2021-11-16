@@ -157,7 +157,7 @@ body { background: var(--theme-light); }
 @media screen 
 and ( min-width: 1081px ) 
 and ( max-width: 1232px ) {
-    .forms.warpper .column_wrap {
+    .forms.wrapper .column_wrap {
         max-width: calc(100vw  - 3rem );
     }
 }

@@ -41,6 +41,14 @@
 .col2-set .form-row-last {
     width: calc(50% - 1rem);   
 }
+@media screen and (max-width: 67.5em) {
+    #checkout .col2-set,
+    #checkout .checkout_col_2,
+    .col2-set .form-row-first,
+    .col2-set .form-row-last {
+        width: 100%;   
+    }
+}
 
 /* ------------------------ */
 /* column 02 */
@@ -50,6 +58,11 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 67.5em) {
+    #checkout .checkout_col_2 {
+        max-width: unset;
+    }
+}
 
 /* ------------------------------------------------ */
 /* form elements */
@@ -280,7 +293,8 @@ tfoot tr:last-of-type {
 }
 @media screen and (max-width: 67.5em) {
     .shop_table_outer, .cart-collaterals {
-        width:100%
+        width:100%;
+        float: unset !important;
     }
 }
 

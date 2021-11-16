@@ -295,7 +295,7 @@ tfoot tr:last-of-type {
     .shop_table_outer, .cart-collaterals {
         width:100%;
     }
-    .cart-collaterals .cart_totals { {
+    .cart-collaterals .cart_totals {
         width:100%;
         float: unset !important;
     }

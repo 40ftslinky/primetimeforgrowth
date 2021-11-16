@@ -229,6 +229,10 @@ tfoot tr:last-of-type {
     }
 }
 
+#cart .cart-collaterals .cart_totals {
+    width: 100%;
+}
+
 .woocommerce-order .order_received_wrap {}
 .woocommerce-order .column_wrap {
 

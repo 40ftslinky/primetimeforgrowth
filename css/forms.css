@@ -70,7 +70,7 @@ a:focus, input:focus, textarea:focus, button:focus {
   .forms label input[type=checkbox] {
     vertical-align: bottom;
     position: relative;
-    top: -1px;
+    top: -3px;
   }
   .forms label input[type=radio] {
     vertical-align: bottom;

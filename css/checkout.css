@@ -206,7 +206,7 @@ tfoot tr:last-of-type {
     flex-direction: row;
     gap: 3rem;
 }
-@media screen and (max-width: 67.5em) {
+@media screen and (max-width: 1080px) {
     #cart .woocommerce .section {
         flex-direction: column;
     }

@@ -294,6 +294,9 @@ tfoot tr:last-of-type {
 @media screen and (max-width: 67.5em) {
     .shop_table_outer, .cart-collaterals {
         width:100%;
+    }
+    .cart-collaterals .cart_totals { {
+        width:100%;
         float: unset !important;
     }
 }

@@ -88,6 +88,15 @@ a:focus, input:focus, textarea:focus, button:focus {
     border: 1px solid #ddd;
     max-width: 100%;
   }
+  .forms select {
+    min-width: 300px;
+  }
+  @media  screen and (max-width: 400px) {
+    .forms select {
+      min-width: 100%;
+    }
+  }
+
   .forms input[type=search] {
     box-sizing: border-box;
   }

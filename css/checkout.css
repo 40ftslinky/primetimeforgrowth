@@ -37,16 +37,21 @@
     position: relative;
 }
 
+
 .col2-set .form-row-first,
 .col2-set .form-row-last {
     width: calc(50% - 1rem);   
 }
 @media screen and (max-width: 67.5em) {
     #checkout .col2-set,
-    #checkout .checkout_col_2,
-    .col2-set .form-row-first,
-    .col2-set .form-row-last {
-        width: 100%;   
+    #checkout .checkout_col_2{
+        width: 100%;
+        float: unset !important;
+    }
+    .col2-set .form-row-first, 
+    .col2-set .form-row-last { {
+        width:45% !important;
+        float: unset !important;
     }
 }
 

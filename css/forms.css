@@ -93,7 +93,8 @@ a:focus, input:focus, textarea:focus, button:focus {
   }
   @media  screen and (max-width: 400px) {
     .forms select {
-      min-width: 100%;
+      min-width: unset;
+      width: 100%;
     }
   }
 

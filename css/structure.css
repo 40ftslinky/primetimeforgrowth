@@ -39,6 +39,7 @@ body { background: var(--theme-light); }
 #cart main {
     padding-top: var(--header-height);
 }
+
 #adbuilder_form.has-banner main,
 .adbuilder.has-banner main, 
 #media.has-banner main, 
@@ -152,6 +153,15 @@ body { background: var(--theme-light); }
         gap:2rem;
     }
 }
+
+@media screen 
+and ( min-width: 1081px ) 
+and ( max-width: 1232px ) {
+    .forms.warpper .column_wrap {
+        max-width: calc(100vw  - 3rem );
+    }
+}
+
 
 
 /* [class*="column_"]:not(.optimised .column_third), */

@@ -29,6 +29,11 @@
     }
 }
 
+.warning.required {
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
 /* ------------------------------------------------ */
 /* colour picker */
 
@@ -37,6 +42,14 @@
   width: 30px;
   height: 34px;
   /* left: 105%; */
+}
+
+
+/* ------------------------------------------------ */
+/* images */
+
+.images_check label {
+    font-size: 0.6rem;
 }
 
 

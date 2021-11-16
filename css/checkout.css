@@ -21,6 +21,12 @@
     justify-content: flex-start;
     gap: 3em;
 }
+@media screen and (max-width: 67.5em) {
+    #checkbox form,
+    .checkout.woocommerce-checkout {
+        flex-direction: column;
+    }
+}
 
 /*  */
 #checkout .col2-set,
@@ -145,6 +151,7 @@ th.product-total, td.product-total,
 }
 
 
+
 /* ORDER RECIEVED */
 
 #checkout section.woocommerce-customer-details, 
@@ -180,6 +187,11 @@ tfoot tr:last-of-type {
     display: flex !important;
     flex-direction: row;
     gap: 3rem;
+}
+@media screen and (max-width: 67.5em) {
+    #cart .woocommerce .section {
+        flex-direction: column;
+    }
 }
 
 #cart .shop_table_outer,

@@ -35,6 +35,12 @@
 /* -------------------------------------------- */
 /* table elements */
 
+#dashboard table td, #dashboard table th {
+    /* padding: 1em 1.41575em;
+    text-align: left; */
+    vertical-align: middle;
+}
+
 th {
     text-align: left;
     font-weight: 500;

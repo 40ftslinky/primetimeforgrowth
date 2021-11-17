@@ -60,6 +60,11 @@ body { background: var(--theme-light); }
     min-height: 100vh;
 }
 
+/* needs a different class */
+#adbuilder_form .hero .section:first-of-type {
+    min-height: unset;
+}
+
 .adbuilder section {
     min-height: calc(100vh - var(--header-height) - var(--subtotal-height));
 }

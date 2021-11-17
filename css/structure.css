@@ -334,18 +334,24 @@ and ( max-width: 1232px ) {
     flex-direction: column;
     justify-content: space-between;
 }
-.visible, .logged-in {
+.visible, .logged-out {
     visibility: visible;
     opacity:1;
     display: block;
     transition: all 0.25s ease-in-out;
 }
-.hidden, .logged-out {
+.hidden, .logged-in {
     visibility: hidden;
     opacity:0;
     display: none;
     transition: all 0.25s ease-in-out;
 }
+/* .logged-out {
+    visibility: hidden;
+    opacity:0;
+    display: none;
+    transition: all 0.25s ease-in-out;
+} */
 .fas {
     margin-right: 1em;
     display: inline-block;

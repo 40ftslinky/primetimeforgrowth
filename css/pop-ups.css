@@ -14,6 +14,10 @@
 
 /*  */
 
+.has-modal {
+    overflow: hidden;
+}
+
 .modal_bg, #modal_bg {
     position: absolute;
     width: 100vw;
@@ -52,6 +56,11 @@
 
 #modal_content_form {}
 
+.content_outer {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
 /**
  * ==============================================
  * Dot Flashing

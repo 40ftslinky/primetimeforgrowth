@@ -32,8 +32,8 @@
 
 .modal, #modal_content {
     background-color: white;
-    max-width: 50%;
-    max-height: 200px;
+    max-width: unset;
+    max-height: unset;
     text-align: center;
     z-index: 100;
     padding: 50px;

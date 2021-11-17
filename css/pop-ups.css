@@ -14,8 +14,9 @@
 
 /*  */
 
-.has-modal {
-    overflow: hidden;
+.has-modal {    
+    height: 100vh;
+    overflow-y: hidden;
 }
 
 .modal_bg, #modal_bg {
@@ -34,6 +35,8 @@
     background-color: white;
     max-width: unset;
     max-height: unset;
+    max-width:calc(100% - 4rem);
+    max-height:calc(100% - 4rem);
     text-align: center;
     z-index: 100;
     padding: 50px;
@@ -46,9 +49,14 @@
     left:50%;
     transform: translate(-50%,-50%);
 }
+.modal, #modal_content {
+    overflow:auto;
+    max-height:calc(100vh - 4rem);
+}
+
 @media screen and (max-width: 400px){
     .modal {
-        max-width: unset;
+        
     }
 }
 
@@ -56,7 +64,7 @@
 
 #modal_content_form {}
 
-.content_outer {
+#modal_bg .content_outer {
     display: flex;
     padding: 1rem;
     gap: 1rem;

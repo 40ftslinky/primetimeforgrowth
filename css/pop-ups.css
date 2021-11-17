@@ -14,7 +14,7 @@
 
 /*  */
 
-.modal_bg {
+.modal_bg, #modal_bg {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -26,7 +26,7 @@
     z-index: 999;
 }
 
-.modal {
+.modal, #modal_content {
     background-color: white;
     max-width: 50%;
     max-height: 200px;
@@ -47,6 +47,10 @@
         max-width: unset;
     }
 }
+
+#modal_content {}
+
+#modal_content_form {}
 
 /**
  * ==============================================

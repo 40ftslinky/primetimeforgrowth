@@ -126,7 +126,7 @@
     width: unset;
 }
 
-#order_review_wrap {
+#order_review_wrap, .cart_totals_wrap {
     padding: 1em;
     border: 1px solid #0f0f0f;
 }

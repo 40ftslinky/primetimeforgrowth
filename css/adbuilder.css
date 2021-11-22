@@ -133,6 +133,11 @@
 .progress_update li:not(.is-active) span {
   opacity: 0.45;
 }
+@media screen and ( max-width: 1080px ){
+  .progress_update li:not(.is-active) span {
+    opacity: 0;
+  }
+}
 .progress_update .is-complete:not(:first-child):after,
 .progress_update .is-active:not(:first-child):after {
   content: "";

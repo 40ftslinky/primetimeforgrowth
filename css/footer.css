@@ -209,7 +209,7 @@
     .footer_credit span,
     .footer_credit span a {
         font-size: 8px;
-        color: white;
+        color: white !important;
         /* font-family: var(--font-family); */
     }
 

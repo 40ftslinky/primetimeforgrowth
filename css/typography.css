@@ -37,7 +37,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 700;
 	line-height: 1.2;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 }
 
 html {font-size: 100%;} /*14px*/
@@ -200,6 +200,35 @@ li {
 	margin-bottom: 0.5em;
 }
 
+  
+ol.tc_counter {
+    max-width: 350px;
+    counter-reset: tc-counter;
+    list-style: none;
+    padding-left: 1rem;
+}
+
+ol.tc_counter li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: tc-counter;
+    position: relative;
+}
+
+ol.tc_counter li::before {
+    content: counter(tc-counter) "1. "
+    color: #fcd000;
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 1rem;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+}
+
+/*  */
 
 /* other */
 

@@ -234,6 +234,21 @@ ol.tc_counter {
   ol:nth-of-type(7) li::marker { 
     content: "7.";
   }
+  ol:nth-of-type(8) li::marker { 
+    content: "8.";
+  }
+  ol:nth-of-type(9) li::marker { 
+    content: "9.";
+  }
+  ol:nth-of-type(10) li::marker { 
+    content: "10.";
+  }
+  ol:nth-of-type(11) li::marker { 
+    content: "11.";
+  }
+  ol:nth-of-type(12) li::marker { 
+    content: "12.";
+  }
   ol li::before {
     content: counter(tc-counter) "  ";
     font-weight: bold;

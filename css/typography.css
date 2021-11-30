@@ -202,7 +202,7 @@ li {
 
   
 ol.tc_counter {
-    max-width: 350px;
+    max-width: 75ch;
     counter-reset: tc-counter;
     list-style: none;
     padding-left: 1rem;
@@ -215,8 +215,8 @@ ol.tc_counter li {
 }
 
 ol.tc_counter li::before {
-    content: counter(tc-counter) "1. "
-    color: #fcd000;
+    content: counter(tc-counter) "1. ";
+    /* color: #fcd000; */
     font-size: 1rem;
     font-weight: bold;
     position: absolute;

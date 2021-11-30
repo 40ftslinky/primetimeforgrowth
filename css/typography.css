@@ -220,7 +220,7 @@ ol.tc_counter li::before {
     font-size: 1rem;
     font-weight: bold;
     position: absolute;
-    --size: 1rem;
+    --size: 2rem;
     left: calc(-1 * var(--size) - 10px);
     line-height: var(--size);
     width: var(--size);

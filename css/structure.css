@@ -36,7 +36,8 @@ body { background: var(--theme-light); }
 #map_test main,
 #media-time main,
 #checkout main,
-#cart main {
+#cart main,
+#terms main {
     padding-top: var(--header-height);
 }
 
@@ -46,7 +47,8 @@ body { background: var(--theme-light); }
 #map_test.has-banner main,
 #media-time.has-banner main,
 #checkout.has-banner main,
-#cart.has-banner main {
+#cart.has-banner main,
+#terms.has-banner main {
     padding-top: calc(var(--header-height) + var(--banner-height));
 }
 

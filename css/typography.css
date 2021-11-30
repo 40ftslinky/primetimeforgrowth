@@ -202,31 +202,44 @@ li {
 
   
 ol.tc_counter {
-    max-width: 75ch;
-    counter-reset: tc-counter;
     list-style: none;
-    padding-left: 1rem;
-}
-
-ol.tc_counter li {
-    margin: 0 0 0.5rem 0;
+  /*   counter-reset: tc-counter 8; */
+    max-width: 75ch;
+  }
+  ol li {
     counter-increment: tc-counter;
-    position: relative;
-}
-
-ol.tc_counter li::before {
-    content: counter(tc-counter) "1. ";
-    /* color: #fcd000; */
-    font-size: 1rem;
+    padding: 0 0 0 1em;
+    text-indent:4rem;
+  /*     margin-left: 0.5rem;  */
+  }
+  ol li::marker { 
+    content: "1.";
     font-weight: bold;
-    position: absolute;
-    --size: 2rem;
-    left: calc(-1 * var(--size) - 10px);
-    line-height: var(--size);
-    width: var(--size);
-    height: var(--size);
-    top: 0;
-}
+  }
+  ol:nth-of-type(2) li::marker { 
+    content: "2.";
+  }
+  ol:nth-of-type(32) li::marker { 
+    content: "3.";
+  }
+  ol:nth-of-type(4) li::marker { 
+    content: "4.";
+  }
+  ol:nth-of-type(5) li::marker { 
+    content: "5.";
+  }
+  ol:nth-of-type(6) li::marker { 
+    content: "6.";
+  }
+  ol:nth-of-type(7) li::marker { 
+    content: "7.";
+  }
+  ol li::before {
+    content: counter(tc-counter) "  ";
+    font-weight: bold;
+    margin-left: -5rem;
+  }
+  
 
 /*  */
 

@@ -206,50 +206,50 @@ ol.tc_counter {
   /*   counter-reset: tc-counter 8; */
     max-width: 75ch;
   }
-  ol li {
+  ol.tc_counter li {
     counter-increment: tc-counter;
     padding: 0 0 0 1em;
     text-indent:4rem;
   /*     margin-left: 0.5rem;  */
   }
-  ol li::marker { 
+  ol.tc_counter li::marker { 
     content: "1.";
     font-weight: bold;
   }
-  ol:nth-of-type(2) li::marker { 
+  ol.tc_counter:nth-of-type(2) li::marker { 
     content: "2.";
   }
-  ol:nth-of-type(32) li::marker { 
+  ol.tc_counter:nth-of-type(32) li::marker { 
     content: "3.";
   }
-  ol:nth-of-type(4) li::marker { 
+  ol.tc_counter:nth-of-type(4) li::marker { 
     content: "4.";
   }
-  ol:nth-of-type(5) li::marker { 
+  ol.tc_counter:nth-of-type(5) li::marker { 
     content: "5.";
   }
-  ol:nth-of-type(6) li::marker { 
+  ol.tc_counter:nth-of-type(6) li::marker { 
     content: "6.";
   }
-  ol:nth-of-type(7) li::marker { 
+  ol.tc_counter:nth-of-type(7) li::marker { 
     content: "7.";
   }
-  ol:nth-of-type(8) li::marker { 
+  ol.tc_counter:nth-of-type(8) li::marker { 
     content: "8.";
   }
-  ol:nth-of-type(9) li::marker { 
+  ol.tc_counter:nth-of-type(9) li::marker { 
     content: "9.";
   }
-  ol:nth-of-type(10) li::marker { 
+  ol.tc_counter:nth-of-type(10) li::marker { 
     content: "10.";
   }
-  ol:nth-of-type(11) li::marker { 
+  ol.tc_counter:nth-of-type(11) li::marker { 
     content: "11.";
   }
-  ol:nth-of-type(12) li::marker { 
+  ol.tc_counter:nth-of-type(12) li::marker { 
     content: "12.";
   }
-  ol li::before {
+  ol.tc_counter li::before {
     content: counter(tc-counter) "  ";
     font-weight: bold;
     margin-left: -5rem;

@@ -15,6 +15,14 @@
     justify-content: flex-start;
     gap: 1rem;
 }
+.button_wrap_center {
+    margin: 2rem auto;
+    max-width: 410px;
+    width: var(--col-mx-width);
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
 @media screen and ( max-width: 400px ){
     [class*="button_wrap"]{
         flex-direction: column;
@@ -116,7 +124,19 @@ button:hover,
 .red_btn:hover {
     background-color: rgba(var(--primary-rgb),0.8);
     color: var(--theme-dark);
-    border-color: rgba(var(--primary-rgb),02013.8087%);
+    border-color: rgba(var(--primary-rgb),0.8);
+}
+
+
+.yellow_btn {
+    background-color: var(--secondary);
+    color: var(--white);
+    border-color: var(--secondary);
+}
+.yellow_btn:hover {
+    background-color: var(--secondary-dark);
+    color: var(--theme-dark);
+    border-color: var(--secondary-dark);
 }
 
 /* ------------------------------------------------ */

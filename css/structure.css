@@ -331,6 +331,12 @@ and ( max-width: 1232px ) {
     margin-right: 0;
 }
 
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 .space_between{
     display: flex;
     flex-direction: column;
@@ -345,7 +351,7 @@ and ( max-width: 1232px ) {
 .hidden, .logged-in {
     visibility: hidden;
     opacity:0;
-    display: none;
+    display: none !important;
     transition: all 0.25s ease-in-out;
 }
 /* .logged-out {

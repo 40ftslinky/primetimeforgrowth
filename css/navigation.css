@@ -238,7 +238,7 @@ nav ul li {
 	display:inline-block;
 }
 nav ul li:hover {
-	background-color: rgba(var(--theme-black-rgb),0.2); 
+	/* background-color: rgba(var(--theme-black-rgb),0.2);  */
 	/* background-color: red;  */
 }
 

@@ -43,8 +43,10 @@
     --praimary-25: #F5BCB8;
     /* rgba(245, 188, 184, 1) */
     --secondary: #EEAF00;
+    --secondary-rgb: 238, 175, 0 ;
     --secondary-bright: #FFBE0A;
     --secondary-dark: #B88700;
+    --secondary-dark-rgb:184, 135, 0;
     /* rgba(184, 135, 0, 1) */
     --secondary-75: #FFC933;
     /* rgba(255, 201, 51, 1) */

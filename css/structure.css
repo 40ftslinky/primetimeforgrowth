@@ -38,7 +38,8 @@ body { background: var(--theme-light); }
 #checkout main,
 #cart main,
 #terms main,
-#new_home main {
+#new_home main, 
+#privacy main {
     padding-top: var(--header-height);
 }
 
@@ -50,7 +51,8 @@ body { background: var(--theme-light); }
 #checkout.has-banner main,
 #cart.has-banner main,
 #terms.has-banner main,
-#new_home.has-banner main {
+#new_home.has-banner main,
+#privacy.has-banner main {
     padding-top: calc(var(--header-height) + var(--banner-height));
 }
 
@@ -254,6 +256,11 @@ and ( max-width: 1232px ) {
     min-height: 0;
 
 }
+.panel[class*="_bg"] {
+    background: transparent;
+    box-shadow: 0 0 1rem rgb(255 255 255 / 15%);
+}
+
 
 .responsive_padding {
     padding: clamp(1.37rem,1.21rem + .8vw,1.78rem) 

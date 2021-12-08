@@ -97,10 +97,7 @@ i {
 }
 
 ._thin { font-weight: 300;}
-.huge{
-    font-size: 69px;
-    line-height: 100%;
-}
+
 
 .subheading {
     font-weight: 400;
@@ -302,7 +299,7 @@ article {
 */
 
 
-h1 {
+h1, .huge {
     --fluid-type-min: 2.5rem;
     --fluid-type-max: 4.5rem; /* 80px */
     --fluid-type-target: 4.5vw;
@@ -378,6 +375,12 @@ h4, :not(#checkout) h3 {
 h2 {
     font-size: clamp(2.14rem,1.74rem + 1.99vw,3.16rem);
     max-width: 30ch;
+}
+
+.huge{
+  font-size: clamp(var(--fluid-type-min, 1rem), calc(1rem + var(--fluid-type-target, 3vw)), var(--fluid-type-max, 1.3rem));
+  max-width: 22ch;
+  margin-bottom: 0;
 }
 
 /* ----------------------------- end TEST ----------------------------- */

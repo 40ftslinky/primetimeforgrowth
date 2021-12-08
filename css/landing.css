@@ -14,7 +14,7 @@
     overflow: hidden;
     flex-wrap: wrap;
 }
-.new_home .hero {
+.home .hero {
     padding-top: 0 !important;
     margin-top: 0; 
 }

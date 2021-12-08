@@ -299,16 +299,21 @@ nav ul ul li {
     transition-delay: 0.25s;
 }
 
-.menu-link, 
-.sub_menu-item .sub_menu-link {
+a.menu-link, 
+.sub_menu-item a.sub_menu-link {
     font-size: 1rem;
     color: rgba(var(--menu-link-rgb),0.8);
     font-weight: 400;
 }
 
+a.menu-link:hover, 
+.sub_menu-item a.sub_menu-link:hover {
+    color: rgba(var(--menu-link-rgb),1.0);
+}
 
 
-.sub_menu-link {
+
+a.sub_menu-link {
     width: 200px;
     padding: 0.5em;
 }

@@ -39,6 +39,7 @@ body { background: var(--theme-light); }
 #cart main,
 #terms main,
 #new_home main, 
+#home.has-banner main,
 #privacy main {
     padding-top: var(--header-height);
 }
@@ -52,6 +53,7 @@ body { background: var(--theme-light); }
 #cart.has-banner main,
 #terms.has-banner main,
 #new_home.has-banner main,
+#home.has-banner main,
 #privacy.has-banner main {
     padding-top: calc(var(--header-height) + var(--banner-height));
 }

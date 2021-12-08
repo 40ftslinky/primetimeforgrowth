@@ -14,6 +14,8 @@
     overflow: hidden;
     flex-wrap: wrap;
 }
+.new_home .hero {padding-top: 0; }
+
 .has-banner .hero, .has-banner .img_overlay {
     padding-top: calc(var(--header-height) + var(--banner-height));
 }
@@ -73,7 +75,7 @@
     }    
 }
 
-.landing .hero, .home .hero{
+.landing .hero, .home .hero, .new_home .hero {
     background-image: url(../img/landing_hero_bg.jpg);
     /* background-image: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 

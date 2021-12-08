@@ -13,6 +13,9 @@
             padding: 2rem 0;
         }
     }
+    .new_home footer {
+        margin-top: 0;
+    }
 
     .footer_wrapper {
         margin: 0 auto;        

@@ -200,6 +200,12 @@ li {
 	margin-bottom: 0.5em;
 }
 
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
   
 ol.tc_counter {
     list-style: none;

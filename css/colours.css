@@ -83,6 +83,7 @@
     --not-white: #C4C1C1;
     /* not black */
     --not-black: #181818;
+    --pitch-black: #010101;
 }
 
 
@@ -94,6 +95,20 @@
     color: var(--theme-dark);
 }
 
+.black {
+    color: var(--theme-black);
+}
+.black_bg {
+    background-color: var(--pitch-black) !important;
+    color: var(--theme-light) !important;
+}
+.gray {
+    color: var(--theme-black);
+}
+.gray_bg {
+    background-color: var(--gray-900);
+    color: var(--theme-light) ;
+}
 .dark {
     color: var(--theme-dark);
 }

@@ -15,6 +15,7 @@
     flex-wrap: wrap;
 }
 .new_home .hero, .home .hero {
+    height: 80vh;
     padding-top: 0 !important;
     margin-top: 0; 
 }

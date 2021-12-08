@@ -39,7 +39,7 @@ body { background: var(--theme-light); }
 #cart main,
 #terms main,
 #new_home main, 
-#home.has-banner main,
+#home main,
 #privacy main {
     padding-top: var(--header-height);
 }

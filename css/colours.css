@@ -40,7 +40,7 @@
     /* rgba(230, 87, 76, 1) */
     --primary-50: #ED8982;
     /* rgba(237, 137, 130, 1) */
-    --praimary-25: #F5BCB8;
+    --primary-25: #F5BCB8;
     /* rgba(245, 188, 184, 1) */
     --secondary: #EEAF00;
     --secondary-rgb: 238, 175, 0 ;
@@ -56,6 +56,13 @@
     /*  */
     --white: #ffffff;
     --white-rgb: 255,255,255 ;
+    /*  */
+    --red: #D52B1E;
+    --red-rgb: 213, 43, 30 ;
+    /*  */
+    --yellow: #EEAF00;
+    --yellow-rgb: 238, 175, 0 ;
+    /*  */
     --menu-link-rgb: 255,255,255 ;
     /*  */
     --link-rgb: 235, 31, 32; ;

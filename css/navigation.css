@@ -109,7 +109,7 @@ a:hover .shopping i {
 }
 
 
-a .cart_sub_total {
+a .cart_sub_total, a .account_sub {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -118,6 +118,7 @@ a .cart_sub_total {
     left: 50%;
     transform: translateX(-50%);
 }
+
 
 @media screen and (max-width: 24em) {
     .account i,

@@ -242,3 +242,17 @@
     }
 }
 
+.introduction h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.introduction .column_wrap {
+    padding: 5% 0 2.5%;
+}
+.introduction .column_row {
+    padding-bottom: 2.5%;
+}
+
+.introduction .button_wrap_center {
+    margin: 2rem auto 5rem;
+}

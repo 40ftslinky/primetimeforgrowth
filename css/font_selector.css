@@ -1,0 +1,92 @@
+
+.font-dropdown {
+  width: 220px;
+  border-radius: 5px;
+  position: relative;
+  margin: 10px auto 0;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  outline: none;
+}
+.font-dropdown .label {
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 1.2em;
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 36px;
+  line-height: 36px;
+  z-index: 2;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.font-dropdown .label:after {
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  position: absolute;
+  width: 0;
+  height: 0;
+  content: "";
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #ccc;
+  left: auto;
+  right: 11px;
+  bottom: 13px;
+}
+.font-dropdown .dropdown-list {
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 220px;
+  border-radius: 5px;
+  max-height: 66.66667px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+}
+.font-dropdown.active .dropdown-list {
+  max-height: 200px;
+  top: 37px;
+  opacity: 1;
+  visibility: visible;
+}
+.font-dropdown.active .label:after {
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.font-dropdown li {
+  padding: 0 10px;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.font-dropdown li:hover {
+  color: #fff;
+  background-color: #2689d6;
+}
+.font-dropdown .sel {
+  background-color: #f0f0f0;
+  color: #2689d6;
+}

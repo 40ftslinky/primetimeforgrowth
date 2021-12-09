@@ -40,7 +40,8 @@ body { background: var(--theme-light); }
 #terms main,
 #new_home main, 
 #home main,
-#privacy main {
+#privacy main,
+#account main {
     padding-top: var(--header-height);
 }
 
@@ -54,7 +55,8 @@ body { background: var(--theme-light); }
 #terms.has-banner main,
 #new_home.has-banner main,
 #home.has-banner main,
-#privacy.has-banner main {
+#privacy.has-banner main,
+#account.has-banner main  {
     padding-top: calc(var(--header-height) + var(--banner-height));
 }
 

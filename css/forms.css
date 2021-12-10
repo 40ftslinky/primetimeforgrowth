@@ -183,6 +183,11 @@ input[type='file'] {
   content: "Choose file...";
 }
 
+.file-custom:after {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 input[type='file'] {
     

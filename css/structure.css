@@ -67,11 +67,12 @@ body { background: var(--theme-light); }
     padding-top: 0;
 }
 #adbuilder_form .section:first-of-type {
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 /* needs a different class */
-#adbuilder_form .hero .section:first-of-type {
+#adbuilder_form .hero .section:first-of-type,
+.hero .section:first-of-type {
     min-height: unset;
 }
 

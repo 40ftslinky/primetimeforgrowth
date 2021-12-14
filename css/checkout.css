@@ -22,6 +22,9 @@
     margin-top: 40px;
 }
 
+#cart .column_wrap {
+    padding: 0;
+}
 
 #checkbox form,
 .checkout.woocommerce-checkout {

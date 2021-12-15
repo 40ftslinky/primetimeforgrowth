@@ -6,6 +6,7 @@
     width: var(--col-mx-width);
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     gap: 1rem;
 }
 .button_wrap_left {
@@ -13,6 +14,7 @@
     max-width: var(--col-mx-width);
     display: flex;
     justify-content: flex-start;
+    align-items: flex-end;
     gap: 1rem;
 }
 .button_wrap_center {
@@ -21,6 +23,7 @@
     width: var(--col-mx-width);
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     gap: 1rem;
 }
 @media screen and ( max-width: 400px ){

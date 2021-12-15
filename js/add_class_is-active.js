@@ -66,9 +66,9 @@ jQuery(document).ready(function( $ ) {
     // Click function
     $('.sub_menu-link').mouseenter(function(){
         // $('.sub_menu-item .sub_menu-link').removeClass('is-start');
-        $(this).removeClass('is-start');
+        // $(this).removeClass('is-start');
         // track
-        $(this).addClass('is-active');
+        // $(this).addClass('is-active');
         $('.sub_menu-item_row').removeClass('is-hidden');
         // $('.sub_menu-item_row').removeClass('is-shown');
 

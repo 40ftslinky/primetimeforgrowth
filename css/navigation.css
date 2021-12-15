@@ -301,8 +301,7 @@ nav ul ul li {
     transition-delay: 0.25s;
 }
 
-a.menu-link, 
-.sub_menu-item a.sub_menu-link {
+a.menu-link {
     font-size: 1rem;
     color: rgba(var(--menu-link-rgb),0.8);
     font-weight: 400;

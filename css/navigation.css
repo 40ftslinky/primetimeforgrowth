@@ -164,7 +164,7 @@ header a:hover {
 
 
 /* -------------------------------------------- */
-/* toggle */
+/* toggle rotated */
 
 .menu-list .menu-item {
     position: relative;
@@ -187,6 +187,7 @@ header a:hover {
 }
 
 
+.menu-list .menu-item:hover .menu-link.has-sub::after,
 .menu-list .menu-item .menu-link.has-sub:hover::after {
     transform: rotate(90deg);
     -webkit-transition: all 0.25s ease-in-out;

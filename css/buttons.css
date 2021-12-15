@@ -65,6 +65,7 @@ button,
     transition-duration: .2s;
     -webkit-transition-property: all!important;
     transition-property: all!important;
+    max-height: 42px;
 }
 
 button:hover, 

@@ -90,6 +90,11 @@ a:hover .avatar {
     color: var(--secondary);
 }
 
+.cart_link {
+    position: absolute;
+    top:0;
+}
+
 .account i ,
 .notice i,
 .shopping i, 

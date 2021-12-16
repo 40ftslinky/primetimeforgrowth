@@ -23,7 +23,7 @@ nav ul .sub_menu-dropdown::before {
 nav ul .sub_menu-dropdown {
     position: absolute;
     top: calc(var(--header-height) + 4px);
-    left: 22px; 
+    left: 0; 
     /* why 22px ? */
     transform: translate(-50%,0);
     min-width: 100vw;
@@ -158,6 +158,12 @@ a.sub_menu-link * {
     }
 }
 
+.menu-item:hover .sub_menu-dropdown .sub_menu-link.is-start + .sub_menu-item_row,
+.menu-link:hover + .sub_menu-dropdown .sub_menu-link.is-start + .sub_menu-item_row {
+    display: block;
+    visibility: visible;
+    z-index:111;
+}
 .menu-item:hover .sub_menu-dropdown .sub_menu-link.is-start + .sub_menu-item_row,
 .menu-link:hover + .sub_menu-dropdown .sub_menu-link.is-start + .sub_menu-item_row {
     display: block;

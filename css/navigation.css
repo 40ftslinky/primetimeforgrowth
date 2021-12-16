@@ -91,8 +91,8 @@ a:hover .avatar {
 }
 
 .cart_link {
-    position: absolute;
-    top:0;
+    /* position: absolute;
+    top:0; */
 }
 
 .account i ,
@@ -154,19 +154,30 @@ header a:hover {
 
 .nav_header_wrap {
     margin: auto;
-    /* max-width: 1440px;
-    width: 75vw; */
     max-width: calc((1200px) - 3rem);
     width: calc((1200px) - 3rem);
 }
 
 @media screen and (max-width: 85em) {
-/* @media screen and (max-width: 67.5em) { */
         .nav_header_wrap {
         width: 100%;
     }
 }
 
+.menu-list {
+    display: flex;
+}
+
+.secondary_menu-list {
+    position:relative;
+    display: flex;
+}
+
+@media  screen and (max-width: 1080px) {
+    .secondary_menu-list {
+        right: 12.5%;
+    }
+}
 
 /* -------------------------------------------- */
 /* toggle rotated */
@@ -206,6 +217,9 @@ header a:hover {
         transition: all 0.25s ease-in-out;
     }
 }
+
+/* -------------------------------------------- */
+/*  */
 
 .sub_menu-item .sub_menu-link::after {
     display: none;
@@ -331,6 +345,8 @@ nav .menu-list li .sub_menu-dropdown a {
 }
 
 /* -------------------------------------------- */
+/*  */
+
 
 .menu {
     margin: 0 auto;
@@ -521,11 +537,5 @@ nav .menu-list li .sub_menu-dropdown a {
 @media screen and (min-width: 1081px) {
     input.burger-check {
         display:none;
-    }
-}
-
-@media  screen and (max-width: 1080px) {
-    .secondary_menu-list {
-        right: 12.5%;
     }
 }

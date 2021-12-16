@@ -171,6 +171,7 @@ header a:hover {
 .secondary_menu-list {
     position:relative;
     display: flex;
+    margin-left: 3rem;
 }
 
 @media  screen and (max-width: 1080px) {
@@ -220,7 +221,7 @@ header a:hover {
 
 /* -------------------------------------------- */
 /*  */
-
+/* 
 .sub_menu-item .sub_menu-link::after {
     display: none;
 }
@@ -237,7 +238,7 @@ header a:hover {
 .menu_dropdown .menu-link::after {
     content: "";
     background: none !important;
-}
+} */
 
 /* --------------------------------------------
 dropdown */
@@ -301,24 +302,18 @@ nav ul ul li {
 	display:list-item;
 	position: relative;
 }
-
+/* 
 .sub_menu-dropdown { 
     background-color: var(--theme-dark);
     margin-top: 0;
 }
 
 
-/* js addClass required */
-.menu-link:hover + .sub_menu-dropdown, 
-.menu-link.is-active + .sub_menu-dropdown {
-    
-}
-
 .sub_menu-dropdown .sub_menu-item .sub_menu-link { 
     -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
     transition-delay: 0.25s;
-}
+} */
 
 a.menu-link {
     font-size: 1rem;
@@ -326,21 +321,25 @@ a.menu-link {
     font-weight: 400;
 }
 
-a.menu-link:hover, 
-.sub_menu-item a.sub_menu-link:hover {
+a.menu-link:hover
+/* , 
+.sub_menu-item a.sub_menu-link:hover  */
+{
     color: rgba(var(--menu-link-rgb),1.0);
 }
 
 
-
+/* 
 a.sub_menu-link {
     width: 200px;
     padding: 0.5em;
-}
+} */
 
-nav .menu-list li, 
+nav .menu-list li
+/* , 
 nav .menu-list li .sub_menu-dropdown,
-nav .menu-list li .sub_menu-dropdown a {
+nav .menu-list li .sub_menu-dropdown a */
+ {
     margin-bottom: 0;
 }
 
@@ -368,23 +367,23 @@ nav .menu-list li .sub_menu-dropdown a {
     display: inline-block;
     margin: 0;
 }
-.sub_menu-dropdown li { 
+/* .sub_menu-dropdown li { 
     position: relative;
-}
+} */
 
 .menu-item{
     display: inline-block;
     color: rgba(var(--menu-link-rgb),0.8);
 }
-.sub_menu-item {
+/* .sub_menu-item {
     padding: 1rem;
-}
+} */
 
-    @media only screen and (min-width: 1081px){
+    /* @media only screen and (min-width: 1081px){
         .sub_menu-item {
             padding: 1rem;
         }
-    }
+    } */
 
 .menu-item {
     padding: 1rem 0 1rem;

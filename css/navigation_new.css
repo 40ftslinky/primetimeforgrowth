@@ -23,8 +23,11 @@ nav ul .sub_menu-dropdown::before {
 nav ul .sub_menu-dropdown {
     position: absolute;
     top: calc(var(--header-height) + 4px);
-    left: 0; 
-    /* why 22px ? */
+    left: calc(3rem + 6px); 
+    /* why ? 
+    3rem = margin-left on secondary_menu
+    6px = half the width of rotating arrow on menu-link.has-sub
+    */
     transform: translate(-50%,0);
     min-width: 100vw;
     width: 100%;

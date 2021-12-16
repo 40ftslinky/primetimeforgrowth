@@ -87,12 +87,22 @@ button:hover,
     border-color: rgba(var(--theme-black-rgb),0.9);
 }
 
-.back, .ghost {
+.back, .outline_btn {
     background-color: rgba(var(--theme-black-rgb),0.0);
     color: var(--theme-dark);
     border-color: var(--theme-dark);
 }
-.back:hover, .ghost:hover {
+.back:hover, .outline_btn:hover {
+    background-color: rgba(var(--theme-black-rgb),0.3);
+    color: white;
+    border-color: rgba(var(--theme-black-rgb),0.3);
+}
+.ghost {
+    background-color: rgba(var(--theme-black-rgb),0.0);
+    color: var(--theme-dark);
+    border-color: rgba(var(--theme-dark),0.0);
+}
+.ghost:hover {
     background-color: rgba(var(--theme-black-rgb),0.3);
     color: white;
     border-color: rgba(var(--theme-black-rgb),0.3);

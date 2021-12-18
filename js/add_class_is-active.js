@@ -47,19 +47,66 @@ jQuery(document).ready(function( $ ) {
 	   }
     });
 
-    $('.menu-link.has-sub').hover(function(){     
+    $('.menu-link.has-sub').mouseenter(function(){     
         $(this).addClass('is-rotated');
         $('.sub_menu-dropdown').addClass('is-visible');     
  
       },function(){    
-        //  $('#responsive-menu-container').removeClass('is-active');     
         $(this).removeClass('is-rotated'); 
         $('.sub_menu-dropdown').removeClass('is-visible');     
     
     });
 
-    // tab-is-active function to go here
+    $('.sub_menu-item_row').mouseenter(function(){     
+        $('.menu-link.has-sub').addClass('is-rotated');
+        $('.sub_menu-dropdown').addClass('is-visible');     
+      },function(){    
+        $('.menu-link.has-sub').removeClass('is-rotated');
+        $('.sub_menu-dropdown').removeClass('is-visible');         
+    });
+    
 
+    /* 
+    
+    ROSS TO DO:
+
+    need a function / argument that if 
+    ".sub_menu-item_row" is shown 
+    
+    $('.menu-link.has-sub').addClass('is-rotated');
+    $('.sub_menu-dropdown').addClass('is-visible'); 
+
+    & 
+    when is-rotated is not active, 
+    .sub_menu-dropdown, 
+    .sub_menu-item_row,
+    .sub_menu-item_row_wrap,
+    
+    is hidden
+
+    */
+
+    
+    // Show the first tab and hide the rest
+    $('.sub_menu-dropdown-wrap .sub_menu-item:first .sub_menu-link').addClass('is-tabbed');
+    $('.sub_menu-item_row').hide();
+    $('.sub_menu-item_row_wrap').hide();
+    $('.sub_menu-item_row:first').show();
+
+    // mouseenter function
+    $('.sub_menu-link').mouseenter(function(){          
+        // Check for active
+        $('.sub_menu-link').removeClass('is-tabbed');
+        $(this).addClass('is-tabbed');
+        $('.sub_menu-item_row').show();
+ 
+        // Display active tab
+        let currentTab = $(this).attr('data-id');
+        $('.sub_menu-item_row_wrap').hide();
+        $(currentTab).fadeIn();
+
+        return false;
+    });
 });
 
 // if ($( "#foo" ).hasClass('className')) {

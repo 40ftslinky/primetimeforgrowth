@@ -166,13 +166,16 @@ header a:hover {
 
 .menu-list {
     display: flex;
+    margin: 0;
 }
 
 .secondary_menu-list {
-    position:relative;
+    /* position:relative; */
     display: flex;
     margin-left: 3rem;
 }
+
+
 
 @media  screen and (max-width: 1080px) {
     .secondary_menu-list {

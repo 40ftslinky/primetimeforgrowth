@@ -160,10 +160,13 @@ a.sub_menu-link * {
     transform: translate(-50%, 0);
     z-index:-111;
 }
+:not(.is-rotated) + .sub_menu-item_row {
+    display: none;
+} 
 .is-visible + .is-tabbed + .sub_menu-item_row {
-    visibility: visible;
+    /* visibility: visible;
     display: block;
-    opacity: 1;
+    opacity: 1; */
     /* z-index: 111; */
 }
 .sub_menu-item_row::before {

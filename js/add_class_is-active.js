@@ -67,7 +67,7 @@ jQuery(document).ready(function( $ ) {
     
 
     /* 
-    
+
     ROSS TO DO:
 
     need a function / argument that if 
@@ -90,6 +90,7 @@ jQuery(document).ready(function( $ ) {
     // Show the first tab and hide the rest
     $('.sub_menu-dropdown-wrap .sub_menu-item:first .sub_menu-link').addClass('is-tabbed');
     $('.sub_menu-item_row').hide();
+    $('.is-tabbed + .sub_menu-item_row').hide();
     $('.sub_menu-item_row_wrap').hide();
     $('.sub_menu-item_row:first').show();
 

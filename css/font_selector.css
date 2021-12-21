@@ -14,7 +14,7 @@
   -ms-user-select: none;
   -webkit-user-select: none;
   user-select: none;
-  font-size: 1.2em;
+  font-size: 1em;
   position: relative;
   display: block;
   padding: 0 10px;
@@ -75,14 +75,16 @@
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+
 .font-dropdown li {
   padding: 0 10px;
-  font-size: 1.4em;
+  font-size: 1em;
   line-height: 1.5em;
   white-space: nowrap;
   overflow: hidden;
 }
-.font-dropdown li:first-of-type {
+
+.font-dropdown span {
   padding: 0 10px;
   font-size: 1em;
 }

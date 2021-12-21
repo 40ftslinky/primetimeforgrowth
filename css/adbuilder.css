@@ -307,3 +307,18 @@ html {
 .selected_regions div:nth-of-type(2) {
   background-color: var(--white);
 }
+
+
+/*  */
+#colour_picker1 {}
+.colour_picker_button {
+  width:40px;
+  height: 40px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.colour_picker_text {
+  display: inline-block;
+}
+
+

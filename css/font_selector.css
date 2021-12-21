@@ -82,6 +82,11 @@
   white-space: nowrap;
   overflow: hidden;
 }
+.font-dropdown li:first-of-type {
+  padding: 0 10px;
+  font-size: 1em;
+}
+
 .font-dropdown li:hover {
   color: #fff;
   background-color: #2689d6;

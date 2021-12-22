@@ -310,6 +310,12 @@ html {
 
 
 /*  */
+
+label[id*="color"] {
+    display: flex;
+    align-items: center;
+}
+
 #colour_picker1 {}
 .colour_picker_button {
   width:40px;
@@ -320,6 +326,10 @@ html {
 .colour_picker_text {
   display: inline-block;
   margin-left: 1rem;
+}
+
+.rgba_divider:nth-of-type(4) {
+  display: none;
 }
 
 

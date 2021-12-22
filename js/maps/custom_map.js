@@ -106,7 +106,7 @@
 	function zoomToFeature(e) {
 		mymap.fitBounds(e.target.getBounds());
 
-		media_region_selected(e.target.feature.id);	//call to ross custom function
+	 	media_region_selected(e.target.feature.id);	//call to ross custom function
 	}
 
 	function onEachFeature(feature, layer) {
@@ -135,4 +135,4 @@
 	// 		.openOn(mymap);
 	// }
 
-	mymap.on('click', onMapClick);
+	// mymap.on('click', onMapClick);

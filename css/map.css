@@ -47,3 +47,9 @@ svg.leaflet-zoom-animated path:last-of-type {
     /* display: none; */
     /* z-index: 0; */
 }
+
+.leaflet-top, .leaflet-bottom {
+    /* position: absolute; */
+    z-index: 999;
+    /* pointer-events: none; */
+}

@@ -328,7 +328,7 @@ label[id*="colour"] {
   margin-left: 1rem;
 }
 
-.color_picker .rgba_divider:nth-of-type(4) {
+#color_picker .rgba_divider:nth-of-type(4) {
   display: none;
 }
 

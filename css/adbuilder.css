@@ -316,7 +316,6 @@ label[id*="colour"] {
     align-items: center;
 }
 
-#colour_picker1 {}
 .colour_picker_button {
   width:40px;
   height: 40px;
@@ -330,6 +329,12 @@ label[id*="colour"] {
 
 #color_picker .rgba_divider:nth-of-type(4) {
   display: none;
+}
+
+#color_picker .rgba_input, 
+#color_picker .hsla_input {
+  margin: 0 1px;
+  width: 40px;
 }
 
 

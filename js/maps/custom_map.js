@@ -115,7 +115,7 @@
 			mouseout: resetHighlight,
 			click: zoomToFeature
 		});
-        layer.bindPopup("You clicked "+feature.properties.name+ " region <button class='this is a button'>click</button> ");
+        layer.bindPopup("This is the "+feature.properties.name+ " region. <br/> <div class='button_wrap_sm'><button class='button btn_small ghost_red'>Learn More</button> <button class='button btn_small red_btn '>Book Region</button></div>");
 	}
 
 	geojson = L.geoJson(broadcastData, {

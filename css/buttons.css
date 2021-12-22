@@ -26,11 +26,23 @@
     align-items: flex-end;
     gap: 1rem;
 }
+.button_wrap_sm {
+    margin: 2rem auto;
+    max-width: 410px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+}
 @media screen and ( max-width: 550px ){
     [class*="button_wrap"]{
         flex-direction: column;
         margin: 2rem 0 0 0;
         width: 100%;
+    }
+    .button_wrap_sm {
+        gap:0.5em
     }
 }
 
@@ -69,6 +81,13 @@ button,
     -webkit-transition-property: all!important;
     transition-property: all!important;
     max-height: 42px;
+}
+
+.btn_small {
+    font-size: 12px;
+    max-height: 38px;
+    padding: .5em .5em;
+    min-width:110px;
 }
 
 button:hover, 

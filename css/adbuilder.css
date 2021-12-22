@@ -311,7 +311,7 @@ html {
 
 /*  */
 
-label[id*="color"] {
+label[id*="colour"] {
     display: flex;
     align-items: center;
 }
@@ -328,7 +328,7 @@ label[id*="color"] {
   margin-left: 1rem;
 }
 
-.rgba_divider:nth-of-type(4) {
+.color_picker .rgba_divider:nth-of-type(4) {
   display: none;
 }
 

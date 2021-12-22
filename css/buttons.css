@@ -26,7 +26,7 @@
     align-items: flex-end;
     gap: 1rem;
 }
-@media screen and ( max-width: 400px ){
+@media screen and ( max-width: 550px ){
     [class*="button_wrap"]{
         flex-direction: column;
         margin: 2rem 0 0 0;

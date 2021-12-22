@@ -242,6 +242,12 @@
     }
 }
 
+
+
+/* ------------------------------------------ */
+/* video section (at TOP) */
+/* ------------------------------------------ */
+
 .introduction h1 {
     margin-top: 0;
     margin-bottom: 0;
@@ -251,6 +257,11 @@
 }
 .introduction .column_row {
     padding-bottom: 2.5%;
+}
+
+.introduction .column_group {
+    max-width: 800px;
+    margin: auto;
 }
 
 .introduction .button_wrap_center {

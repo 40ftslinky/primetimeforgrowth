@@ -98,6 +98,7 @@
   min-width: 0;
   text-align: center;
   border-bottom: 2px solid var(--gray-300);
+  /* border-bottom: 2px solid rgba(var(--red-rgb),0.3); */
 }
 .progress_update li:first-child,
 .progress_update li:last-child {
@@ -112,8 +113,10 @@
   width: 12px;
   height: 12px;
   background-color: var(--gray-300);
+  /* background-color: var(--red); */
   border-radius: 50%;
   border: 2px solid var(--white);
+  /* border-bottom: 2px solid rgba(var(--primary-dark-rgb),1); */
   position: absolute;
   left: calc(50% - 6px);
   bottom: -7px;
@@ -147,7 +150,8 @@
   bottom: -2px;
   left: -50%;
   z-index: 2;
-  border-bottom: 2px solid var(--gray-500);
+  /* border-bottom: 2px solid var(--gray-500); */
+  border-bottom: 2px solid rgba(var(--primary-dark-rgb),1);
 }
 .progress_update li:last-child span {
   width: 200%;
@@ -163,14 +167,16 @@
 }
 
 .progress_update .is-complete:before {
-  background-color: var(--gray-500);
+  /* background-color: var(--gray-500); */
+  background-color: rgba(var(--primary-dark-rgb),1);
 }
 
 .progress_update .is-active:before,
 .progress_update li:hover:before,
 .progress_update .is-hovered:before {
   background-color: var(--white);
-  border-color: var(--gray-500);
+  /* border-color: var(--gray-500); */
+  border-color:rgba(var(--primary-dark-rgb),1);
 }
 .progress_update li:hover:before,
 .progress_update .is-hovered:before {

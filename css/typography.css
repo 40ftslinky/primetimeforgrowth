@@ -23,15 +23,16 @@
 }
 
 body {
-	color: var(--theme-dark);
 	font-family: var(--base-font-family);
-    font-size: 14px;
-    font-size: var(--base-font-size);
-    font-weight: 400;
-    font-weight: var(--base-font-weight);
-    line-height: 1.6;
-    line-height: var(--base-line-height);
+  font-size: 14px;
+  font-size: var(--base-font-size);
+  font-weight: 400;
+  font-weight: var(--base-font-weight);
+  line-height: 1.6;
+  line-height: var(--base-line-height);
 	font-style: normal;
+  color: var(--theme-dark);
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -48,7 +49,7 @@ body, p {
     font-size: var(--base-font-size);
     line-height: 1.6;
     line-height: var(--base-line-height); 
-	font-weight: 400;
+    font-weight: 400;
  }
  
  h1, h2, h3, h4, h5, strong {

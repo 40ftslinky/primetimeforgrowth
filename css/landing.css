@@ -31,6 +31,7 @@
         padding-top: calc(var(--header-height) + var(--banner-height));
     }
 } */
+#education .hero,
 #account .hero, 
 #dashboard .hero,
 #menu_test .hero {
@@ -102,7 +103,7 @@
 }
 
 #account .hero{
-    background-image: url(../img/signup_hero_bg.jpg);
+    background-image: url(../img/signin_hero_bg.jpg);
     background-color: rgba(var(--theme-dark-rgb),0.5);
 }
 
@@ -118,6 +119,10 @@
 }
 
 
+#education .hero{
+    background-image: url(../img/education_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+}
 
 .hero section {
     position: absolute;

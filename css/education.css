@@ -1,0 +1,38 @@
+/* education.css */
+
+#education .text_block {
+    margin-top: 2rem;
+    text-align: left;
+}
+#education ._wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    /* gap: calc(var(--gutter) * .5); */
+}
+
+#education ._wrap .panel {
+    padding: 0;
+}
+#education ._wrap [class*="text_block"] {
+    padding: 0 2rem 1rem;
+}
+
+#education .column_third {
+    /* width: calc(100% * 1/3); */
+    width: calc(var(--col-width) * var(--columns) - 5.3333rem);
+}
+
+
+#education .column_third {
+    max-width: calc((1200px * 3/10) - 3rem );
+    width: calc(10/3);
+}
+
+@media screen and (max-width: 1080px){
+    #education .column_third {
+        max-width: calc((90vw * 3/10) - 3rem );
+        width: calc(var(--col-width) * var(--columns));
+    }    
+}

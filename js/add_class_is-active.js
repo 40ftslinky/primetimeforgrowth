@@ -46,25 +46,52 @@ jQuery(document).ready(function( $ ) {
 		 $(".menu-icons").addClass("is-active");
 	   }
     });
+	// end for mobile menu 
+	
 
-    $('.menu-link.has-sub').mouseenter(function(){     
-        $(this).addClass('is-rotated');
-        $('.sub_menu-dropdown').addClass('is-visible');     
- 
-      },function(){    
-        $(this).removeClass('is-rotated'); 
-        $('.sub_menu-dropdown').removeClass('is-visible');     
-    
-    });
 
-    $('.sub_menu-item_row').mouseenter(function(){     
-        $('.menu-link.has-sub').addClass('is-rotated');
-        $('.sub_menu-dropdown').addClass('is-visible');     
-      },function(){    
-        $('.menu-link.has-sub').removeClass('is-rotated');
-        $('.sub_menu-dropdown').removeClass('is-visible');         
+	
+
+
+    $('.menu-link.has-sub, .menu-link, .menu-item, .logo_link').mouseenter(function(){     
+		r_open_mega_menu(this,1);
+      });
+	
+	
+    $('.menu-link.has-sub').mouseout(function(){     
+
+		r_open_mega_menu(this,0);
+      });	
+
+
+
+    $('.sub_menu-dropdown-wrap .sub_menu-link').mouseenter(function(){     
+
+		r_open_mega_menu(this,1);
     });
+	
+    $('.sub_menu-dropdown-wrap .sub_menu-link').mouseout(function(){     
+
+		r_open_mega_menu(this,0);
+    });	
     
+    $('.sub_menu-item_row').mouseout(function(){     
+
+		r_open_mega_menu(this,1);
+    });		
+		
+		
+		
+    $('.sub_menu-item_row, .sub_menu-item_row_wrap, .sub_menu-item_row_wrap div, .sub_menu-item_row_wrap a').mouseenter(function(){     
+
+		r_open_mega_menu(this,0);
+    });
+	
+
+
+
+	
+
 
     /* 
 
@@ -85,6 +112,80 @@ jQuery(document).ready(function( $ ) {
     is hidden
 
     */
+
+	
+
+
+
+	function r_open_mega_menu(x,n){
+		console.log(x);
+
+		var elem_id =$(x).attr('class');
+		console.log(elem_id);
+		var $mm2 = $('.sub_menu-dropdown');  
+		var $mm3 = $('#mega_menu_section_3');  
+
+		var $mm2Height = $mm2.outerHeight(true); 
+		var $mm3Height = $mm3.outerHeight(true); 	// passing "true" will also include the top and bottom margin
+		var $top= $mm2.position().top;
+		var $bottom = $top + $mm2Height + $mm3Height;
+		//var $bottom2 = $top + $mm2Height;
+		//var $MouseY =event.pageY;	// Y pos of user's mouse 
+		var $MouseY =event.clientY;
+		// top menu-link 
+		if ((elem_id.indexOf("has-sub") >= 0) && n==1 || elem_id.indexOf("prime-hub") >= 0){
+				// top menu-link 
+			jQuery(".sub_menu-dropdown").show();	// s sub menu 
+		
+		} else if (elem_id.indexOf("menu-link has-sub") >= 0 && n==0){
+			if($('.sub_menu-dropdown').is(':visible')){
+				if(($MouseY + 15)>$top && $MouseY<$bottom ){
+					jQuery(".sub_menu-dropdown").show();	// show  sub menu 
+					jQuery(".sub_menu-item_row").show(); // show  tabbed div 
+				} else {
+					jQuery(".sub_menu-dropdown").hide();	// show  sub menu 
+					jQuery(".sub_menu-item_row").hide(); // show  tabbed div 
+					jQuery(".menu-list .menu-item .has-sub").removeClass('transform_90deg');
+				}
+			}
+		} else  if (elem_id.indexOf("sub_menu-link") >= 0){
+			// secondrary level  link 
+			jQuery(".sub_menu-dropdown").show();	// show  sub menu 
+			jQuery(".sub_menu-item_row").show(); // show  tabbed div 
+		} else {
+			if($('.sub_menu-item_row').is(':visible')){
+				// third level menu
+				if($MouseY>$bottom || ($MouseY + 15)<$top){
+					// hide level 2 and 3 menu 
+					jQuery(".sub_menu-item_row").hide(); // hide tabbed div 
+					if($(".sub_menu-dropdown").is(':visible')){
+						jQuery(".sub_menu-dropdown").hide();	// hide sub menu 
+						jQuery(".menu-list .menu-item .has-sub").removeClass('transform_90deg');
+					}
+				} else {
+					// show level 2 & 3 menus 
+					jQuery(".sub_menu-dropdown").show();
+					jQuery(".sub_menu-dropdown").css('visibility', 'visible');
+					jQuery(".sub_menu-dropdown").css('opacity', '1');
+					jQuery(".sub_menu-item_row").show(); 
+					jQuery(".menu-list .menu-item .has-sub").addClass('transform_90deg');
+					console.log('90deg');
+				}
+			}
+		}	
+
+			//
+			//$(x).removeClass('is-rotated'); 
+			//$('.sub_menu-dropdown').removeClass('is-visible');  			
+			//	jQuery(".sub_menu-item_row").hide();
+		}
+	
+
+
+
+
+
+
 
     
     // Show the first tab and hide the rest
@@ -108,6 +209,8 @@ jQuery(document).ready(function( $ ) {
 
         return false;
     });
+	
+	jQuery("#mega_menu_section_3").hide();
 });
 
 // if ($( "#foo" ).hasClass('className')) {
@@ -115,4 +218,3 @@ jQuery(document).ready(function( $ ) {
 // } else {
 //   $( "#foo" ).addClass( 'className');
 // }
-

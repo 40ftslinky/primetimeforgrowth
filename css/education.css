@@ -1,5 +1,9 @@
 /* education.css */
 
+#education .column_wrap {
+    padding: 2.5% 0;
+}
+
 #education .text_block {
     margin-top: 2rem;
     text-align: left;

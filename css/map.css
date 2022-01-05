@@ -3,6 +3,12 @@
 #map{ 
     height: 60vh; 
 }
+
+
+#education #map{ 
+    height: 80vh; 
+}
+
 #map .leaflet-control a,
 #map .leaflet-control {
    color:#dedede;

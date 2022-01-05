@@ -269,11 +269,11 @@
     padding-bottom: 2.5%;
 }
 
-.introduction .column_group {
+#home .introduction .column_group {
     max-width: 800px;
     margin: auto;
 }
 
-.introduction .button_wrap_center {
+#home .introduction .button_wrap_center {
     margin: 2rem auto 5rem;
 }

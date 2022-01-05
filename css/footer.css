@@ -8,12 +8,15 @@
         margin-top: 5rem;    
         transition: all 0.25s ease-in-out;
     }
+
     @media screen and (max-width: 48em){
         footer, .footer {
             padding: 2rem 0;
         }
     }
-.home footer, .new_home footer {
+
+    #home footer, 
+    .new_home footer {
         margin-top: 0;
     }
 
@@ -23,9 +26,7 @@
         width: calc((1200px) - 3rem);
     }
     @media screen and (max-width: 75em){
-        .footer_wrapper {
-            /* width: 100%; */
-            /* width: calc(100% - 4rem); */
+        .footer_wrapper {            
             margin: 0 auto;
         }
     }

@@ -292,12 +292,14 @@ and ( max-width: 1232px ) {
     }
 }
   
+@media screen and ( max-width: 1080px ){
 
-.panel p {
-    margin-left: auto;
-    margin-right: auto;
+    .panel p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
-
 
 /* ----------------------------- TEST ----------------------------- */
 /**
@@ -357,6 +359,19 @@ and ( max-width: 1232px ) {
     justify-content: center;
     text-align: center;
 }
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;    
+}
+
+.top {
+    justify-content: flex-start;
+}
+
 .space_between{
     display: flex;
     flex-direction: column;

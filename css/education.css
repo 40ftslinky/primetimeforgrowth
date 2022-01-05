@@ -62,3 +62,24 @@
         margin-right: auto;
     }
 }
+
+
+#education .markets_map,
+#education .markets_map .column_wrap,
+#education .markets_map .column_100,
+#education .markets_map .column_row { 
+    width: 100vw; 
+    max-width: unset;
+}
+
+
+#education #map{ 
+    height: calc(100vh - (var(--header-height)));
+}
+#education.has-banner #map  {
+    height: calc(100vh - (var(--header-height) + var(--banner-height)));
+}
+
+#education #map button:last-of-type {
+    display: none;
+}

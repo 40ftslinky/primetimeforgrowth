@@ -16,10 +16,20 @@
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="stylesheet" href="./css/navigation_new_div.css">
 
+        <link rel="stylesheet" href="./css/map.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
 
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://kit.fontawesome.com/08e8c4f6cf.js" crossorigin="anonymous"></script>                
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
 
     </head>
     <body class="education has-banner" id="education">
@@ -640,6 +650,27 @@
                 </div>
             </section>
 
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!-- markets_map section -->
+
+            <section class="section markets_map">
+                                            
+                <div class="column_wrap">
+
+                    <div class="column_100">
+
+                        <div class="column_row">
+                            <div id="map" class="column_100">
+                
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </section>
+
             
             <!--  -->
             <!--  -->
@@ -928,5 +959,11 @@
         </script>
         
         <script src="" async defer></script>
+
+        <script src="./js/maps/prime_broadcast.js"></script>
+        <!-- <script src="./js/maps/states.js"></script> -->
+        <!-- <script src="./js/maps/state_regions.js"></script> -->
+        <script src="./js/maps/custom_map.js"></script>
+
     </body>
 </html>

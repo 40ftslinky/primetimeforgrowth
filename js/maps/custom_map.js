@@ -135,4 +135,4 @@
 	// 		.openOn(mymap);
 	// }
 
-	// mymap.on('click', onMapClick);
+	mymap.on('click', onMapClick);

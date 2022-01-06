@@ -37,9 +37,6 @@
     height: 50vh;
 }
 
-#education .hero {
-    height: 80vh;
-}
 
 
 .section {
@@ -100,7 +97,6 @@
 }
 
 
-
 #signup .hero{
     background-image: url(../img/signup_hero_bg.jpg);
     background-color: rgba(var(--theme-dark-rgb),0.5);
@@ -122,32 +118,11 @@
     background-color: rgba(var(--theme-dark-rgb),0.5);
 }
 
+/* ------------------------- */
+/* primehub bgs 
+in primehub.css */
+/* ------------------------- */
 
-#education .hero {
-    background-image: url(../img/education_hero_bg.jpg);
-    background-color: rgba(var(--theme-dark-rgb),0.1);
-    background-position: top center;
-}
-#primehub .hero {
-    background-image: url(../img/primehub_hero_bg.jpg);
-    background-color: rgba(var(--theme-dark-rgb),0.1);
-    background-position: top center;
-}
-#meet_the_markets .hero {
-    background-image: url(../img/meet_the_markets_hero_bg.jpg);
-    background-color: rgba(var(--theme-dark-rgb),0.5);
-    background-position: top center;
-}
-#meet_the_network .hero {
-    background-image: url(../img/meet_the_network_hero_bg.jpg);
-    background-color: rgba(var(--theme-dark-rgb),0.5);
-    background-position: top center;
-}
-#meet_the_stations .hero {
-    background-image: url(../img/meet_the_stations_hero_bg.jpg);
-    background-color: rgba(var(--theme-dark-rgb),0.5);
-    background-position: top center;
-}
 
 .hero section {
     position: absolute;
@@ -213,6 +188,13 @@
     z-index: 12;
     right: 13.5%;
     background-image: url(../img/red_slide_down.svg);
+    mix-blend-mode:overlay;
+    opacity: 0.8;
+}
+.slide-in_left_alt {
+    z-index: 12;
+    right: 13.5%;
+    background-image: url(../img/darkred_slide.svg);
     mix-blend-mode:overlay;
     opacity: 0.8;
 }

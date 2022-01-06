@@ -1,5 +1,78 @@
 /* primehub.css */
 
+/* ------------------------- */
+/* hero images */
+
+
+.education .hero {
+    background-image: url(../img/education_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.1);
+    background-position: top center;
+}
+.primehub .hero {
+    background-image: url(../img/primehub_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.1);
+    background-position: top center;
+}
+.meet_the_markets .hero {
+    background-image: url(../img/meet_the_markets_hero_bg.jpg);
+    background-color: rgba(var(--darkred-rgb),0.5);
+    background-position: center center;
+}
+.meet_the_network .hero {
+    background-image: url(../img/meet_the_network_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+    background-position: top center;
+}
+.meet_the_stations .hero {
+    background-image: url(../img/meet_the_stations_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+    background-position: top center;
+}
+.single_title .hero {
+    background-image: url(https://i.vimeocdn.com/video/1341266929-217a5d7988bdc5b39d9fcbe33fc84376a537cbb58381de1cff75868d3027636b-d.jpeg);
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+    background-position: top center;
+}
+
+
+
+/* ------------------------- */
+/* hero sections */
+
+
+.education .hero,
+.primehub .hero {
+    height: 80vh !important;
+}
+.meet_the_markets .hero,
+.meet_the_network .hero,
+.meet_the_stations .hero,
+.meet_the_markets.albury_wodonga .hero,
+.meet_the_markets.shepparton .hero,
+.meet_the_markets.bendigo .hero,
+.meet_the_markets.ballarat_western_victoria .hero,
+.meet_the_markets.gippsland .hero,
+.meet_the_markets.mildura .hero,
+.meet_the_markets.tamworth .hero,
+.meet_the_markets.mid_north_coast .hero,
+.meet_the_markets.wollongong_far_south_coast .hero,
+.meet_the_markets.newcastle .hero,
+.meet_the_markets.central_coast .hero,
+.meet_the_markets.canberra .hero,
+.meet_the_markets.wagga_wagga .hero,
+.meet_the_markets.orange_dubbo .hero,
+.meet_the_markets.gold_coast .hero,
+.meet_the_markets.coffs_harbour .hero,
+.meet_the_markets.ballina_byron .hero,
+.single_title .hero
+{
+    height: 60vh !important;
+}
+
+
+/* ------------------------- */
+
 #primehub .column_wrap {
     padding: 2.5% 0;
 }
@@ -67,13 +140,15 @@
     }
 }
 
+/* ------------------------- */
+/* map */
 
 #primehub .markets_map,
 #primehub .markets_map .column_wrap,
 #primehub .markets_map .column_100,
 #primehub .markets_map .column_row { 
-    width: 100vw; 
-    width: 100vw; 
+    /* width: 100vw;  */
+    width: 100%; 
     max-width: unset;
 }
 

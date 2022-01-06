@@ -123,8 +123,28 @@
 }
 
 
-#education .hero{
+#education .hero {
     background-image: url(../img/education_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.1);
+    background-position: top center;
+}
+#primehub .hero {
+    background-image: url(../img/primehub_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.1);
+    background-position: top center;
+}
+#meet_the_markets .hero {
+    background-image: url(../img/meet_the_markets_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+    background-position: top center;
+}
+#meet_the_network .hero {
+    background-image: url(../img/meet_the_network_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+    background-position: top center;
+}
+#meet_the_stations .hero {
+    background-image: url(../img/meet_the_stations_hero_bg.jpg);
     background-color: rgba(var(--theme-dark-rgb),0.5);
     background-position: top center;
 }

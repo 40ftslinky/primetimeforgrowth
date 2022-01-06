@@ -245,21 +245,31 @@ a.menu_desc_link {
 a.menu_desc_link svg path {
     fill: #bdbdbd;
 }
-#prime7 svg path {
+#prime7:hover svg path {
     fill: #D52B1E;
 }
 
-#prime7two svg path {
+#prime7two:hover svg path {
     fill: #f2661a;
 }
 
-#prime7mate svg path {
+#prime7mate:hover svg path {
     fill: #0180ff;
 }
-#prime7flix svg path {
+#prime7flix:hover svg path {
     fill: #9100ce;
 }
 
-[id*="prime7"]:hover svg path {
+/* 
+a[id*='prime7']:hover svg {
+    opacity: 0.6;
+}
+
+a[id*='prime7']:hover svg path {
     fill: pink;
+} */
+
+#stations .menu_desc_wrap ul li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }

@@ -73,6 +73,7 @@
 #education .markets_map .column_100,
 #education .markets_map .column_row { 
     width: 100vw; 
+    width: 100vw; 
     max-width: unset;
 }
 

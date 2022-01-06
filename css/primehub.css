@@ -35,6 +35,12 @@
     background-position: top center;
 }
 
+.single_title.bendigo .hero {
+    background-image: url(https://i.vimeocdn.com/video/1341266929-217a5d7988bdc5b39d9fcbe33fc84376a537cbb58381de1cff75868d3027636b-d.jpeg);
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+    background-position: top center;
+}
+
 
 
 /* ------------------------- */

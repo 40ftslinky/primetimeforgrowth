@@ -102,6 +102,12 @@
     background-color: rgba(var(--theme-dark-rgb),0.5);
 }
 
+
+#signin .hero{
+    background-image: url(../img/signin_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+}
+
 #account .hero{
     background-image: url(../img/signin_hero_bg.jpg);
     background-color: rgba(var(--theme-dark-rgb),0.5);

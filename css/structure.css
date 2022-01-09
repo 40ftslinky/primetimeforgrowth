@@ -333,12 +333,15 @@ and ( max-width: 1232px ) {
 
 /* OTHER */
 
+.no_scroll {
+    overflow: hidden;
+}
+
 .block {
     display: block;
 }
-[class*="_block"] {
 
-}
+[class*="_block"] { }
 
 .float-right {
     float: right;

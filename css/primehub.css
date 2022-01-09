@@ -167,5 +167,5 @@
 }
 
 #primehub #map button:last-of-type {
-    display: none;
+    /* display: none; */
 }

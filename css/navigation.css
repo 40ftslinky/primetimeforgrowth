@@ -410,16 +410,19 @@ nav .menu-list li .sub_menu-dropdown a */
 }
 .menu-item a.has-sub {
     padding: 1rem 2rem 1rem 1rem ;
+    
 }
 .has-avatar a {
     padding: 1rem;
 }
 
-.menu-link span{
+.menu-link span, 
+.menu-item a.has-sub {
     /* font-family: var(--font-link);    */
     color: rgba(var(--menu-link-rgb),0.8);
 }
-.menu-link:hover span{
+.menu-link:hover span, 
+.menu-link:hover .menu-item a.has-sub {
     /* font-family: var(--font-link);    */
     color: rgba(var(--menu-link-rgb),1);
 }

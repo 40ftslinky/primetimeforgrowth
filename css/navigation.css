@@ -173,7 +173,7 @@ header a:hover {
     margin-left: 3rem;
 }
 
-:not(.customize-support) .secondary_menu-list {
+body:not(.customize-support) .secondary_menu-list {
     display: none;
  }
 .secondary_menu-list {

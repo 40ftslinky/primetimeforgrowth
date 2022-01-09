@@ -63,9 +63,11 @@ body { background: var(--theme-light); }
 .section {    
     overflow: hidden;
 }
-#adbuilder_form .section:first-of-type .column_wrap {
+#adbuilder_form .section:first-of-type .column_wrap,
+#adbuilder_form .section.progress_build .column_wrap {
     padding-top: 0;
 }
+
 #adbuilder_form .section:first-of-type {
     /* min-height: 100vh; */
 }

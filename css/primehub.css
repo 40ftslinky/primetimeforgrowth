@@ -169,3 +169,8 @@
 #primehub #map button:last-of-type {
     /* display: none; */
 }
+
+.fixed .leaflet-top {
+    position: fixed;
+    top: calc(90px + var(--banner-height));
+}

@@ -4,12 +4,15 @@ jQuery(document).ready(function( $ ) {
             
     $(window).scroll(function(){
         var docHeight = $(document).height();
-        var winScrolled = window.innerHeight + $(window).scrollTop();
+        var windowTop = $(window).scrollTop();
+        var winScrolled = window.innerHeight + windowTop;
         var topBannerHeight = $('.header').height();
         var topPlusBannerHeight = $('.header').height() + $('.production_date_banner').height();
         var mapHeight = $('#primehub #map').height();
+        var mapTop = $('#map').offset().top;
+
         
-        if (winScrolled > docHeight - topBannerHeight - mapHeight) {
+        if (winScrolled >= mapTop + mapHeight && winScrolled <= mapTop + mapHeight + mapHeight - (100)) {
             // console.log("reached bottom!");
             $('#map').addClass('fixed');
         } else {

@@ -73,17 +73,17 @@
 
 /* The Close Button */
 .close {
-    color: #aaa;
+    /* color: #aaa;
     float: right;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bold; */
   }
   
   .close:hover,
   .close:focus {
-    color: black;
+    /* color: black;
     text-decoration: none;
-    cursor: pointer;
+    cursor: pointer; */
   }
 
   

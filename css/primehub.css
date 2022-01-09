@@ -174,3 +174,7 @@
     position: fixed;
     top: calc(90px + var(--banner-height));
 }
+
+.video_wrap {
+    margin-bottom: 2rem;
+}

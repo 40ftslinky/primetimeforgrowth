@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 1080px) and (max-width: 1220px) {
     .sub_menu-dropdown {
-        left: calc(50%);
+        /* left: calc(50%); */
     }
 }
 
@@ -268,6 +268,7 @@ a.menu_desc_link {
 
 a.menu_desc_link:hover {
     color: rgba(var(--black),0.7);
+    text-decoration: underline;
 }
 
 a.menu_desc_link svg path {

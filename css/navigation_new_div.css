@@ -262,9 +262,12 @@ a.sub_menu-link * {
 }
 
 a.menu_desc_link {
-    /* position: relative;
-    display: block; */
+    color: rgba(var(--black),1.0);
     padding: 0;
+}
+
+a.menu_desc_link:hover {
+    color: rgba(var(--black),0.7);
 }
 
 a.menu_desc_link svg path {

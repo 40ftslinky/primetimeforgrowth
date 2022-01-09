@@ -5,12 +5,12 @@
 .mega_menu {
     
 }
+
 @media screen and (max-width: 1080px) {
     .mega_menu {
         /* display: none; */
     }
 }
-
 
 #mega_menu_section_3 {
     box-shadow: #CED4DA 0px 5px 15px;
@@ -22,7 +22,6 @@
     clear: both;
     float:left;
 }
-
 
 .sub_menu-dropdown {
     position: absolute;
@@ -55,6 +54,7 @@
     margin-top: 0;
     
 }
+
 @media screen and (max-width: 75em) {
     .sub_menu-dropdown {
         /* left:unset; */
@@ -234,6 +234,16 @@ a.sub_menu-link * {
     display: block;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.menu_desc_wrap .button_wrap_left {
+    margin-bottom: 0;
+}
+.menu_desc_wrap:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0.185rem;
 }
 
 a.menu_desc_link {

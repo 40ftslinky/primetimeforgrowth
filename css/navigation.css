@@ -170,12 +170,13 @@ header a:hover {
 }
 
 .secondary_menu-list {
-    /* position:relative; */
-    display: flex;
+    display: none;
     margin-left: 3rem;
 }
 
-
+.customise_support .secondary_menu-list {
+    display: flex;
+}
 
 @media  screen and (max-width: 1080px) {
     .secondary_menu-list {

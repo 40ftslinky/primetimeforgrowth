@@ -31,6 +31,12 @@
     left: 50%;
 }
 
+@media screen and (min-width: 1080px) and (max-width: 1220px) {
+    .sub_menu-dropdown {
+        left: calc(50%);
+    }
+}
+
 .sub_menu-dropdown {
     position: absolute;
     top: calc(var(--header-height));

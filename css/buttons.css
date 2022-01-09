@@ -58,9 +58,9 @@ button,
     min-width: 150px;
 }
 
-:focus {
-    background: rgba(var(--red-rgb), 0.8);
-    box-shadow: 0 0 1rem rgb(213 43 30 / 10%);
+.button:focus {
+    outline: rgba(var(--red-rgb), 0.8) !important;
+    box-shadow: 0 0 0.25rem rgb(213 43 30 / 90%) !important;
 }
 
 

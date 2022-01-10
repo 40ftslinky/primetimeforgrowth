@@ -105,19 +105,25 @@
     overflow: hidden;
   }
 
-  .stage_wrap {
-      display: flex;
-      justify-content: center;
-      gap:2rem;
-  }
-  @media (max-width: 1080px){ 
+.stage_wrap {
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+    @media (max-width: 1080px){ 
         .stage_wrap {
             display: flex;
             flex-direction: column;
             gap:1rem;
         }
     }
-  
+
+.stage_wrap p {
+    text-align: center;
+}     
+.stage_wrap div {
+    text-align: left;
+}  
 
  .dot-flashing {
     position: relative;

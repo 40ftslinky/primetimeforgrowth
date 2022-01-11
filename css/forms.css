@@ -72,7 +72,6 @@ input:focus, textarea:focus, button:focus {
     display: inline-block;
     width: max-content;
     font-size: 1rem;
-    margin-right: 0.25rem;
   }
   .forms label input[type=checkbox],
   .stage_wrap label input[type=checkbox] {
@@ -91,10 +90,10 @@ input:focus, textarea:focus, button:focus {
 
   /* checkbox indent */
 
-  .checkbox_outer .forms label {
+  .forms .checkbox_outer label {
     margin: 1em 0 0 1.25rem;
   }
-  .checkbox_outer .forms label input[type=checkbox] {
+  .forms .checkbox_outer label input[type=checkbox] {
     margin-left: -1.25rem;
   }
 

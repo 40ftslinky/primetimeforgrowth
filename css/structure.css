@@ -43,6 +43,7 @@ body { background: var(--theme-light); }
 #privacy main,
 #account main,
 #primehub.single_title main,
+#meet-the-network main,
 .market main,
 .station main {
     padding-top: var(--header-height);
@@ -61,6 +62,7 @@ body { background: var(--theme-light); }
 #privacy.has-banner main,
 #account.has-banner main,
 #primehub.single_title.has-banner main,
+#meet-the-network.has-banner main,
 .market.has-banner main,
 .station.has-banner main  {
     padding-top: calc(var(--header-height) + var(--banner-height));

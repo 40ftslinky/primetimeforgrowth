@@ -41,6 +41,11 @@
     vertical-align: middle;
 }
 
+#dashboard table:not( .has-background ) th,
+#dashboard #data-table .table__row--header th { {
+    background-color: #0f0f0f;
+}
+
 th {
     text-align: left;
     font-weight: 500;

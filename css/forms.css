@@ -8,6 +8,7 @@
 a:focus {
   outline: none;
 }
+
 input:focus, textarea:focus, button:focus {
   /* outline: 2px solid #7f54b3; */
   /* outline: 0.5px solid rgba(var(--black-rgb), 0.1) !important; */
@@ -84,6 +85,14 @@ input:focus, textarea:focus, button:focus {
     top: -3px;
   }
 
+  /* checkbox indent */
+
+  .checkbox_outer .forms label {
+    margin: 1em 0 0 1.25rem;
+  }
+  .checkbox_outer .forms label input[type=checkbox] {
+    margin-left: -1.25rem;
+  }
 
   /* ------------------------------------------------ */
 

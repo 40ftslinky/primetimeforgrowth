@@ -72,6 +72,7 @@ input:focus, textarea:focus, button:focus {
     display: inline-block;
     width: max-content;
     font-size: 1rem;
+    margin-right: 0.25rem;
   }
 
   .forms label input[type=checkbox] {

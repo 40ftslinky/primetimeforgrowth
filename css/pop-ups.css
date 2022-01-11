@@ -183,6 +183,9 @@
     text-align: left;
     max-width: 35%;
 }
+.stagetxt_wrap p {
+    text-align: left;
+}
 
 .stagetxt_wrap h4 {
     margin-top: 0;
@@ -293,4 +296,15 @@ stage video {
     .close a .fas {
         margin-left: 0.5rem;
     }
+}
+
+
+/*  */
+
+.selected_region_notice {
+    padding: 2rem;
+}
+
+.selected_region_notice .warning {
+    font-size: 14px;
 }

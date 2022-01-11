@@ -74,7 +74,10 @@ input:focus, textarea:focus, button:focus {
     font-size: 1rem;
     margin-right: 0.25rem;
   }
-
+  .forms label input[type=checkbox],
+  .stage_wrap label input[type=checkbox] {
+    margin-right: 0.25rem;
+  }
   .forms label input[type=checkbox] {
     vertical-align: bottom;
     position: relative;

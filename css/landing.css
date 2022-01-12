@@ -146,6 +146,8 @@ in primehub.css */
     .hero section {
         position: relative;
         width: 80vw;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }
 

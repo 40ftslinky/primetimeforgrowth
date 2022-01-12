@@ -7,7 +7,7 @@
     }
     #signin .column_wrap [class*="column_"],
     #signup .column_wrap [class*="column_"] {
-        padding-bottom: 2rem;
+        margin-bottom: 2rem;
     }
 
 }

@@ -103,6 +103,9 @@
 .progress_update li.is-active {
     font-weight: 600;
 }
+.progress_update li:first-child {
+  text-align: left;
+}
 .progress_update li:first-child,
 .progress_update li:last-child {
   flex: 1;

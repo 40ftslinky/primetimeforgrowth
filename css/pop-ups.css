@@ -19,17 +19,6 @@
     overflow-y: hidden;
 }
 
-.modal_bg, #modal_bg {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.33);
-    top: 0;
-    left: 0;
-    text-align: center;
-    padding-top: 0;
-    z-index: 999;
-}
 /* ross */
 .modal_bg{
     position: absolute;
@@ -54,6 +43,17 @@
     margin-left: 25%;
 }
 
+.modal_bg, #modal_bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.33);
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 0;
+    z-index: 999;
+}
 .modal, #modal_content {
     background-color: white;
     max-width: unset;

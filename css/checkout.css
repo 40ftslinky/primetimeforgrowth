@@ -250,7 +250,7 @@ tfoot tr:last-of-type {
 
 #cart .shop_table_outer,
 #cart .cart-collaterals {
-    max-width: calc(50% - 2rem);
+    max-width: calc((100% - 3rem) / 2 );
 }
 #cart .shop_table.shop_table_responsive {
     margin-right: 2rem;
@@ -271,7 +271,8 @@ tfoot tr:last-of-type {
 
 .woocommerce-order .order_received_wrap {}
 .woocommerce-order .column_wrap {
-
+    max-width: calc(100% - 3rem);
+    width: calc(100% - 3rem);
 }
 
 .checkout-button {}

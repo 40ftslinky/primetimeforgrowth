@@ -119,9 +119,13 @@
     }
 .stage_wrap.already_purchased_ad {
     flex-direction: column;
+    gap:1rem;
 }
 .stage_wrap.already_purchased_ad p {
     text-align: left;
+}
+.stage_wrap.already_purchased_ad [class*="button_wrap"] {
+    margin: 0;
 }
 
 .stage_wrap p {

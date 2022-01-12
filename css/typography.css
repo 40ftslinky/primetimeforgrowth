@@ -119,6 +119,11 @@ h6 {font-size: 1.1rem;}
 
 small, .text_small {font-size: 0.707rem;}
 
+.x-small { 
+  font-size: 0.6rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
 
 h1 {
 	margin-top: 0.53em;

@@ -140,7 +140,7 @@ table a {
 }
 #data-table .table__row--header .header__title {
     display: block;
-    padding: 1rem 0;
+    padding: 0;
     text-transform: capitalize;
     font-weight: 400;
 }

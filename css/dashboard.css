@@ -8,7 +8,6 @@
 
 #dashboard_list {
     display: fixed;
-
 }
 
 #dashboard_job {}
@@ -24,7 +23,7 @@
     align-items: flex-start;
     justify-content: flex-start;
 }
-.warnings_group { display:none }
+.warnings_group { display: none !important; }
 
 
 .pending i{ 

@@ -1,5 +1,11 @@
 /* dashboard.css */
 
+
+#dashboard .data-body .pre-title,
+#dashboard .data-body h2 {
+    display: none;
+}
+
 #dashboard_list {
     display: fixed;
 
@@ -11,12 +17,15 @@
 /* -------------------------------------------- */
 /* WARNINGS */
 
+
 .warnings_group {
     display: flex;
     align-content: flex-start;
     align-items: flex-start;
     justify-content: flex-start;
 }
+.warnings_group { display:none }
+
 
 .pending i{ 
     color: orange;

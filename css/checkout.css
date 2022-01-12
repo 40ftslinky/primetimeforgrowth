@@ -79,6 +79,10 @@
     }
 }
 
+#checkout .form-row label {
+    margin-bottom: 0.5rem;
+}
+
 /* ------------------------ */
 /* column 02 */
 

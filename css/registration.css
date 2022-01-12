@@ -1,9 +1,9 @@
 /* sign in & registration pages */
 
 @media screen and ( max-width: 1080px ){
-    #signup .hero  {
-        /* position: relative;
-        width: 80vw; */
+    #signin #adbuilder_form .hero .section,
+    #signup #adbuilder_form .hero .section {
+        padding-top: 3rem;
     }
 }
 

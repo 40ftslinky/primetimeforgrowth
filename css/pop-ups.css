@@ -117,6 +117,12 @@
             gap:1rem;
         }
     }
+.stage_wrap.already_purchased_ad {
+    flex-direction: column;
+}
+.stage_wrap.already_purchased_ad p {
+    text-align: left;
+}
 
 .stage_wrap p {
     text-align: center;

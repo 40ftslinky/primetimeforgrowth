@@ -42,8 +42,9 @@
 }
 
 #dashboard table:not( .has-background ) th,
-#dashboard #data-table .table__row--header th { {
+#dashboard #data-table .table__row--header th { 
     background-color: #0f0f0f;
+    color: white;
 }
 
 th {

@@ -259,8 +259,14 @@ html {
 .subtotal_banner_sect .inline {
   margin-bottom:0;
 }
+
 .subtotal_banner_sect .column_third:last-of-type {
   text-align: right;
+}
+@media screen and ( max-width: 1080px ){
+  .subtotal_banner_sect .column_third:last-of-type {
+    text-align: center;
+  }
 }
 
 .subtotal_banner_sect h5 {
@@ -282,10 +288,13 @@ html {
   padding: 0 2rem;
   /* margin: 0 0 1rem 0; */
   width: 100%;
+  display: flex;
+  gap: 2rem;
 }
 @media screen and ( max-width: 1080px ){
     .subtotal_banner {
         padding: 0 !important;
+        gap:1rem;
     }
 }
 

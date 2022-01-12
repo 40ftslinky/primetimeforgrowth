@@ -97,6 +97,13 @@ input:focus, textarea:focus, button:focus {
     margin-left: -1.25rem;
   }
 
+  /*  */
+
+  .checkbox_outer + .select_outer {
+    margin-top: 0.5rem;
+  }
+
+
   /* ------------------------------------------------ */
 
 #dashboard select,

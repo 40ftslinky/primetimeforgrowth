@@ -138,8 +138,7 @@ in primehub.css */
     max-width: 90vw;
 }
 @media screen and ( max-width: 1080px ){
-    .hero section,
-    #signup .hero  {
+    .hero section {
         position: relative;
         width: 80vw;
     }

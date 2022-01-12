@@ -1,0 +1,21 @@
+/* sign in & registration pages */
+
+@media screen and ( max-width: 1080px ){
+    #signup .hero  {
+        /* position: relative;
+        width: 80vw; */
+    }
+}
+
+
+#signup .button_wrap_left,
+#signin .button_wrap_left  {
+    display: none;
+}
+
+@media screen and ( max-width: 1080px ){
+    #signup .button_wrap_left,
+    #signin .button_wrap_left  {
+        display: flex;
+    }
+}

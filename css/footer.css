@@ -16,7 +16,9 @@
     }
 
     #home footer, 
-    .new_home footer {
+    .new_home footer,
+    #signup footer,
+    #signin footer {
         margin-top: 0 !important;
     }
 

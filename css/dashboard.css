@@ -35,16 +35,33 @@
 /* -------------------------------------------- */
 /* table elements */
 
+#dashboard table thead th {
+    padding: 0.5em;
+}
+#dashboard table td, table th {
+    padding: 0.5em;
+    text-align: left;
+}
+
 #dashboard table td, #dashboard table th {
     /* padding: 1em 1.41575em;
     text-align: left; */
     vertical-align: middle;
 }
 
-#dashboard table:not( .has-background ) th,
+#dashboard table:not( .has-background ) th {}
+
+
+
 #dashboard #data-table .table__row--header th { 
     background-color: #0f0f0f;
     color: white;
+    padding: 0.5rem 0.25rem 0.25rem 1rem;
+}
+
+#dashboard #data-table .table__row th {
+    background-color: white;
+    color: #0f0f0f;
 }
 
 th {

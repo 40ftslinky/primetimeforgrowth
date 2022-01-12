@@ -45,15 +45,15 @@
 /* table elements */
 
 #dashboard table thead th {
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 #dashboard table td, table th {
-    padding: 0.5em;
+    padding: 0.5rem 1rem;
     text-align: left;
 }
 
 #dashboard table td, #dashboard table th {
-    /* padding: 1em 1.41575em;
+    /* padding: 1rem 1.41575em;
     text-align: left; */
     vertical-align: middle;
 }
@@ -80,7 +80,7 @@ th {
 }
 
 td, th {
-    padding: 0.5em 1em;
+    padding: 0.5rem 1rem;
     /* min-width: 5em; */
     border-bottom: 1px solid #ddd;
 }
@@ -145,9 +145,9 @@ table a {
     color: #ffffff;
 }
 #data-table .table__row--header th:first-child {
-    text-align: center;
+    /* text-align: center; */
 }
-#data-table:nth-of-type(2) .table__row--header th:first-child {
+#data-table .table__row--header th:first-child {
     text-align: left;
 }
 #data-table .table__row--header .header__title {
@@ -337,9 +337,9 @@ span.status:before {
     linear-gradient(135deg, gray 50%, transparent 50%),
     linear-gradient(to right, #ccc, #ccc);
   background-position:
-    calc(100% - 20px) calc(1em ),
-    calc(100% - 15px) calc(1em ),
-    calc(100% - 2.5em) 0.5em;
+    calc(100% - 20px) calc(1rem ),
+    calc(100% - 15px) calc(1rem ),
+    calc(100% - 2.5em) 0.5rem;
   background-size:
     5px 5px,
     5px 5px,
@@ -352,9 +352,9 @@ span.status:before {
       linear-gradient(135deg, transparent 50%, black 50%),
       linear-gradient(to right, #ccc, #ccc);
     background-position:
-      calc(100% - 15px) 1em,
-      calc(100% - 20px) 1em,
-      calc(100% - 2.5em) 0.5em;
+      calc(100% - 15px) 1rem,
+      calc(100% - 20px) 1rem,
+      calc(100% - 2.5em) 0.5rem;
     background-size:
       5px 5px,
       5px 5px,

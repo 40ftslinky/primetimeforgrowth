@@ -5,6 +5,11 @@
     #signup #adbuilder_form .hero section.section {
         padding-top: 2rem; 
     }
+    #signin .column_wrap [class*="column_"],
+    #signup .column_wrap [class*="column_"] {
+        padding-bottom: 2rem;
+    }
+
 }
 
 

@@ -41,6 +41,9 @@
         margin: 2rem 0 0 0;
         width: 100%;
     }
+    [class*="button_wrap"] a {
+        width: 100%;
+    }
     .button_wrap_sm {
         gap:0.5em
     }

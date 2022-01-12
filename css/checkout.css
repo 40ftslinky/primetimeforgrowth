@@ -72,9 +72,12 @@
         width: 100%;
         float: unset !important;
     }
+    
+}
+@media screen and (max-width: 680px) {
     .col2-set .form-row-first, 
     .col2-set .form-row-last {
-        width:45% !important;
+        width:100% !important;
         float: unset !important;
     }
 }

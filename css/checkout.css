@@ -26,6 +26,16 @@
     padding: 0;
 }
 
+.woocommerce-billing-fields__field-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+}
+
+.form-row {
+    margin: 0;
+}
+ 
 #checkbox form,
 .checkout.woocommerce-checkout {
     display: flex;
@@ -52,7 +62,7 @@
 
 .col2-set .form-row-first,
 .col2-set .form-row-last {
-    width: calc(50% - 1rem);   
+    width: calc((100% - 1rem) / 2 );
 }
 @media screen and (max-width: 67.5em) {
     #checkout .col2-set,
@@ -79,6 +89,10 @@
     #checkout .checkout_col_2 {
         max-width: unset;
     }
+}
+
+.checkout_col_2 table.woocommerce-checkout-review-order-table .product-name {
+    width: unset;
 }
 
 /* ------------------------------------------------ */

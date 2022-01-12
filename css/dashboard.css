@@ -138,9 +138,12 @@ table a {
 #data-table .table__row--header th:first-child {
     text-align: center;
 }
+#data-table:nth-of-type(2) .table__row--header th:first-child {
+    text-align: left;
+}
 #data-table .table__row--header .header__title {
     display: block;
-    padding: 0;
+    padding: 0.5rem 0;
     text-transform: capitalize;
     font-weight: 400;
 }

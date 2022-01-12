@@ -38,6 +38,7 @@
 } */
 #account .hero, 
 #dashboard .hero,
+#delete_job .hero,
 #menu_test .hero {
     height: 50vh;
 }
@@ -119,7 +120,12 @@
 }
 
 #dashboard .hero{
-    background-image: url(../img/signup_hero_bg.jpg);
+    background-image: url(../img/dashboard_hero_bg.jpg);
+    background-color: rgba(var(--theme-dark-rgb),0.5);
+}
+
+#delete_job .hero{
+    background-image: url(../img/delete_hero_bg.jpg);
     background-color: rgba(var(--theme-dark-rgb),0.5);
 }
 

@@ -63,7 +63,9 @@
 .col2-set .form-row-first,
 .col2-set .form-row-last {
     width: calc((100% - 1rem) / 2 );
+    margin: 0;
 }
+
 @media screen and (max-width: 67.5em) {
     #checkout .col2-set,
     #checkout .checkout_col_2 {

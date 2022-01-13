@@ -72,6 +72,17 @@
     color: #0f0f0f;
 }
 
+.table__row.selected_row {
+    border-bottom: solid 2px;
+}
+.table__row:not(.selected_row) {
+    opacity: 0.8;
+}
+.table__row:hover {
+    opacity: 1.0;
+}
+
+
 th {
     text-align: left;
     font-weight: 500;

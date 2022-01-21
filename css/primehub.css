@@ -184,6 +184,7 @@
 .video_wrap {
     margin-bottom: 0rem;
 }
-#home .introduction .video_wrap {
-    /* margin-bottom: 0; */
+#meet-the-network .introduction .video_wrap,
+#station .introduction .video_wrap {
+    margin-bottom: 2rem;
 }

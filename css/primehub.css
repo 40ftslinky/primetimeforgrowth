@@ -178,6 +178,6 @@
 .video_wrap {
     margin-bottom: 2rem;
 }
-.introduction .video_wrap {
+#home .introduction .video_wrap {
     margin-bottom: 0;
 }

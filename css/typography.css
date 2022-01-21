@@ -38,13 +38,13 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 700;
 	line-height: 1.2;
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--base-font-family);
 }
 
 html {font-size: 100%;} /*14px*/
 
 body, p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--base-font-family);
     font-size: 14px;
     font-size: var(--base-font-size);
     line-height: 1.6;
@@ -97,8 +97,6 @@ i {
     letter-spacing: -0.025em;
 }
 
-._thin { font-weight: 300;}
-
 
 .subheading {
     font-weight: 400;
@@ -117,13 +115,7 @@ h5.pre-title {
 
 h6 {font-size: 1.1rem;}
 
-small, .text_small {font-size: 0.707rem;}
 
-.x-small { 
-  font-size: 0.6rem;
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
 
 h1 {
 	margin-top: 0.53em;
@@ -168,10 +160,23 @@ h6 {
     margin-top: 0;
 }
 
+/* ----------------------------- */
+/* variations */
+
 .large { font-size: 16px; }
 .small { font-size: 12px; }
 .micro { font-size: 10px; line-height: 150%; }
 
+
+._thin { font-weight: 300;}
+
+small, .text_small {font-size: 0.707rem;}
+
+.x-small { 
+  font-size: 0.6rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
 
 p, .normal {
 	margin-top: 1em;
@@ -182,6 +187,9 @@ p, .normal {
 	font-weight: 400;
 	font-style: normal;
 }
+
+/* ----------------------------- */
+/*  */
 
 strong {
 	font-weight: 700;
@@ -228,7 +236,7 @@ ol.tc_counter {
   ol.tc_counter:nth-of-type(2) li::marker { 
     content: "2.";
   }
-  ol.tc_counter:nth-of-type(32) li::marker { 
+  ol.tc_counter:nth-of-type(3) li::marker { 
     content: "3.";
   }
   ol.tc_counter:nth-of-type(4) li::marker { 

@@ -11,6 +11,7 @@
     --base-font-percent: 62.5%;
     --base-font-size: 14px;
     --base-font-weight: 400;
+    --link-font-weight: 600;
     --font-size-base: 1rem;
     --font-size-xs: 0.6rem;
     --font-size-sm: 0.8rem;
@@ -56,6 +57,9 @@ body, p {
      font-weight: 700;
  }
  
+ /* ----------------------------- */
+ /* LINKS */
+
  a {
     text-decoration: none;
     cursor: pointer;
@@ -78,6 +82,16 @@ a:focus {
     outline: none;
 }
 
+.text_wrap a {
+  font-weight: var(--link-font-weight);
+}
+.text_wrap a:hover {
+  text-decoration: underline;
+}
+
+/* ----------------------------- */
+
+
 input:focus, textarea:focus, button:focus,
 .form input:focus, 
 .form textarea:focus, 
@@ -85,6 +99,7 @@ input:focus, textarea:focus, button:focus,
     outline: 2px solid var(--gray-200);
 }
 
+/* ----------------------------- */
 
 i {
     font-family: 'FontAwesome';

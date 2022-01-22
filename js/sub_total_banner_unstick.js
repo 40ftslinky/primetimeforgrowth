@@ -10,11 +10,13 @@ jQuery(document).ready(function( $ ) {
         
         if (winScrolled > docHeight - footHeight - subfootHeight) {
             // console.log("reached bottom!");
-            $('.subtotal_banner_sect').addClass('unfixed');
-            $('.footer').css('margin-top','0');
+            // temp next two lines remove to test
+            // $('.subtotal_banner_sect').addClass('unfixed');
+            // $('.footer').css('margin-top','0');
         } else {
-            $('.subtotal_banner_sect').removeClass('unfixed');
-            $('.footer').css('margin-top','5rem');
+            // temp next two lines remove to test
+            // $('.subtotal_banner_sect').removeClass('unfixed');
+            // $('.footer').css('margin-top','5rem');
 
         }        
     });

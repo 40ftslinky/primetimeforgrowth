@@ -269,6 +269,10 @@ html {
   }
 }
 
+.subtotal_banner_sect .fas {
+  font-size: 1.414rem;
+  margin-bottom: 0.25em;
+}
 .subtotal_banner_sect h5 {
   margin-top: 0;
   margin-bottom:0.25em;

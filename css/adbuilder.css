@@ -306,7 +306,7 @@ html {
 /* AdBuilder Sections */
 
 
-[class*="_progress"] .column_wrap {
+[class*="progress_"] .column_wrap {
   padding: 1% 0 1%;
 }
 

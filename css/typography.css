@@ -82,10 +82,10 @@ a:focus {
     outline: none;
 }
 
-.text_wrap a {
+.text_wrap a, .skip_this_step {
   font-weight: var(--link-font-weight);
 }
-.text_wrap a:hover {
+.text_wrap a:hover, .skip_this_step:hover {
   text-decoration: underline;
 }
 

@@ -173,6 +173,7 @@ body { background: var(--theme-light); }
 .column_20 { --columns: 2; }
 .column_10 { --columns: 1; }
 
+.column_50 {display: flex;}
 
 @media screen and ( max-width: 67.5em ){
     .column_third { 

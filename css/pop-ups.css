@@ -339,6 +339,11 @@ stage video {
 .selected_region_notice {
     padding: 0 2rem;
 }
+@media screen and ( max-width: 1080px ) {
+    .selected_region_notice {
+        padding: 0 ;
+    }
+}
 
 .selected_region_notice .warning {
     font-size: 14px;

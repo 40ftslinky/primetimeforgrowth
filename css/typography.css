@@ -10,7 +10,9 @@
     --base-line-height: 1.6;
     --base-font-percent: 62.5%;
     --base-font-size: 14px;
+    --thin-font-weight: 300;
     --base-font-weight: 400;
+    --large-font-weight: 500;
     --link-font-weight: 600;
     --font-size-base: 1rem;
     --font-size-xs: 0.6rem;
@@ -178,12 +180,12 @@ h6 {
 /* ----------------------------- */
 /* variations */
 
-.large { font-size: 16px; }
+.large { font-size: 16px; font-weight: var(--large-font-weight);}
 .small { font-size: 12px; }
 .micro { font-size: 10px; line-height: 150%; }
 
 
-._thin { font-weight: 300;}
+._thin { font-weight: var(--thin-font-weight);}
 
 small, .text_small {font-size: 0.707rem;}
 

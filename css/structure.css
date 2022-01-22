@@ -113,6 +113,7 @@ body { background: var(--theme-light); }
 }
 .column_wrap {
     justify-content: center;
+    align-items: flex-start;
 }
 .column_row {
     justify-content: flex-start;

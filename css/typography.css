@@ -151,6 +151,7 @@ h2 {
 h2 sup {
   font-weight: 300;
   font-size: 1.25rem;
+  position: absolute;
 }
 
 h3 {

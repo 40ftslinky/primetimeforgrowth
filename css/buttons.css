@@ -51,17 +51,17 @@
 
 
 button, 
-.button, .contiune {
+.button, .continue {
     font-size: 14px;
     border-radius: 0px;
     position: relative;
     cursor: pointer;
 }
-.button, .contiune {
+.button, .continue {
     min-width: 150px;
 }
 
-.button:focus, .contiune:focus {
+.button:focus, .continue:focus {
     outline: rgba(var(--red-rgb), 0.8) !important;
     box-shadow: 0 0 0.25rem rgb(0 0 0 / 30%) !important;
 }
@@ -69,14 +69,14 @@ button,
 
 @media screen and ( max-width: 550px ){
     /* button,  */
-    .button, .contiune {
+    .button, .continue {
         display: block;
         width: 100%;
     }
 }
 
-button, 
-.button, .contiune {    
+/* button,  */
+.button, .continue {    
     font-weight: 500;
     padding: .5em 1em;
     line-height: 1.7em!important;

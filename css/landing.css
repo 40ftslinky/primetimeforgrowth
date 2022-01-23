@@ -289,7 +289,8 @@ in primehub.css */
 }
 
 .black_bg a {
-    color: white;
+    color: rgba(255,255,255,1.0)!important;
+    font-weight: 500;
 }
 
 .black_bg a:hover {

@@ -91,6 +91,14 @@ a:focus {
   text-decoration: underline;
 }
 
+.white a {
+  color: white !important;
+}
+.white a:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+
 /* ----------------------------- */
 
 

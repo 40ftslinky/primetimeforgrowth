@@ -148,6 +148,11 @@ h2 {
     margin-top: 0 !important;
 }
 
+h2 sup {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
 h3 {
 	margin-top: 0.4em;
 	margin-bottom: 0.4em;

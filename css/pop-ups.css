@@ -247,6 +247,10 @@ stage video {
         margin: 0;
     }
 }
+.stage_wrap .video_wrap {
+    margin-bottom: 0;
+}
+
 
 
 /* -------------------------------------------- */

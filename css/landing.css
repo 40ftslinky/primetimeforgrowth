@@ -288,6 +288,15 @@ in primehub.css */
     color: rgba(255,255,255,0.8)!important;
 }
 
+.black_bg a {
+    color: white;
+}
+
+.black_bg a:hover {
+    color: rgba(0,0,0,1)!important;
+    /* text-decoration: underline; */
+    background-color: var(--white);
+}
 /* ------------------------------------------ */
 /* video section (at TOP) */
 /* ------------------------------------------ */

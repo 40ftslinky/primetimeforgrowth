@@ -226,6 +226,10 @@
     margin-top: 0;
 }
 
+.stagetxt_wrap .button_wrap_left {
+    margin-bottom: 0;
+}
+
 stage video {
     margin-top: 3rem;
     width: 100%    !important;

@@ -126,7 +126,7 @@
     align-items: center;
     position: relative;
     /* padding: 2rem 0; */
-    margin: 0 -5%;
+    margin: 0;
     overflow: hidden;
   }
 
@@ -214,7 +214,7 @@
 /* -------------------------------------------- */
 
 .stagetxt_wrap {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     text-align: left;
     max-width: 35%;
 }
@@ -247,6 +247,7 @@ stage video {
         margin: 0;
     }
 }
+
 .stage_wrap .video_wrap {
     margin-bottom: 0;
 }

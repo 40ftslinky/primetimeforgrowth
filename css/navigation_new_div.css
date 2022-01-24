@@ -81,9 +81,9 @@
 }
 
 @media screen and (max-width: 1080px) {
-    .sub_menu-dropdown {
+    .sub_menu-dropdown,
+    .customize-support .sub_menu-dropdown {
         position: relative;
-        margin-top: 0;
         transform: none;
         left: unset;
         top: unset;

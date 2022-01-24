@@ -82,6 +82,10 @@ input:focus, textarea:focus, button:focus {
     position: relative;
     top: -3px;
   }
+  .images_check label input[type=checkbox] {
+    top: 0;
+  }
+
   .forms label input[type=radio] {
     vertical-align: bottom;
     position: relative;

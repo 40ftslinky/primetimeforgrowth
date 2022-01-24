@@ -79,6 +79,22 @@
         /* left: 18px; */
     }
 }
+
+@media screen and (max-width: 1080px) {
+    .sub_menu-dropdown {
+        position: relative;
+        margin-top: 0;
+        transform: none;
+        left: unset;
+        top: unset;
+    }
+    .sub_menu-dropdown-wrap {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+}
+
 /* -------------------------------- */
 /* nav ul ul div */
 

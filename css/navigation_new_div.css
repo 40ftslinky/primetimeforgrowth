@@ -157,7 +157,9 @@ a.sub_menu-link * {
 .sub_menu-item_wrapper { 
     min-width: 20vw;
 }
-.sub_menu-item_wrapper:hover { 
+.sub_menu-item_wrapper:hover,
+.sub_menu-item_wrapper:has(.is-tabbed)
+ { 
     background-color: darkred
 }
 
@@ -177,8 +179,8 @@ a.sub_menu-link * {
     /* color: rgba(var(--darkred-rgb),1.0); */
     color:white;
     font-weight: 600;
-    background: rgba(var(--darkred-rgb),1.0);
-    background-color: rgba(var(--darkred-rgb),1.0);
+    background: transparent;
+    background-color: transparent;
 }
 
 .sub_menu-item_heading {

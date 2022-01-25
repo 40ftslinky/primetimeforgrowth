@@ -164,8 +164,8 @@ a.sub_menu-link * {
 .sub_menu-item_wrapper:has(.is-tabbed) { 
     background-color: darkred
 }
-.sub_menu-item_wrapper:not(.is-tabbed) { 
-    /* background-color: darkred */
+.sub_menu-item_wrapper.is-tabbed { 
+    background-color: darkred
 }
 
 

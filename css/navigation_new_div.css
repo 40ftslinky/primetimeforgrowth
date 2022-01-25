@@ -179,8 +179,8 @@ a.sub_menu-link * {
     color:white;
 }
 
-.sub_menu-item a.sub_menu-link:hover .sub_menu-item_heading,
-.sub_menu-item a.sub_menu-link.is-tabbed .sub_menu-item_heading{
+.sub_menu-item_wrapper:hover .sub_menu-item_heading,
+.is-tabbed .sub_menu-item_heading {
     /* color: rgba(var(--darkred-rgb),1.0); */
     color:white;
     font-weight: 600;

@@ -157,9 +157,10 @@ a.sub_menu-link * {
 .sub_menu-item_wrapper { 
     min-width: 20vw;
 }
-.sub_menu-item_wrapper:hover,
-.sub_menu-item_wrapper:has(.is-tabbed)
- { 
+.sub_menu-item_wrapper:hover { 
+    background-color: darkred
+}
+.sub_menu-item_wrapper:has(.sub_menu-item a.sub_menu-link.is-tabbed) { 
     background-color: darkred
 }
 
@@ -175,7 +176,7 @@ a.sub_menu-link * {
 }
 
 .sub_menu-item a.sub_menu-link:hover .sub_menu-item_heading,
-.sub_menu-item a.sub_menu-link .sub_menu-item_heading.is-tabbed {
+.sub_menu-item a.sub_menu-link.is-tabbed .sub_menu-item_heading{
     /* color: rgba(var(--darkred-rgb),1.0); */
     color:white;
     font-weight: 600;

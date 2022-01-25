@@ -160,8 +160,12 @@ a.sub_menu-link * {
 .sub_menu-item_wrapper:hover { 
     background-color: darkred
 }
-.sub_menu-item_wrapper:has(.sub_menu-item a.sub_menu-link.is-tabbed) { 
+/* for future spec  - psuedo-parent selector*/
+.sub_menu-item_wrapper:has(.is-tabbed) { 
     background-color: darkred
+}
+.sub_menu-item_wrapper:not(.is-tabbed) { 
+    /* background-color: darkred */
 }
 
 

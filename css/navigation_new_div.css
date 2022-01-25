@@ -168,12 +168,12 @@ a.sub_menu-link * {
     font-weight: 400;
 }
 .is-tabbed .sub_menu-item_heading {
-    color: rgba(var(--theme-darkred-rgb),1.0);
+    color: rgba(var(--darkred-rgb),1.0);
 }
 
 .sub_menu-item a.sub_menu-link:hover .sub_menu-item_heading,
 .sub_menu-item a.sub_menu-link .sub_menu-item_heading.is-tabbed {
-    color: rgba(var(--theme-darkred-rgb),1.0);
+    color: rgba(var(--darkred-rgb),1.0);
     font-weight: 600;
     background: transparent;
     background-color: transparent;

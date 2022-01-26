@@ -254,6 +254,10 @@ stage video {
 
 .stage_wrap .video_wrap {
     margin-bottom: 0;
+    min-width:50vw; 
+    max-width:720px; 
+    display:block; 
+    padding:0 ;
 }
 
 

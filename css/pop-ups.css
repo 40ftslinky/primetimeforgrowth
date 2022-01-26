@@ -361,3 +361,32 @@ stage video {
 .selected_region_notice .warning {
     font-size: 14px;
 }
+
+
+/* ENQUIRY FORM */
+
+
+.stage_wrap label {
+    display: block;
+    margin: 1em 0;
+    font-size: 0.8rem;
+    max-width: 100%;
+    cursor: pointer;
+  }
+
+  .stage_wrap label textarea, .stage_wrap label select, 
+  .stage_wrap label input[type=text], .stage_wrap label input[type=email], 
+  .stage_wrap label input[type=search], .stage_wrap label input[type=tel], 
+  .stage_wrap label input[type=url], .stage_wrap label input[type=password], 
+  .stage_wrap label input[type=color], .stage_wrap label input[type=file], 
+  .stage_wrap label input[type=color], .stage_wrap label input[type=number], 
+  .stage_wrap label input[type=range], .stage_wrap label input[type=date], 
+  .stage_wrap label input[type=month], .stage_wrap label input[type=week], 
+  .stage_wrap label input[type=time], .stage_wrap label input[type=datetime], 
+  .stage_wrap label input[type=datetime-local],
+  .stage_wrap label input:not([type=radio]),
+  .stage_wrap label input:not([type=checkbox]) {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+  }

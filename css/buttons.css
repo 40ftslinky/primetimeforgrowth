@@ -51,7 +51,8 @@
 
 
 button, 
-.button, .continue {
+.button, .continue,
+.stage_wrap input[type=submit] {
     font-size: 14px;
     border-radius: 0px;
     position: relative;
@@ -61,7 +62,8 @@ button,
     min-width: 150px;
 }
 
-.button:focus, .continue:focus {
+.button:focus, .continue:focus,
+.stage_wrap input[type=submit] {
     outline: rgba(var(--red-rgb), 0.8) !important;
     box-shadow: 0 0 0.25rem rgb(0 0 0 / 30%) !important;
 }
@@ -69,14 +71,16 @@ button,
 
 @media screen and ( max-width: 550px ){
     /* button,  */
-    .button, .continue {
+    .button, .continue,
+    .stage_wrap input[type=submit] {
         display: block;
         width: 100%;
     }
 }
 
 /* button,  */
-.button, .continue {    
+.button, .continue,
+.stage_wrap input[type=submit] {    
     font-weight: 500;
     padding: .5em 1em;
     line-height: 1.7em!important;

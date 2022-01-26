@@ -71,8 +71,8 @@ input:focus, textarea:focus, button:focus {
   .forms label input[type=radio],
   .forms label input[type=checkbox],
   .stage_wrap label input[type=checkbox] {
-    display: inline-block;
-    width: max-content;
+    display: inline-block !important;
+    width: max-content !important;
     font-size: 1rem;
   }
   .forms label input[type=checkbox],

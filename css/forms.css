@@ -63,12 +63,14 @@ input:focus, textarea:focus, button:focus {
   /* ------------------------------------------------ */
 
   .forms label[class*=radio],
-  .forms label[class*=checkbox] {
+  .forms label[class*=checkbox],
+  .stage_wrap label[class*=checkbox] {
     display: inline-block;
   }
 
   .forms label input[type=radio],
-  .forms label input[type=checkbox] {
+  .forms label input[type=checkbox],
+  .stage_wrap label input[type=checkbox] {
     display: inline-block;
     width: max-content;
     font-size: 1rem;
@@ -77,7 +79,8 @@ input:focus, textarea:focus, button:focus {
   .stage_wrap label input[type=checkbox] {
     margin-right: 0.25rem;
   }
-  .forms label input[type=checkbox] {
+  .forms label input[type=checkbox],
+  .stage_wrap label input[type=checkbox] {
     vertical-align: bottom;
     position: relative;
     top: -3px;
@@ -94,10 +97,13 @@ input:focus, textarea:focus, button:focus {
 
   /* checkbox indent */
 
-  .forms .checkbox_outer label {
+  .forms .checkbox_outer label,
+  .stage_wrap label{
     margin: 1em 0 0 1.25rem;
   }
-  .forms .checkbox_outer label input[type=checkbox] {
+  .forms .checkbox_outer label input[type=checkbox],
+  .stage_wrap .checkbox_outer label input[type=checkbox]
+  {
     margin-left: -1.25rem;
   }
 

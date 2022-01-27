@@ -333,12 +333,20 @@ html {
     }
 }
 
+/*  */
+.progress_region .region_form {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+
 .selected_regions {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .selected_regions div {
-  padding: 0.5rem 1rem;
+  padding: 0.125rem 0.5rem;
   background-color: var(--gray-100);
 }
 .selected_regions div:nth-of-type(2) {

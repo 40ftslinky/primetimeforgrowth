@@ -132,7 +132,7 @@ h4 {font-size: 1.999rem;}
 h5 {font-size: 1.414rem;}
 h5.pre-title {
     font-size: 1.0rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 600;
     text-indent: -0.6rem;
     margin-left: 0.8rem;

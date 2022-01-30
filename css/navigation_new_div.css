@@ -1,7 +1,6 @@
 /* NEW navigation */
 
 
-
 .mega_menu {
     
 }
@@ -138,6 +137,7 @@ nav ul ul li:hover {
 
 .sub_menu-dropdown a{
     color: var(--theme-dark);
+    padding: 2rem 1rem;
 }
 
 a.sub_menu-link * {
@@ -332,4 +332,12 @@ a[id*='prime7']:hover svg path {
 #stations .menu_desc_wrap ul li {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+
+/* NEW HIDE SUBMENU */
+
+
+.sub_menu-item_row {
+    display:none !important;
 }

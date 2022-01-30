@@ -317,7 +317,7 @@ html {
 
 
 .adbuilder .selected_region {
-  margin: 2rem;
+  margin: 0 2rem;
   padding: 2rem;
   background: #fff;
   color: var(--theme-dark);
@@ -327,6 +327,7 @@ html {
   position: relative;
   min-height: 0;
 }
+
 @media screen and ( max-width: 1080px ){
     .adbuilder .selected_region {
         margin: auto 0 0 0 !important;

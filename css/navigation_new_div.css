@@ -86,11 +86,12 @@
         transform: none;
         left: unset;
         top: unset;
+        background: unset;
     }
     .sub_menu-dropdown-wrap {
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
+        flex-direction: column !important;
+        align-content: center !important;
+        align-items: center !important;
     }
 }
 
@@ -138,6 +139,13 @@ nav ul ul li:hover {
 .sub_menu-dropdown a{
     color: var(--theme-dark);
     padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .sub_menu-dropdown a{
+        color: white;
+        padding: 1rem;
+    }
 }
 
 a.sub_menu-link * {

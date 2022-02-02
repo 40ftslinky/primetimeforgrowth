@@ -69,16 +69,16 @@
 @media screen and (max-width: 75em) {
     .sub_menu-dropdown {
         /* left:unset; */
-        margin: auto;
+        /* margin: auto; */
     }
 }
-@media screen and (max-width: 75em) {
+@media screen and (max-width: 75em) { /* 1200px */
     .sub_menu-dropdown {
         /* left: 18px; */
     }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1080px) { /* 67.5em */
     .sub_menu-dropdown,
     .customize-support .sub_menu-dropdown {
         position: relative;
@@ -113,8 +113,8 @@
 @media screen and (max-width: 75em) {
     .sub_menu-dropdown-wrap {
         /* width:90vw; */
-        max-width: 100%;
-        left:unset;
+        /* max-width: 100%; */
+        /* left:unset; */
     }
 }
 

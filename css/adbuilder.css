@@ -371,6 +371,12 @@ html {
   font-size: 0.75rem;
 }
 
+
+.buy_options_outer.selected_region p {
+  margin-top: 1rem;
+}
+
+
 .selected_regions div:last-of-type {
   border-bottom: solid 1px var(--gray-200);
 }

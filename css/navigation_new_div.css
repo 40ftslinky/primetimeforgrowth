@@ -62,9 +62,8 @@
 }
 
 .sub_menu-dropdown {
-    background-color: var(--theme-light);
+    background-color: var(--gray-900);
     margin-top: 0;
-    
 }
 
 @media screen and (max-width: 75em) {
@@ -138,7 +137,7 @@ nav ul ul li:hover {
 
 .sub_menu-dropdown a{
     color: var(--theme-dark);
-    padding: 2rem 1rem;
+    padding: 1rem;
 }
 
 @media screen and (max-width: 1080px) {
@@ -179,7 +178,7 @@ a.sub_menu-link * {
 
 .sub_menu-item_heading {
     font-size: 1rem;
-    color: rgba(var(--theme-black-rgb),0.4);
+    color: rgba(var(--white-rgb),0.8);
     font-weight: 400;
 }
 .is-tabbed .sub_menu-item_heading {

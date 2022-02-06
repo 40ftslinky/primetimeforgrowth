@@ -324,8 +324,11 @@ and ( max-width: 1232px ) {
         margin-left: auto;
         margin-right: auto;
     }
+}
+@media screen and ( max-width: 880px ){
     .panel .left p {
         margin-left: 0;
+        margin-right: auto;
     }
 
 }

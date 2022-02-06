@@ -9,5 +9,4 @@ jQuery(document).ready(function( $ ) {
         $(this).next(".faqs_content").slideToggle();
         // $(this).next("div").slideToggle();        
     });
-
 });

@@ -1,3 +1,9 @@
+/*frequently-asked-questions*/
+
+.frequently-asked-questions .section {
+    margin-top: 1rem;
+} 
+
 /*faq*/
 .faq_inner {
     display: flex;

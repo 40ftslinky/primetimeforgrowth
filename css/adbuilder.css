@@ -311,7 +311,7 @@ html {
 }
 
 
-[class*="progress_"] .column_wrap {
+.progress_start .column_wrap {
   align-items: flex-end;
 }
 

@@ -311,6 +311,12 @@ html {
 }
 
 
+[class*="progress_"] .column_wrap {
+  align-items: flex-end;
+}
+
+
+
 /* -------------------------------- */
 /*  */
 

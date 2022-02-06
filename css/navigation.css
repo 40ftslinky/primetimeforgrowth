@@ -175,7 +175,7 @@ header a:hover {
 }
 
 body:not(.customize-support) .secondary_menu-list {
-    display: none;
+    /* display: none; */
  }
 .secondary_menu-list {
     display: flex;

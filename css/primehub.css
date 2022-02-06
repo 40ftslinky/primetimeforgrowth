@@ -108,7 +108,8 @@
 
 #primehub ._wrap [class*="text_block"], 
 #primehub .text_wrap  {
-    margin: 1rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #primehub h5 {

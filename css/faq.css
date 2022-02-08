@@ -2,7 +2,15 @@
 
 .frequently-asked-questions .section {
     margin-top: 1rem;
+    padding-top: calc(var(--header-height));
 } 
+
+.frequently-asked-questions.has-banner main  {
+    padding-top: calc(var(--header-height));
+}
+.frequently-asked-questions.has-banner main  {
+    padding-top: calc(var(--header-height) + var(--banner-height));
+}
 
 /*faq*/
 .faq_inner {

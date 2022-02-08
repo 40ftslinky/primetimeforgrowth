@@ -23,11 +23,11 @@
 }
 
 .sub_menu-dropdown {
-    left: calc(50% - 194px);
+    /* left: calc(50% - 194px); */
 }
 
 .customize-support .sub_menu-dropdown {
-    left: 50%;
+    /* left: 50%; */
 }
 
 @media screen and (min-width: 1080px) and (max-width: 1220px) {
@@ -46,6 +46,21 @@
     opacity: 0;
     margin-left: 1rem;
 }
+.sub_menu-dropdown {
+    margin-left: -3.8rem;
+    margin-right: 0;
+    right: 0;
+    left: 0;
+}
+@media screen and (min-width: 1080px) and (max-width: 1220px) {
+    .sub_menu-dropdown {
+        margin-left: 0;
+        margin-right: 0;
+        right: 0;
+        left: 0;
+    }
+}
+
 :root {
     --sub-dd-height: 57px;
 }

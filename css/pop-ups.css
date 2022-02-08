@@ -261,7 +261,12 @@ stage video {
     display:block; 
     padding:0 ;
 }
-
+@media (max-width: 1080px){ 
+    .stage_wrap .video_wrap {
+        max-width:unset;
+        min-width: 84vw;
+    }
+}
 
 
 /* -------------------------------------------- */

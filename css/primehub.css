@@ -189,3 +189,8 @@
 #market .video_wrap {
     margin-bottom: 2rem;
 }
+
+/* temporary fix */
+.meet-the-adbuilder .column_50:nth-of-type(2) {
+    display: list-item;
+}

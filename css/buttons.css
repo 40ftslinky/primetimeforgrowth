@@ -38,6 +38,7 @@
 @media screen and ( max-width: 1080px ){
     [class*="button_wrap"]{
         margin: 2rem auto;
+        max-width: unset;
     }
 }
 @media screen and ( max-width: 550px ){

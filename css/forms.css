@@ -40,6 +40,8 @@ input:focus, textarea:focus, button:focus {
     cursor: pointer;
   }
 
+  .stage_wrap form label input:not([type=radio]),
+  .stage_wrap form label input:not([type=checkbox]),
   #dashboard select,
   .forms label textarea, .forms label select, 
   .forms label input[type=text], .forms label input[type=email], 
@@ -116,6 +118,7 @@ input:focus, textarea:focus, button:focus {
 
   /* ------------------------------------------------ */
 
+  .stage_wrap form select, .stage_wrap form input[type=text], .stage_wrap form input[type=email], .stage_wrap form input[type=search], .stage_wrap form input[type=tel], .stage_wrap form input[type=url], 
 #dashboard select,
   .forms textarea, .forms select, .forms input[type=text], .forms input[type=email], .forms input[type=search], .forms input[type=tel], .forms input[type=url], .forms input[type=password], .forms input[type=color], .forms input[type=file], .forms input[type=color], .forms input[type=number], .forms input[type=range], .forms input[type=date], .forms input[type=month], .forms input[type=week], .forms input[type=time], .forms input[type=datetime], .forms input[type=datetime-local] {
     margin: 0.12em 0;

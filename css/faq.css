@@ -1,11 +1,10 @@
 /*frequently-asked-questions*/
 
 .frequently-asked-questions .section {
-    margin-top: 1rem;
-    padding-top: calc(var(--header-height));
+    margin-top: 4rem;
 } 
 
-.frequently-asked-questions.has-banner main  {
+.frequently-asked-questions.has-banner {
     padding-top: calc(var(--header-height));
 }
 .frequently-asked-questions.has-banner main  {

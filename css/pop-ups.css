@@ -372,6 +372,10 @@ stage video {
 
 /* ENQUIRY FORM */
 
+.stage_wrap form {
+    max-width: 320px;
+}
+
 
 .stage_wrap label {
     display: block;

@@ -1,4 +1,7 @@
 // Call the toggleFullscreen function in a button click event handler, then:
+document.getElementById("player").addEventListener("click", toggleFullscreen);
+
+
 
 toggleFullscreen = function() {
     var fullscreenChange = null;

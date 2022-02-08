@@ -62,6 +62,7 @@ body, p {
  /* ----------------------------- */
  /* LINKS */
 
+
  a {
     text-decoration: none;
     cursor: pointer;
@@ -76,6 +77,12 @@ a * {
     -o-transition: all .25s ease-out;
     transition: all .25s ease-out;
 }
+
+
+:not(.button) a { 
+  color: var(--theme-dark);
+}
+
 :not(.button) a:visited {
     color: var(--not-black);
 }

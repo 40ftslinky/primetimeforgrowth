@@ -11,6 +11,12 @@
     margin-bottom: 4rem;
 } 
 
+.frequently-asked-questions ol li {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
 /*faq*/
 .faq_inner {
     display: flex;

@@ -80,9 +80,11 @@
     margin-left: 25%;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 1080px){
     .modal {
-        
+        max-width: unset;
+        max-height: unset;
+        padding: 2vw;
     }
 }
 

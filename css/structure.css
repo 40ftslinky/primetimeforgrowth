@@ -431,12 +431,14 @@ and ( max-width: 1232px ) {
     display: none !important;
     transition: all 0.25s ease-in-out;
 }
-/* .secondary-menu .logged-out {
+/*  
+.logged_out .secondary-menu {
     visibility: hidden;
     opacity:0;
     display: none;
     transition: all 0.25s ease-in-out;
-} */
+} 
+*/
 .fas {
     margin-right: 1em;
     display: inline-block;

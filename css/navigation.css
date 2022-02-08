@@ -174,9 +174,11 @@ header a:hover {
     margin-left: 3rem;
 }
 
-body:not(.customize-support) .secondary_menu-list {
-    /* display: none; */
- }
+/* body:not(.customize-support) .secondary_menu-list, */
+.logged_out .secondary_menu-list {
+    display: none;
+}
+
 .secondary_menu-list {
     display: flex;
 }

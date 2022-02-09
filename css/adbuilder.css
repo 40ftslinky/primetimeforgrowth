@@ -226,6 +226,11 @@ html {
     scroll-snap-type: y proximity;
 }
 
+:root {
+  --subtotal-height: 77px;
+}
+
+
 .subtotal_banner_sect {
   width: 100%;
   position: fixed;
@@ -241,10 +246,15 @@ html {
   transition: all 0.25s ease-in-out;
   /* scroll-snap-align: start; */
 }
+
+/* --- disabled --- */
+/*
 .subtotal_banner_sect.footer_reached {
   bottom: var(--footer-height);
   scroll-snap-align: start;
-}
+} 
+*/
+
 
 @media screen and ( max-width: 1080px ){
     .subtotal_banner_sect {

@@ -9,6 +9,10 @@
         transition: all 0.25s ease-in-out;
     }
 
+    .adbuilder footer.footer {
+        margin-bottom: var(--subtotal-height);
+    }
+
     @media screen and (max-width: 48em){
         footer, .footer {
             padding: 2rem 0;

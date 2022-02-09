@@ -8,7 +8,7 @@
 .no_scroll { overflow: hidden;}
 
 .header {
-    width: calc(100vw);
+    width: calc(100%);
     height: var(--header-height);
     position: fixed;
     top: 0;
@@ -19,7 +19,7 @@
     background-color:rgba(var(--theme-dark-rgb),1.0);
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 30em) { /* 480px */
     .header {
         padding: 0 5%;
     }
@@ -154,8 +154,8 @@ header a:hover {
 
 .nav_header_wrap {
     margin: auto;
-    max-width: calc((1200px) - 3rem);
-    width: calc((1200px) - 3rem);
+    max-width: calc((1200px) - 4rem);
+    width: calc((1200px) - 4rem);
 }
 
 @media screen and (max-width: 85em) {

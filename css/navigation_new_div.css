@@ -46,14 +46,15 @@
     opacity: 0;
     margin-left: 1rem;
 }
-.sub_menu-dropdown {
-    margin-left: -3.8rem;
+.sub_menu-dropdown, .logged_out .sub_menu-dropdown {
+    margin-left: -6.8rem;
     margin-right: 0;
     right: 0;
     left: 0;
 }
+
 @media screen and (min-width: 1080px) and (max-width: 1220px) {
-    .sub_menu-dropdown {
+    .sub_menu-dropdown, .logged_out .sub_menu-dropdown {
         margin-left: 0;
         margin-right: 0;
         right: 0;

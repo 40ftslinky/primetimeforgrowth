@@ -1,0 +1,226 @@
+submenu.css
+
+/* -------------------------------- */
+/* nav ul ul */
+
+.menu-item:first-of-type {}
+
+.sub_menu-dropdown {
+-webkit-transition: all .125s ease-out;
+    -moz-transition: all .125s ease-out;
+    -o-transition: all .125s ease-out;
+    transition: all .125s ease-out;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.sub_menu-dropdown::before,
+.sub_menu-dropdown::after {
+    clear: both;
+    float:left;
+}
+
+.sub_menu-dropdown {
+    display:none;
+    position: absolute;
+    top: calc(var(--header-height));
+    /* transform: translate(-50%,0); */
+    min-width: 100vw;
+    width: 100%;
+    visibility:hidden;
+    opacity: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .sub_menu-dropdown {
+        height:calc(100vh - var(--header-height));
+        z-index: 1;
+        /* top: 0;
+        left: 0;
+        transform: translate(-50%,-50%); */
+    }
+    .sub_menu-dropdown.is-visible  {
+        display:flex !important;
+    }
+}
+
+.sub_menu-dropdown {
+    margin-right: 0;
+    right: 0;
+    left: 0;
+}
+
+.sub_menu-dropdown,
+.logged_out .sub_menu-dropdown,
+.logged_in .sub_menu-dropdown {
+}
+
+.is-active + .sub_menu-dropdown { 
+    /* 
+    visibility:visible;
+    opacity: 1; 
+    */
+}
+
+
+@media screen and (min-width: 1080px) and (max-width: 1220px) {
+    .sub_menu-dropdown, 
+    .logged_out .sub_menu-dropdown,
+    .logged_in .sub_menu-dropdown {
+        margin-left: 0;
+        margin-right: 0;
+        right: 0;
+        left: 0;
+    }
+    .logged_out .sub_menu-dropdown {
+        margin-left: 0;
+    }
+    .logged_in .sub_menu-dropdown {
+        margin-left: 0;
+    }
+}
+
+:root {
+    --sub-dd-height: 57px;
+}
+
+.is-visible {
+    /* display: block; */
+    visibility:visible;
+    opacity: 1;
+}
+
+.sub_menu-dropdown {
+    background-color: var(--gray-900);
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1080px) { /* 67.5em */
+    .sub_menu-dropdown {
+       /*  */
+    }
+    .sub_menu-dropdown-wrap {
+        flex-direction: column !important;
+        align-content: center !important;
+        align-items: center !important;
+    }
+}
+
+/* -------------------------------- */
+/* wrap */
+
+.sub_menu-dropdown-wrap {
+    width:100vw;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 2rem; */
+    
+}
+
+@media screen and (max-width: 75em) {
+    .sub_menu-dropdown-wrap {
+        
+    }
+}
+
+
+
+/* -------------------------------- */
+/* item */
+
+.sub_menu-item {
+    padding: 0;
+}
+
+nav ul ul li:hover {
+    /* background-color: rgba(var(--theme-black-rgb),0.2); */
+    background-color: unset;
+}
+.sub_menu-dropdown-wrap .sub_menu-item {
+    margin: 0;
+}
+
+.sub_menu-dropdown a{
+    color: var(--theme-dark);
+    padding: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+    .sub_menu-dropdown a{
+        color: white;
+        padding: 1rem;
+    }
+}
+
+a.sub_menu-link * {
+    /* -webkit-transition: all .125s ease-out;
+    -moz-transition: all .125s ease-out;
+    -o-transition: all .125s ease-out;
+    transition: all .125s ease-out;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s; */
+}
+
+/* -------------------------------- */
+/* nav div ul li a */
+
+.sub_menu-item_wrapper { 
+    /* min-width: 20vw; */
+    width: calc((1200px - 4rem) / 4);
+}
+
+@media screen and (max-width: 75em) {
+    .sub_menu-item_wrapper { 
+        width: calc((100vw - 4rem) / 4);
+    }
+} 
+@media screen and (max-width: 1080px) {
+    .sub_menu-item_wrapper { 
+        min-width: 200px;
+    }
+} 
+
+.sub_menu-item_wrapper:hover { 
+    background-color: darkred
+}
+/* for future spec  - psuedo-parent selector*/
+.sub_menu-item_wrapper:has(.is-tabbed) { 
+    background-color: darkred
+}
+.sub_menu-item_wrapper.is-tabbed { 
+    background-color: darkred
+}
+
+
+.sub_menu-item_heading {
+    font-size: 1rem;
+    color: rgba(var(--white-rgb),0.8);
+    font-weight: 400;
+}
+.is-tabbed .sub_menu-item_heading {
+    /* color: rgba(var(--darkred-rgb),1.0); */
+    color:white;
+}
+
+.sub_menu-item_wrapper:hover .sub_menu-item_heading,
+.is-tabbed .sub_menu-item_heading {
+    /* color: rgba(var(--darkred-rgb),1.0); */
+    color:white;
+    font-weight: 600;
+    background: transparent;
+    background-color: transparent;
+}
+
+.sub_menu-item_heading {
+}
+/*  */

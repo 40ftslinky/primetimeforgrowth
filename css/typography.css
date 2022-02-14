@@ -63,7 +63,7 @@ body, p {
  /* LINKS */
 
 
- a {
+ a, :not(.menu-link) {
     text-decoration: none;
     cursor: pointer;
     -webkit-transition: all .25s ease-out;
@@ -71,7 +71,7 @@ body, p {
     -o-transition: all .25s ease-out;
     transition: all .25s ease-out;
 }
-a * {
+a * , :not(.menu-link){
     -webkit-transition: all .25s ease-out;
     -moz-transition: all .25s ease-out;
     -o-transition: all .25s ease-out;

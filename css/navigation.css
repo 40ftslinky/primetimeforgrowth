@@ -191,6 +191,7 @@ header a:hover {
 @media  screen and (max-width: 1080px) {
     .secondary_menu-list {
         right: 12.5%;
+        gap:0.5rem;
     }
 }
 

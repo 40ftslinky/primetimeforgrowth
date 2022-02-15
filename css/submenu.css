@@ -10,10 +10,10 @@ submenu.css
     -moz-transition: all .125s ease-out;
     -o-transition: all .125s ease-out;
     transition: all .125s ease-out;
-    -webkit-transition-delay: 0s;
+    /* -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
-    transition-delay: 0s;
+    transition-delay: 0s; */
 }
 
 .sub_menu-dropdown::before,

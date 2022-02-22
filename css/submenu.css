@@ -1,4 +1,4 @@
-submenu.css
+/* submenu.css */
 
 /* -------------------------------- */
 /* nav ul ul */
@@ -10,10 +10,10 @@ submenu.css
     -moz-transition: all .125s ease-out;
     -o-transition: all .125s ease-out;
     transition: all .125s ease-out;
-    -webkit-transition-delay: 0s;
+    /* -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
-    transition-delay: 0s;
+    transition-delay: 0s; */
 }
 
 .sub_menu-dropdown::before,
@@ -23,7 +23,7 @@ submenu.css
 }
 
 .sub_menu-dropdown {
-
+    display:none;
     position: absolute;
     top: calc(var(--header-height));
     /* transform: translate(-50%,0); */
@@ -91,7 +91,6 @@ submenu.css
     visibility:visible;
     opacity: 1;
 }
-
 
 .not-visible {
     display: none !important;

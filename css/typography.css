@@ -63,7 +63,7 @@ body, p {
  /* LINKS */
 
 
- a, :not(.menu-link) {
+ a, a:not(.menu-link) {
     text-decoration: none;
     cursor: pointer;
     -webkit-transition: all .25s ease-out;

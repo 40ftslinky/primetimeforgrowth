@@ -12,11 +12,11 @@
 
 #dashboard_job {}
 
-.selected_row:nth-of-type(2){
+.selected_row:nth-of-type(2) td{
     background-color: #f1f1f1 !important;
 }
-.selected_row:nth-of-type(2) div {
-    /* width: 1058px; */
+.selected_row:nth-of-type(2) div.dashboard_job {
+    width: 1058px;
 }
 .assets_table td {
     background-color: #ffffff !important;

@@ -12,6 +12,11 @@
 
 #dashboard_job {}
 
+.selected_row .selected_row td {
+    background-color: #f1f1f1;
+}
+
+
 
 /* -------------------------------------------- */
 /* WARNINGS */

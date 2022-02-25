@@ -71,7 +71,7 @@
 /* ross */
 .modal{
     background-color: white;
-    max-width: unset;
+    max-width: unset !important;
     max-height: calc( 100vh - 4rem );
     text-align: center;
     z-index: 100;

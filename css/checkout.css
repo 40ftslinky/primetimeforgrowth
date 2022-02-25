@@ -21,6 +21,22 @@
     overflow: visible;
 }
 
+
+#cart .woocommerce-message,
+#cart .woocommerce-info {
+    max-width: 440px;
+}
+
+.woocommerce-message::before,
+.woocommerce-info::before {
+    left: 10px;
+}
+
+.woocommerce-message a.restore-item {
+    color: #fff;
+    font-weight: 500;
+}
+
 #cart .shop_table .actions button[name=update_cart],
 #cart .wc-proceed-to-checkout {
     margin-top: 40px;

@@ -13,7 +13,7 @@
 #dashboard_job {}
 
 .selected_row .selected_row td {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1 !important;
 }
 .selected_row .selected_row div {
     width: 1058px;

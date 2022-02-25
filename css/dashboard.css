@@ -12,10 +12,10 @@
 
 #dashboard_job {}
 
-.selected_row .selected_row td {
+.selected_row:nth-of-type(2) td {
     background-color: #f1f1f1 !important;
 }
-.selected_row .selected_row div {
+.selected_row:nth-of-type(2) div {
     width: 1058px;
 }
 

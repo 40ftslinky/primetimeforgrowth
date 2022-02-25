@@ -51,7 +51,7 @@
 }
 
 .modal, #modal_content {
-    overflow:auto;
+    /* overflow:auto; */
     max-height:calc(100vh - 4rem);
 }
 
@@ -145,6 +145,7 @@
     /* color: black;
     text-decoration: none;
     cursor: pointer; */
+    transform:rotateZ(90)
   }
 
   

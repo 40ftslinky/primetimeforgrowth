@@ -17,6 +17,10 @@
 /* ------------------------------------------------ */
 /* #cart */
 
+#cart .section {
+    overflow: visible;
+}
+
 #cart .shop_table .actions button[name=update_cart],
 #cart .wc-proceed-to-checkout {
     margin-top: 40px;
@@ -32,10 +36,24 @@
     gap: 0 1rem;
 }
 
+@media (min-width: 768px) {
+    table.cart th, table.cart td,
+    #cart table.cart td.product-subtotal {
+        padding: 1.618em;
+    }
+}
+.cart_item
+
+
+
+/* ------------------------------------------------ */
+/* #checkout */
+
 .form-row {
     margin: 0;
 }
  
+
 #checkbox form,
 .checkout.woocommerce-checkout {
     display: flex;

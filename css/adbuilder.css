@@ -26,6 +26,14 @@
   justify-content: center;
 }
 
+.assets_label .upload_message {
+  font-size: 0.675rem;
+  font-weight: 500;
+  color: #00d084;
+  background-color: #e9fce9;
+  padding: 0.25rem 1rem;
+}
+
 /* ------------------------------------------------ */
 /* section 01 */
 

@@ -12,7 +12,7 @@
 
 #dashboard_job {}
 
-.selected_row h5 {
+.selected_row_assets h5.title {
     font-size: 0.875rem;
     font-weight: 400;
 }

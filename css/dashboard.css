@@ -24,8 +24,8 @@
     width: 1058px;
 }
 .selected_row_assets td .assets_table .table__row--header th {
-    background-color: #d2d2d2 !important;
-    color: var(--black);
+    background-color: #e8e8e8 !important;
+    color: var(--black) !important;
 }
 
 .selected_row_assets td .assets_table td {

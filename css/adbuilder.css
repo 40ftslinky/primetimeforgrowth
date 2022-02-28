@@ -9,6 +9,12 @@
 [class*=_group] { 
   position: relative;
   /* display: block; */
+  margin-top: 2rem
+ }
+.progress_brand .asset_group,
+.progress_colours .asset_group,
+.progress_images .asset_group {
+	margin-top: 2rem
  }
 
 .asset_group label,

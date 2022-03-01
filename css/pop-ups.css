@@ -426,3 +426,18 @@ stage video {
   .stage_wrap input[type=submit] {
       
   }
+
+
+/* ASSETS LIST */
+.final_assets_list {
+
+}
+
+.final_assets_list  p {
+    text-align: left;
+    font-size: 0.75rem; /* 12px */
+}
+.final_assets_list  p strong {
+    font-weight: 600;
+}
+

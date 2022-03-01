@@ -27,12 +27,19 @@
 }
 
 .assets_label .upload_message,
-.asset_group .upload_message {
+.asset_group .upload_message,
+.upload_message {
   font-size: 0.675rem;
   font-weight: 500;
   color: #00d084;
   background-color: #e9fce9;
   padding: 0.25rem 1rem;
+  transition: all 2s ease-in-out 1s;
+  /* width: 140px; */
+}
+
+.upload_message.loading {
+  width: 100%!important;
 }
 
 /* ------------------------------------------------ */
@@ -412,7 +419,10 @@ html {
   border-bottom: solid 1px var(--gray-200);
 }
 
-/*  */
+
+
+
+/* COLOURS */
 
 label[id*="colour"] {
     display: flex;

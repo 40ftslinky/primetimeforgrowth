@@ -26,7 +26,8 @@
   justify-content: center;
 }
 
-.assets_label .upload_message {
+.assets_label .upload_message,
+.asset_group .upload_message {
   font-size: 0.675rem;
   font-weight: 500;
   color: #00d084;

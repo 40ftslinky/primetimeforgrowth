@@ -16,6 +16,11 @@
     text-transform: uppercase;
 }
 
+.frequently-asked-questions ol li div{
+	font-weight: 400;
+    text-transform: none;
+	max-width: 75ch;
+}
 
 /*faq*/
 .faq_inner {

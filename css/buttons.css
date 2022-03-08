@@ -69,7 +69,9 @@ button,
 }
 
 .button:focus, .continue:focus,
-.stage_wrap input[type=submit] {
+.stage_wrap input[type=submit],
+.close_colourpicker_button:focus
+{
     outline: rgba(var(--red-rgb), 0.8) !important;
     box-shadow: 0 0 0.25rem rgb(0 0 0 / 30%) !important;
 }
@@ -86,7 +88,8 @@ button,
 
 /* button,  */
 .button, .continue,
-.stage_wrap input[type=submit] {    
+.stage_wrap input[type=submit],
+.close_colourpicker_button {    
     font-weight: 500;
     padding: .5em 1em;
     line-height: 1.7em!important;
@@ -102,7 +105,8 @@ button,
     max-height: 42px;
 }
 
-.btn_small {
+.btn_small,
+.close_colourpicker_button {
     font-size: 12px;
     max-height: 38px;
     padding: .5em .5em;

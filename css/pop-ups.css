@@ -177,6 +177,7 @@
 
 .stage_wrap p {
     text-align: center;
+    max-width: 36ch;
 }     
 .stage_wrap div {
     text-align: left;
@@ -242,6 +243,7 @@
 }
 .stagetxt_wrap p {
     text-align: left;
+    max-width: 36ch;
 }
 
 .stagetxt_wrap h4 {

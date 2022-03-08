@@ -113,6 +113,7 @@ input:focus, textarea:focus, button:focus {
 
   .checkbox_outer + .select_outer {
     margin-top: 0.5rem;
+    margin-left: 1.25rem;
   }
 
 

@@ -446,7 +446,9 @@ h2 {
 
 @media screen and ( min-width: 1080px ) and ( max-width: 1280px ){
   .adbuilder h1 {
-    --fluid-type-max: 3rem;
+    --fluid-type-min: 2rem;
+    --fluid-type-max: 1rem;
+    --fluid-type-target: 2.5vw;
   }
 }
 

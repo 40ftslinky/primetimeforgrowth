@@ -112,7 +112,7 @@
     border: none;
     text-align: center;
     font: 16px/14px Tahoma, Verdana, sans-serif;
-    color: #c3c3c3;
+    color: #494949;
     text-decoration: none;
     font-weight: bold;
     background: transparent;
@@ -170,7 +170,9 @@
 }
 .stage_wrap.already_purchased_ad p {
     text-align: left;
+    max-width: 36ch;
 }
+
 .stage_wrap.already_purchased_ad [class*="button_wrap"] {
     margin: 0;
 }

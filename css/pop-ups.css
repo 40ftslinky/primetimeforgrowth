@@ -184,7 +184,10 @@
 }     
 .stage_wrap div {
     text-align: left;
+}
+.stage_wrap div div {
     background: transparent;
+    border:none;
 }  
 
  .dot-flashing {

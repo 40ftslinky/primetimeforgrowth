@@ -198,7 +198,7 @@
 .stage_wrap .buy_options_outer div {
     border-radius: 4px;
 }
-.stage_wrap .buy_options_outer:hover {
+.stage_wrap .buy_options_outer div:hover {
     border: solid 0.5px grey
 }
 

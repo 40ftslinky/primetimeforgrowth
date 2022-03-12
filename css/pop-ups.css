@@ -205,9 +205,14 @@
 .stage_wrap .buy_options_outer label {
     line-height: 1.1em;
 }
-.stage_wrap .buy_options_outer label span {
-    display: inline-block;
+@media (max-width: 480px){ 
+    .stage_wrap .buy_options_outer label span {
+        display: inline-block;
+        margin-left: 1.5rem;
+    }
 }
+
+
 .stage_wrap .buy_options_outer label div {
     padding-top:0.5rem;
 }

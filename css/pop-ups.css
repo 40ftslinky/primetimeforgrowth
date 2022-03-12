@@ -187,7 +187,7 @@
 }
 .stage_wrap label div {
     background: transparent;
-    border:none;
+    border:none !important;
 }  
 
  .dot-flashing {

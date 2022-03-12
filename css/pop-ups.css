@@ -504,3 +504,12 @@ stage video {
     font-weight: 600;
 }
 
+/* colour picker */
+
+@media screen and ( max-width: 380px ) {
+
+    #color_picker {
+        left: calc(50% - (265px / 2)) !important;
+    }
+
+}

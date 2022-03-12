@@ -221,8 +221,10 @@ th.product-total, td.product-total,
 {
     text-align: right !important;
 }
-td[data-title="Subtotal"] {
-    /* text-align: right !important; */
+td[data-title="Subtotal"],
+td[data-title="Price"],
+td[data-title="GST"] {
+    text-align: right !important;
 }
 
 .order-total {

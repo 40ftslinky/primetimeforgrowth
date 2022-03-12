@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 1080px){
     .modal {
-        width: 100%;
+        width: max-content;
         max-width: calc( 100% - 4rem ) !important;
         max-height: unset !important;
         padding: 2vw !important;
@@ -184,6 +184,7 @@
 }     
 .stage_wrap div {
     text-align: left;
+    background: transparent;
 }  
 
  .dot-flashing {

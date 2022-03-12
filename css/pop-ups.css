@@ -82,9 +82,10 @@
 
 @media screen and (max-width: 1080px){
     .modal {
-        max-width: unset;
-        max-height: unset;
-        padding: 2vw;
+        width: 100%;
+        max-width: calc( 100% - 4rem ) !important;
+        max-height: unset !important;
+        padding: 2vw !important;
     }
 }
 

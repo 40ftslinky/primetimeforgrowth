@@ -195,10 +195,17 @@
 .stage_wrap .buy_options_outer p {
     max-width: unset;
 }
-.stage_wrap .buy_options_outer + div {
+.stage_wrap .buy_options_outer > div {
+    box-sizing: border-box;
+    border: solid 0.5px transparent;
     border-radius: 4px;
+    margin: 0.5rem;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
 }
-.stage_wrap .buy_options_outer + div:hover {
+.stage_wrap .buy_options_outer > div:hover {
     border: solid 0.5px grey;
     box-shadow: 0px 0px 8px 1px rgba(211,211,211,1);
     -webkit-box-shadow: 0px 0px 8px 1px rgba(211,211,211,1);
@@ -215,13 +222,13 @@
     }
 }
 
-
 .stage_wrap .buy_options_outer label div {
     padding-top:0.5rem;
-    margin: 0.5rem;
+    /* margin: 0.5rem; */
 }
 
-
+/* --------------------------- */
+/* loading */
 
  .dot-flashing {
     position: relative;

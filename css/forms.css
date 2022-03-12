@@ -81,8 +81,7 @@ input:focus, textarea:focus, button:focus {
   .stage_wrap label input[type=checkbox] {
     margin-right: 0.25rem;
   }
-  .forms label input[type=checkbox],
-  .stage_wrap label input[type=checkbox] {
+  .forms label input[type=checkbox] {
     vertical-align: bottom;
     position: relative;
     top: -3px;
@@ -120,8 +119,10 @@ input:focus, textarea:focus, button:focus {
   /* ------------------------------------------------ */
 
   #dashboard select,
-  .stage_wrap form select, .stage_wrap form input[type=text], .stage_wrap form input[type=email], .stage_wrap form input[type=search], .stage_wrap form input[type=tel], .stage_wrap form input[type=url], 
-  .forms textarea, .forms select, .forms input[type=text], .forms input[type=email], .forms input[type=search], .forms input[type=tel], .forms input[type=url], .forms input[type=password], .forms input[type=color], .forms input[type=file], .forms input[type=color], .forms input[type=number], .forms input[type=range], .forms input[type=date], .forms input[type=month], .forms input[type=week], .forms input[type=time], .forms input[type=datetime], .forms input[type=datetime-local] {
+  .stage_wrap form select, 
+  .stage_wrap form input[type=text], .stage_wrap form input[type=email], .stage_wrap form input[type=search], .stage_wrap form input[type=tel], .stage_wrap form input[type=url], .stage_wrap form textarea,
+  .forms textarea, .forms select, 
+  .forms input[type=text], .forms input[type=email], .forms input[type=search], .forms input[type=tel], .forms input[type=url], .forms input[type=password], .forms input[type=color], .forms input[type=file], .forms input[type=color], .forms input[type=number], .forms input[type=range], .forms input[type=date], .forms input[type=month], .forms input[type=week], .forms input[type=time], .forms input[type=datetime], .forms input[type=datetime-local] {
     margin: 0.12em 0;
     padding: 0.25em 0.4em;
     border: 1px solid #ddd;

@@ -405,7 +405,7 @@ stage video {
     display: block;
     /* margin: 1em 0; */
     margin: 0.25rem 0.25rem 0 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
     max-width: 100%;
     cursor: pointer;
   }
@@ -429,6 +429,18 @@ stage video {
 
   .stage_wrap input[type=submit] {
       
+  }
+
+  .stage_wrap label input[type=checkbox] {
+    vertical-align: bottom;
+    position: relative;
+    top: 0;
+  }
+
+  .stage_wrap label div {
+    display: block;
+    margin-left: 1rem;
+    font-size: 0.8rem;
   }
 
 

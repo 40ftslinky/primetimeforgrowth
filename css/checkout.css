@@ -238,6 +238,9 @@ td[data-title="Price"],
 td[data-title="GST"] {
     text-align: right !important;
 }
+td[data-title="GST"] {
+    font-weight: 600;
+}
 
 .order-total {
     border-top: 2px solid var(--theme-dark);

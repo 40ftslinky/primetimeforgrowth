@@ -61,6 +61,17 @@
 .cart_item
 
 
+#cart thead {
+    background-color: var(--theme-black-rgb);
+    color: #fff;
+}
+
+
+#cart .wc-proceed-to-checkout {
+    float: right;
+}
+
+
 
 /* ------------------------------------------------ */
 /* #checkout */

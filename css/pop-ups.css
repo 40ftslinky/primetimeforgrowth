@@ -181,10 +181,7 @@
 .stage_wrap p {
     text-align: center;
     max-width: 36ch;
-}     
-.stage_wrap .buy_options_outer p {
-    max-width: unset;
-}
+} 
 .stage_wrap div {
     text-align: left;
 }
@@ -192,6 +189,30 @@
     background: transparent;
     border:none !important;
 }  
+   
+/* buy_options_outer  */
+
+.stage_wrap .buy_options_outer p {
+    max-width: unset;
+}
+.stage_wrap .buy_options_outer div {
+    border-radius: 4px;
+}
+.stage_wrap .buy_options_outer:hover {
+    border: solid 0.5px grey
+}
+
+.stage_wrap .buy_options_outer label {
+    line-height: 1.1em;
+}
+.stage_wrap .buy_options_outer label span {
+    display: inline-block;
+}
+.stage_wrap .buy_options_outer label div {
+    padding-top:0.5rem;
+}
+
+
 
  .dot-flashing {
     position: relative;
@@ -439,6 +460,7 @@ stage video {
       
   }
 
+
   .stage_wrap label input[type=checkbox] {
     vertical-align: bottom;
     position: relative;
@@ -450,6 +472,7 @@ stage video {
     margin-left: 1rem;
     font-size: 0.8rem;
   }
+
 
 
 /* ASSETS LIST */

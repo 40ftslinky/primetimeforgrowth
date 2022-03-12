@@ -219,7 +219,10 @@ th.product-total, td.product-total,
 .order_details thead tr th:last-of-type,
 .order_details tfoot tr td
 {
-    text-align: right;
+    text-align: right !important;
+}
+td[data-title="Subtotal"] {
+    /* text-align: right !important; */
 }
 
 .order-total {

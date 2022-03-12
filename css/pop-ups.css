@@ -181,7 +181,11 @@
 .stage_wrap p {
     text-align: center;
     max-width: 36ch;
+    margin:auto;
 } 
+.stage_wrap p:nth-of-type(2) {
+    margin-top: 2rem;
+}
 .stage_wrap div {
     text-align: left;
 }

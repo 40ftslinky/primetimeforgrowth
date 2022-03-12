@@ -61,7 +61,7 @@
 .cart_item
 
 
-#cart thead {
+#cart .shop_table thead {
     background-color: var(--theme-black-rgb);
     color: #fff;
 }

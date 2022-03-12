@@ -214,6 +214,8 @@
 
 .stage_wrap .buy_options_outer label {
     line-height: 1.1em;
+    text-indent: -1.5rem;
+    margin-left: 1.5rem;
 }
 @media (max-width: 480px){ 
     .stage_wrap .buy_options_outer label span {
@@ -223,7 +225,7 @@
 }
 
 .stage_wrap .buy_options_outer label div {
-    padding-top:0.5rem;
+    padding: 0.5rem 0.75rem 0;
     /* margin: 0.5rem; */
 }
 

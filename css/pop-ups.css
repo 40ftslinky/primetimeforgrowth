@@ -473,7 +473,7 @@ stage video {
   .stage_wrap label input[type=checkbox] {
     vertical-align: bottom;
     position: relative;
-    top: -4px;
+    top: 0;
   }
 
   .stage_wrap label div {

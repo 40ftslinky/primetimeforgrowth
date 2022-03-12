@@ -204,7 +204,7 @@
 }
 
 .stage_wrap .buy_options_outer p {
-    max-width: unset;
+    /* max-width: unset; */
 }
 .stage_wrap .buy_options_outer > div {
     box-sizing: border-box;

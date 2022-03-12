@@ -192,6 +192,10 @@
    
 /* buy_options_outer  */
 
+.stage_wrap .buy_options_outer{
+    margin: 0 !important;
+}
+
 .stage_wrap .buy_options_outer p {
     max-width: unset;
 }

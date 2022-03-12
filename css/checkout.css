@@ -238,6 +238,13 @@ td[data-title="Price"],
 td[data-title="GST"] {
     text-align: right !important;
 }
+@media screen and (max-width: 32em) {
+    td[data-title="Subtotal"],
+    td[data-title="Price"],
+    td[data-title="GST"] {
+        text-align: left !important;
+    }
+}
 td[data-title="GST"] {
     font-weight: 600;
 }

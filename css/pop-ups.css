@@ -182,6 +182,9 @@
     text-align: center;
     max-width: 36ch;
 }     
+.stage_wrap .buy_options_outer p {
+    max-width: unset;
+}
 .stage_wrap div {
     text-align: left;
 }

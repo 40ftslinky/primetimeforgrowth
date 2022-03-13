@@ -292,7 +292,7 @@ html {
   margin-bottom:0;
   --columns: calc(10/4);
 }
-@media screen and (max-width: 1080px){
+@media screen and (min-width: 680px) and (max-width: 1080px){
   .column_group.subtotal_banner {
       flex-direction: row;
   }

@@ -305,6 +305,11 @@ html {
     text-align: center;
   }
 }
+.subtotal_banner_sect #subtotal_col3 div.uploaded_items {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
 
 .subtotal_banner_sect .fas {
   font-size: 1.414rem;

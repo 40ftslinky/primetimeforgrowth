@@ -17,6 +17,9 @@
         footer, .footer {
             padding: 2rem 0;
         }
+    }
+    
+    @media screen and (max-width: 680px){
         .adbuilder footer.footer {
             margin-bottom: 0;
         }

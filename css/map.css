@@ -8,7 +8,8 @@
 
 #map .leaflet-control a,
 #map .leaflet-control {
-   color:#dedede;
+   /* color:#dedede; */
+   color:#888888;
 }
 
 #map .leaflet-container {

@@ -249,7 +249,8 @@ html {
 }
 
 :root {
-  --subtotal-height: 77px;
+  /* --subtotal-height: 77px; */
+  --subtotal-height: 91px;
 }
 
 
@@ -281,7 +282,8 @@ html {
 @media screen and ( max-width: 1080px ){
     .subtotal_banner_sect {
         position: relative;
-        margin-top: 0;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
     }
 }
 
@@ -289,6 +291,7 @@ html {
   padding: 1% 0;
 }
 .subtotal_banner_sect .inline {
+  margin-top:0;
   margin-bottom:0;
   --columns: calc(10/4);
 }

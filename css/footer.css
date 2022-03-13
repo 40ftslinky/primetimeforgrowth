@@ -17,6 +17,9 @@
         footer, .footer {
             padding: 2rem 0;
         }
+        .adbuilder footer.footer {
+            margin-bottom: 0;
+        }
     }
 
     #home footer, 

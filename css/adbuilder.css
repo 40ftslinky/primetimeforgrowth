@@ -290,8 +290,13 @@ html {
 }
 .subtotal_banner_sect .inline {
   margin-bottom:0;
+  --columns: calc(10/4);
 }
-
+@media screen and (max-width: 1080px){
+  .column_group.subtotal_banner_sect.inline {
+      flex-direction: row;
+  }
+}
 .subtotal_banner_sect .column_third:last-of-type {
   text-align: right;
 }

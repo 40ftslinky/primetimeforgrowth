@@ -13,6 +13,11 @@
         margin-bottom: var(--subtotal-height);
     }
 
+    @media screen and (max-width: 67.5em){
+        footer, .footer {
+            margin-top: 0;
+        }
+    }
     @media screen and (max-width: 48em){
         footer, .footer {
             padding: 2rem 0;

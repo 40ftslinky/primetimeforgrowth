@@ -18,7 +18,7 @@
             padding: 2rem 0;
         }
     }
-    
+
     @media screen and (max-width: 680px){
         .adbuilder footer.footer {
             margin-bottom: 0;
@@ -51,12 +51,12 @@
         /* justify-content: space-between; */
         gap: 8rem;
     }
+
     @media screen and (max-width: 67.5em) {
         .footer_cols_wrapper {
             gap: 1rem 5rem;
         }
     }
-    
 
     .footer div[class*="col_"]:first-of-type {
         max-width: 200px;
@@ -93,8 +93,7 @@
             margin-left:0;
         }
     }
-    @media screen and (max-width: 64em) {
-        
+    @media screen and (max-width: 64em) { 
         .footer div[class*="col_"]:nth-of-type(3),
         .footer div[class*="col_"]:nth-of-type(2) {
             /* display: none; */

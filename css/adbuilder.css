@@ -335,7 +335,7 @@ html {
 
 .subtotal_banner {
   padding: 0 2rem;
-  /* margin: 0 0 1rem 0; */
+  margin: 0;
   width: 100%;
   display: flex;
   gap: 2rem;

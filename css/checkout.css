@@ -238,7 +238,7 @@ td[data-title="Price"],
 td[data-title="GST"] {
     text-align: right !important;
 }
-@media screen and (max-width: 32em) {
+@media screen and (max-width: 48em) {
     td[data-title="Subtotal"],
     td[data-title="Price"],
     td[data-title="GST"] {

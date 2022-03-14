@@ -173,6 +173,7 @@
 
     .footer a, .footer_link {
         color:rgba(var(--white-rgb),1.0) !important;
+        font-weight: 400;
     }
 
     .footer a:hover, .footer_link:hover {

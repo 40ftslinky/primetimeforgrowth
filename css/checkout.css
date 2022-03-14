@@ -257,6 +257,14 @@ td[data-title="GST"] {
 
 
 /* --------------------------- */
+/* checkout */
+
+#checkout .tax-rate  td {
+    text-align: right;
+}
+
+
+/* --------------------------- */
 /* submit button group */
 
 #checkout .form-row.place-order {

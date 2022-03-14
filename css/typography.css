@@ -86,8 +86,9 @@ a * , a:not(.menu-link){
 :not(.button) a:visited {
     color: var(--not-black);
 }
-.entry-content a { 
+.entry-content a, main a { 
   color: var(--theme-dark);
+  font-weight: 600;
 }
 
 a:focus {

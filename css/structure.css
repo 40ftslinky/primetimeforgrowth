@@ -479,4 +479,8 @@ and ( max-width: 1232px ) {
     padding:0;
 }
 
-.bundle {padding-top: 4rem;}
+.bundle {
+    padding-top: 4rem;
+    box-shadow: 0 0 1rem rgb(0 0 0 / 10%);
+    border: 1px solid var(--gray-200);
+}

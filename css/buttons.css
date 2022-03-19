@@ -24,13 +24,14 @@
 .button_wrap_left_vert .button{
     min-width: -webkit-fill-available;
 }
-.button_wrap_center, .button_wrap_center_vert {
+.button_wrap_center, 
+.button_wrap_center_vert {
     margin: 2rem auto;
     max-width: 410px;
     width: var(--col-mx-width);
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     gap: 1rem;
 }
 .button_wrap_center_vert {

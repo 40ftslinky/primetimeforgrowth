@@ -26,7 +26,7 @@
 .sub_menu-dropdown {
     position: absolute;
     top: calc(var(--header-height));
-    transform: translate(-50%,0);
+    /* transform: translate(-50%,0); */
     min-width: 100vw;
     width: 100%;
     visibility:hidden;
@@ -42,7 +42,7 @@
     
 }
 .logged_in .sub_menu-dropdown {
-    margin-left: 43px;
+    /* margin-left: 43px; */
 }
 .logged_in .sub_menu-dropdown {
     /* left: 144px; */

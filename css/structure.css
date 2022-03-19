@@ -46,7 +46,8 @@ body { background: var(--theme-light); }
 #meet-the-network main,
 #meet-the-adbuilder main,
 .market main,
-.station main {
+.station main,
+.example_tvc main{
     padding-top: var(--header-height);
 }
 
@@ -66,7 +67,8 @@ body { background: var(--theme-light); }
 #meet-the-network.has-banner main,
 #meet-the-adbuilder.has-banner main,
 .market.has-banner main,
-.station.has-banner main  {
+.station.has-banner main,
+.example_tvc.has-banner main  {
     padding-top: calc(var(--header-height) + var(--banner-height));
 }
 
@@ -476,11 +478,20 @@ and ( max-width: 1232px ) {
 }
 
 .no_pad {
-    padding:0;
+    padding:0 !important;
+}
+.no_marg {
+    margin:0 !important;
+}
+.no_marg_top {
+    margin-top:0 !important;
+}
+.no_marg_bot {
+    margin-bottom:0 !important;
 }
 
 .bundle {
     padding-top: 4rem;
-    box-shadow: 0 0 1rem rgb(0 0 0 / 10%);
+    box-shadow: 0 0 1rem rgb(0 0 0 / 10%) !important;
     border: 1px solid var(--gray-200);
 }

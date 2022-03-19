@@ -223,6 +223,8 @@ h6 {
 
 
 ._thin { font-weight: var(--thin-font-weight);}
+._normal {font-weight: var(--base-font-weight);}
+
 
 small, .text_small {font-size: 0.707rem;}
 

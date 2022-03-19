@@ -36,7 +36,12 @@
 .button_wrap_center_vert {
     margin-top: 1rem;
     flex-direction: column;
+    max-width: fit-content;
 }
+.button_wrap_center_vert .button{
+    min-width: -webkit-fill-available;
+}
+
 .button_wrap_sm {
     margin: 2rem auto;
     max-width: 410px;
@@ -50,6 +55,12 @@
     [class*="button_wrap"]{
         margin: 2rem auto;
         max-width: unset;
+        width: unset;
+    }
+    .button_wrap_left_vert,
+    .button_wrap_center_vert {
+        margin-top: 0;
+        max-width: fit-content;
     }
 }
 @media screen and ( max-width: 550px ){

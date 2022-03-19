@@ -149,6 +149,15 @@ h5.pre-title {
     margin-left: 0.8rem;
 }
 
+h5.pre-price {
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  /* text-indent: -0.6rem; */
+  /* margin-left: 0.8rem; */
+  margin:0;
+}
+
 h6 {font-size: 1.1rem;}
 
 
@@ -254,6 +263,13 @@ ul,ol {
 li {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+}
+
+
+.bundle ul {
+  list-style: none;
+  max-width: 30ch;
+  margin: 0 auto;
 }
 
 .center {
@@ -382,6 +398,13 @@ h1, .huge {
         --fluid-type-target: 3.5vw;
     }
 }
+
+h1.intro_h1 {
+  --fluid-type-min: 2.5rem;
+  --fluid-type-max: 3.1rem; /* 80px */
+  --fluid-type-target: 3.1vw;
+}
+
   
 h2 {
     --fluid-type-min: 1.8rem;
@@ -435,9 +458,31 @@ h4, :not(#checkout) h3 {
     max-width: 22ch;
 }
 
+h1.intro_h1 {
+  max-width: 30ch !important;
+}
+.intro_h1 sup {
+  font-weight: 400;
+  font-size: 0.8rem;
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 0.25rem;
+  letter-spacing: 0;
+}
+
+
 h2 {
     font-size: clamp(2.14rem,1.74rem + 1.99vw,3.16rem);
     max-width: 30ch;
+}
+
+.bundle_h2 sup {
+  font-weight: 400;
+  font-size: 0.8rem;
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 0.25rem;
+  letter-spacing: 0;
 }
 
 .huge{
@@ -454,6 +499,7 @@ h2 {
     --fluid-type-target: 2.5vw;
   }
 }
+
 
 
 /* ----------------------------- end TEST ----------------------------- */

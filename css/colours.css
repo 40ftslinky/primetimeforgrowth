@@ -98,6 +98,7 @@
     /* not black */
     --not-black: #181818;
     --pitch-black: #010101;
+    --light-not-white: #f5f4f0;
 }
 
 
@@ -105,7 +106,14 @@
     color: white !important;
 }
 .white_bg {
-    background-color: white;
+    background-color: white !important;
+    color: var(--theme-dark) !important;
+}
+.not_white {
+    color: var(--light-not-white) !important;
+}
+.not_white_bg {
+    background-color: var(--light-not-white) !important;
     color: var(--theme-dark) !important;
 }
 
@@ -165,14 +173,14 @@
     color: var(--theme-dark);
 }
 
-.primary {
+.primary, .red {
     color: var(--primary);
 }
-.primary_bg {
+.primary_bg, .red_bg {
     background-color: var(--primary);
     color: var(--theme-light);
 }
-.primary_dark_bg {
+.primary_dark_bg, .red_dark_bg {
     background-color: var(--primary-dark);
     color: var(--theme-light);
 }

@@ -35,7 +35,11 @@
     font-family: 'Montserrat' Arial, Helvetica, sans-serif !important;
     font-size: .8rem;
     color: #2d2d2d;
- }
+}
+
+#map .leaflet-container a.leaflet-popup-close-button {
+    color: #494949;
+}
 
 .leaflet-bottom {}
 

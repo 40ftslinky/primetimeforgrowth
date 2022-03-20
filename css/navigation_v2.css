@@ -111,7 +111,7 @@ a:hover.test {
 
 @media screen and (max-width: 1080px){
     .menu.is-active ul.menu-list {
-        background-color: rgba(var(--white-rgb),0.7);
-        backdrop-filter: blur(0.7);
+        background-color: rgba(var(--white-rgb),0.9);
+        backdrop-filter: blur(10px);
     }
 }

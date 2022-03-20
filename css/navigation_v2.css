@@ -18,6 +18,12 @@
 }
 
 @media screen 
+    and ( max-width: 1180px ) 
+{
+    .logo { transform: scale(0.9); transform-origin: center left;}
+}
+
+@media screen 
     and ( max-width: 680px ) 
 {
     .logo { transform: scale(0.6); transform-origin: center left;}
@@ -73,19 +79,26 @@
 a .account i, 
 a .notice i, 
 a .shopping i, 
-a .account_sub,
-a .cart_sub_total {
+/* a .account_sub, */
+a .cart_sub_total,
+a .help i {
     color: rgba(var(--black-rgb),0.7);
 }
 
 a:hover .account i, 
 a:hover .shopping i,
 a:hover .account_sub,
-a:hover .cart_sub_total {
+a:hover .cart_sub_total,
+a:hover .help i,
+a:hover .help_sub {
     color: rgba(var(--black-rgb),1);
-    /* transform: scale(1.005);
-    transform-origin: center; */
 }
+
+
+.help_sub {
+    width: max-content;
+}
+
 
 a.test {
 color: #3f3ba6;

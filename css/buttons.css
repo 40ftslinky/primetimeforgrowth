@@ -42,7 +42,7 @@
 .button_wrap_center_vert .button{
     min-width: -webkit-fill-available;
 }
-.button_wrap_center_vert .button{
+.button_wrap_center_vert a {
     width: 100%;
 }
 

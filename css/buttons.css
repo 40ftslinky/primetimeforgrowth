@@ -220,6 +220,16 @@ button:hover,
     border-color: rgba(var(--red-rgb),0.7);
 }
 
+.help_btn {}
+.help_btn::after {
+    /* font-family: var(--font-awesome);
+    content: "f059"; */
+}
+.help_btn:hover {
+    background-color: rgba(var(--theme-light-rgb),1);
+}
+
+
 .white_btn, .question_btn {
     background-color: rgba(var(--white-rgb),1);
     color: var(--theme-dark);

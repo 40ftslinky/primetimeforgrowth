@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://kit.fontawesome.com/08e8c4f6cf.js" crossorigin="anonymous"></script>                
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- <script src="https://player.vimeo.com/api/player.js"></script>  -->
 
     </head>
     <body class="new_home has-banner" id="new_home">
@@ -173,6 +174,11 @@
                 </div>
             </header>
 
+        <!-- 
+            <section id="status" style="position: fixed; z-index:666666;top:0; right: 0; left:0;">
+                <div style="background: red; color: font-size: 22px; white; color: white; padding: 10px; letter-spacing: 10px;" id="videostatus">Video Status</div>
+            </section> 
+        -->
 <!--  -->
 <!--  -->
 <!--  -->
@@ -198,10 +204,10 @@
                                     Your browser does not support the video tag.
                                 </video>                            
                             </div> -->
-                            <div style="padding:56.25% 0 0 0;position:relative;">
-                                <iframe src="https://player.vimeo.com/video/689582471?h=341ffe3a56&amp;&controls=0&amp;badge=0&amp;autoplay=0&amp;muted=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="PrimeTimeForGrowth_hero.mp4"></iframe>
+                            <div style="padding:56.25% 0 0 0;position:relative;"  >
+                                <!-- <div data-vimeo-id="689582471" id="handstick" style="position:absolute;top:0;left:0;width:100%;height:100%;"></div> -->
+                                <iframe id="handstick" src="https://player.vimeo.com/video/689582471?h=341ffe3a56&amp;&controls=0&amp;badge=0&amp;muted=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="PrimeTimeForGrowth_hero.mp4"></iframe>
                             </div>
-                            <script src="https://player.vimeo.com/api/player.js"></script>    
                         </div>
                     
                     </div>                    
@@ -338,7 +344,7 @@ Have an existing 15 second TV ad? Buy the Media Bundle. Or create a custom TV ad
                             If you have any questions about how Prime Time for Growth works or simply need help with the Ad Builder, drop us a line. We’d be happy to help.
                         </p>                                    
                         <div class="button_wrap_center">
-                            <button class="button ghost_red">Get Help</button>
+                            <button class="button ghost_red help_btn">Get Help <i class="fa-solid fa-circle-question"></i></button>
                         </div>
                     </div>
                 </div>
@@ -645,11 +651,12 @@ Have an existing 15 second TV ad? Buy the Media Bundle. Or create a custom TV ad
         <script src="./js/add_class_is-active.js"></script>
         <script src="./js/custom.js"></script>
         <script src="./js/submenu.js"></script>
-        <script src="./js/autoplay_onScroll_intoview.js"></script>
         <!-- waypoints scroll dedection -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/shortcuts/inview.min.js"></script>
         </script>
+
+        <script src="./js/autoplay_onScroll_intoview.js"></script>
 
 
 

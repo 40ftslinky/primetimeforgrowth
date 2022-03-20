@@ -87,3 +87,31 @@ a:hover .cart_sub_total {
     transform-origin: center; */
 }
 
+a.test {
+color: #3f3ba6;
+    line-height: .85;
+    padding: 3px;
+    margin: -2px;
+    text-decoration: none;
+    z-index: 1;
+    transition: background-size .35s,background-position 0s;
+    background: linear-gradient(to right,rgba(188,185,255,0.75),rgba(188,185,255,0.75)) no-repeat right;
+    background-size: 0% auto;
+}
+a:hover.test {
+    color: #211d5e;
+    background-size: 100% auto;
+    background-position: left;
+    transition: background-size .35s,background-position 0s;
+}
+
+
+/*  */
+
+
+@media screen and (max-width: 1080px){
+    .menu.is-active ul.menu-list {
+        background-color: rgba(var(--white-rgb),0.7);
+        backdrop-filter: blur(0.7);
+    }
+}

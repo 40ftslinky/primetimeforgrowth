@@ -84,9 +84,11 @@
 @media screen and (max-width: 1080px){
 
     .hero {
+        height: 60vh !important;
         min-height: 60vh !important;
+        padding-top: 0 !important;
     }
-    
+
 }
 
 /* ------------------------- */

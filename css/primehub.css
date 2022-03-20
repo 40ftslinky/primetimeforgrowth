@@ -81,6 +81,14 @@
 {
     height: 60vh !important;
 }
+@media screen and (max-width: 1080px){
+
+    .hero {
+        min-height: 60vh !important;
+    }
+    
+}
+
 /* ------------------------- */
 
 .meet_the_markets .select_group:first-of-type {

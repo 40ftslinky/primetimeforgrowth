@@ -38,8 +38,7 @@
     left: 0;
 }
 .logged_out .sub_menu-dropdown {
-    margin-left: -101px;
-    
+    /* margin-left: -101px; */
 }
 .logged_in .sub_menu-dropdown {
     /* margin-left: 43px; */

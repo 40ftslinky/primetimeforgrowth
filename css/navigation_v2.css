@@ -124,7 +124,7 @@ a:hover.test {
     #sub_menu-dropdown,
     .sub_menu-dropdown {
         width: 100%;
-        height: 100%;
+        height: calc(100vh - var(--header-height));
         background: var(--gray-200);
         position: absolute;
         top: var(--header-height);

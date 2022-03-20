@@ -73,14 +73,17 @@
 a .account i, 
 a .notice i, 
 a .shopping i, 
+a .account_sub,
 a .cart_sub_total {
     color: rgba(var(--black-rgb),0.7);
 }
 
 a:hover .account i, 
-a:hover .shopping i, 
-a:hover .cart_sub_total i {
+a:hover .shopping i,
+a:hover .account_sub,
+a:hover .cart_sub_total {
     color: rgba(var(--black-rgb),1);
     /* transform: scale(1.005);
     transform-origin: center; */
 }
+

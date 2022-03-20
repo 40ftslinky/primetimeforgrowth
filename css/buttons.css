@@ -42,6 +42,9 @@
 .button_wrap_center_vert .button{
     min-width: -webkit-fill-available;
 }
+.button_wrap_center_vert .button{
+    width: 100%;
+}
 
 .button_wrap_sm {
     margin: 2rem auto;
@@ -192,13 +195,15 @@ button:hover,
 }
 
 .ghost_red {
-    background-color: rgba(var(--red-rgb),0);
+    background-color: rgba(var(--white-rgb),0);
+    /* background-color: rgba(var(--red-rgb),0); */
     /* color: rgba(var(--red-rgb),1); */
     color: rgba(var(--red-rgb),1);
     border-color: rgba(var(--red-rgb),1);
 }
 .ghost_red:hover {
-    background-color: rgba(var(--red-rgb),0.3);
+    background-color: rgba(var(--white-rgb),0.8);
+    /* background-color: rgba(var(--red-rgb),0.3); */
     color: rgba(var(--red-rgb),1);
     border-color: rgba(var(--red-rgb),0.7);
 }

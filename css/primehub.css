@@ -53,7 +53,8 @@
 
 
 .education .hero,
-.primehub .hero {
+.primehub .hero,
+.learning-centre .hero  {
     height: 80vh !important;
 }
 .meet_the_markets .hero,
@@ -101,15 +102,19 @@
 }
 /* ------------------------- */
 
-#primehub .column_wrap {
+#primehub .column_wrap,
+#learning-centre .column_wrap {
     padding: 2.5% 0;
 }
 
-#primehub .text_block, #example_tvc .text_block {
+#primehub .text_block,
+#primehub .text_block,
+#learning-centre .text_block {
     margin-top: 2rem;
     text-align: left;
 }
-#primehub ._wrap {
+#primehub ._wrap,
+#learning-centre ._wrap {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -117,22 +122,27 @@
     /* gap: calc(var(--gutter) * .5); */
 }
 
-#primehub ._wrap .panel {
+#primehub ._wrap .panel,
+#learning-centre ._wrap .panel {
     padding: 0;
     justify-content: flex-start;
 }
 
 #primehub ._wrap [class*="text_block"], 
-#primehub .text_wrap  {
+#primehub .text_wrap,
+#learning-centre ._wrap [class*="text_block"], 
+#learning-centre .text_wrap  {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-#primehub h5 {
+#primehub h5,
+#learning-centre h5 {
     margin-bottom: 0.5rem;
 }
 
-#primehub section:not(.introduction) .column_third {
+#primehub section:not(.introduction) .column_third,
+#learning-centre section:not(.introduction) .column_third {
     /* width: calc(100% * 1/3); */
     /* width: calc(var(--col-width) * var(--columns) - 5.3333rem); */
 }
@@ -146,13 +156,15 @@
     width: calc(var(--col-width) * var(--columns));
 } */
 
-#primehub section:not(.introduction) .column_third {
+#primehub section:not(.introduction) .column_third,
+#learning-centre section:not(.introduction) .column_third {
     max-width: calc((1200px * 3/10)  - (2rem * 2/3)  );
     width: calc(10/3);
 }
 
 @media screen and (max-width: 1080px){
-    #primehub section:not(.introduction) .column_third {
+    #primehub section:not(.introduction) .column_third,
+    #learning-centre section:not(.introduction) .column_third {
         max-width: calc((90vw * 1/2)  - (2rem * 1/2)  );
         width: calc(var(--col-width) * var(--columns));
         margin: 0;
@@ -160,7 +172,8 @@
 }
 
 @media screen and (max-width: 880px){
-    #primehub section:not(.introduction) .column_third {
+    #primehub section:not(.introduction) .column_third,
+    #learning-centre section:not(.introduction) .column_third {
         max-width: 90vw;
         width: 100%;
         margin-left: auto;
@@ -174,21 +187,28 @@
 #primehub .markets_map,
 #primehub .markets_map .column_wrap,
 #primehub .markets_map .column_100,
-#primehub .markets_map .column_row { 
+#primehub .markets_map .column_row,
+#learning-centre .markets_map,
+#learning-centre .markets_map .column_wrap,
+#learning-centre .markets_map .column_100,
+#learning-centre .markets_map .column_row { 
     /* width: 100vw;  */
     width: 100%; 
     max-width: unset;
 }
 
 
-#primehub #map{ 
+#primehub #map,
+#learning-centre #map{ 
     height: calc(100vh - (var(--header-height)));
 }
-#primehub.has-banner #map  {
+#primehub.has-banner #map,
+#learning-centre.has-banner #map  {
     height: calc(100vh - (var(--header-height) + var(--banner-height)));
 }
 
-#primehub #map button:last-of-type {
+#primehub #map button:last-of-type,
+#learning-centre #map button:last-of-type {
     /* display: none; */
 }
 

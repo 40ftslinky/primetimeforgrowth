@@ -165,6 +165,10 @@ h5 span {
   font-size: 1.15rem;
 }
 
+.subtotal_banner_sect h5 span {
+  display: initial;
+}
+
 h6 {font-size: 1.1rem;}
 
 

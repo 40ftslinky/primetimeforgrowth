@@ -179,7 +179,7 @@ a.sub_menu-link * {
 /* nav ul ul li a */
 
 .sub_menu-item_wrapper { 
-    min-width: 20vw;
+    /* min-width: 20vw; */
 }
 .sub_menu-item_wrapper:hover { 
     background-color: darkred

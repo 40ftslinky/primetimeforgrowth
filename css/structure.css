@@ -431,7 +431,7 @@ and ( max-width: 1232px ) {
     margin-right: auto;
 }
 .panel .left{
-    margin-left: 2rem;
+    margin-left:0;
     margin-right: 2rem;
 }
 

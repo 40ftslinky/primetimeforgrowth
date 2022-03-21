@@ -225,7 +225,7 @@ h6 {
 /* variations */
 
 .large { font-size: 16px; font-weight: var(--large-font-weight);}
-.small { font-size: 12px; }
+.small { font-size: 12px; margin-top: 0;}
 .micro { font-size: 10px; line-height: 150%; }
 
 

@@ -80,9 +80,6 @@ body { background: var(--theme-light); }
     padding-top: 0;
 }
 
-#adbuilder_form .section:first-of-type {
-    /* min-height: 100vh; */
-}
 
 /* needs a different class */
 #adbuilder_form .hero .section:first-of-type,
@@ -97,11 +94,6 @@ body { background: var(--theme-light); }
     min-height: unset;
 }
 
-@media (min-width:48em) and (max-width:52em){
-    .section {
-        /* padding: 5%; */
-    }
-}
 @media screen and ( max-width: 1080px ){
     .section {
         position: relative;
@@ -372,18 +364,6 @@ and ( max-width: 1232px ) {
 }
 /* ----------------------------- end TEST ----------------------------- */
 
-/* 
-.col_01  {
-    --col-num: 1;
-    width: calc(var(--column-width) * var(--col-num) + (var(--gutter) * (var(--col-num) - 1 )));
-} */
-
-/* .col_04  {
-    --col-num: 4;
-    width: calc((1200 / 12) * var(--col-num) + (var(--gutter) * (var(--col-num) - 1 ) - 4rem));
-} */
-
-
 /* OTHER */
 
 .no_scroll {
@@ -394,7 +374,6 @@ and ( max-width: 1232px ) {
     display: block;
 }
 
-[class*="_block"] { }
 
 .float-right {
     float: right;

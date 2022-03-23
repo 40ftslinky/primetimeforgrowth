@@ -107,6 +107,18 @@ a:hover .help_sub {
     width: max-content;
 }
 
+@media screen 
+    and ( min-width: 1080px ) 
+{
+    a .help_sub {
+        position: relative;
+        color: rgba(var(--black-rgb),0.7);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1;
+    }
+}
+
 
 a.test {
 color: #3f3ba6;

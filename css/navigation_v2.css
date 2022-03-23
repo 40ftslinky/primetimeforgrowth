@@ -20,7 +20,7 @@
 @media screen 
     and ( max-width: 1180px ) 
 {
-    .logo { transform: scale(0.9); transform-origin: center left;}
+    .logo { transform: scale(0.85); transform-origin: center left;}
 }
 
 @media screen 

@@ -111,7 +111,7 @@ a:hover .help_sub {
 }
 
 @media screen 
-    and ( min-width: 1080px ) 
+    and ( max-width: 1080px ) 
 {
     a .help_sub {
         position: relative;

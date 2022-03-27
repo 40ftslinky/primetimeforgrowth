@@ -222,7 +222,10 @@
 }
 #meet-the-network .introduction .video_wrap,
 #station .introduction .video_wrap,
-#market .video_wrap,  #example_tvc .video_wrap, #why_tv .video_wrap {
+#market .video_wrap,  
+#example_tvc .video_wrap, 
+#why_tv .video_wrap,
+#how_to .video_wrap {
     margin-bottom: 2rem;
 }
 

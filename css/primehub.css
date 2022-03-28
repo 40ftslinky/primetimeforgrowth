@@ -229,6 +229,10 @@
     margin-bottom: 2rem;
 }
 
+.video_wrap + .text_block h5 {
+    margin-bottom: 0;
+}
+
 /* temporary fix */
 .meet-the-adbuilder .column_50:nth-of-type(2) {
     /* display: none !important; */

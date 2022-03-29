@@ -49,7 +49,8 @@ body { background: var(--theme-light); }
 .station main,
 .example_tvc main,
 .why_tv main,
-.how_to main {
+.how_to main,
+.welcome main {
     padding-top: var(--header-height);
 }
 
@@ -72,7 +73,8 @@ body { background: var(--theme-light); }
 .station.has-banner main,
 .example_tvc.has-banner main,
 .why_tv.has-banner main,
-.how_to.has-banner main  {
+.how_to.has-banner main,
+.welcome.has-banner main  {
     padding-top: calc(var(--header-height) + var(--banner-height));
 }
 

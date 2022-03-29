@@ -9,7 +9,8 @@
     background-color: rgba(var(--theme-dark-rgb),0.1);
     background-position: top center;
 }
-.primehub .hero {
+.primehub .hero,
+.learning-centre .hero {
     background-image: url(../img/primehub_hero_bg.jpg);
     background-color: rgba(var(--theme-dark-rgb),0.1);
     background-position: top center;
@@ -107,7 +108,6 @@
     padding: 2.5% 0;
 }
 
-#primehub .text_block,
 #primehub .text_block,
 #learning-centre .text_block {
     margin-top: 2rem;

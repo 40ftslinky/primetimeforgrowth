@@ -242,7 +242,7 @@
 }
 
 .video_wrap + .text_block p {
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 
 /* temporary fix */

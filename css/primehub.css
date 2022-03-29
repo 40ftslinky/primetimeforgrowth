@@ -233,6 +233,10 @@
     margin-bottom: 0;
 }
 
+.video_wrap + .text_block p {
+    margin-top: 0;
+}
+
 /* temporary fix */
 .meet-the-adbuilder .column_50:nth-of-type(2) {
     /* display: none !important; */

@@ -232,7 +232,8 @@
 #market .video_wrap,  
 #example_tvc .video_wrap, 
 #why_tv .video_wrap,
-#how_to .video_wrap {
+#how_to .video_wrap,
+#welcome .video_wrap {
     margin-bottom: 2rem;
 }
 

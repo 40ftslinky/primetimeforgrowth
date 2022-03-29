@@ -121,7 +121,7 @@ body { background: var(--theme-light); }
 }
 .column_row {
     padding-top: 0;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 .column_row:last-of-type {
     padding-top: 0;

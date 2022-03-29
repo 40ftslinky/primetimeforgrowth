@@ -141,6 +141,12 @@
     margin-bottom: 0.5rem;
 }
 
+#primehub .column_third .text_wrap,
+#learning-centre .column_third .text_wrap   {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 #primehub section:not(.introduction) .column_third,
 #learning-centre section:not(.introduction) .column_third {
     /* width: calc(100% * 1/3); */

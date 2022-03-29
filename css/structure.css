@@ -269,6 +269,7 @@ and ( max-width: 1232px ) {
     .panel_wrap, .text_wrap {
         max-width: 600px;
         width: 90vw;
+        width: calc(100% - 4rem);
     }
 }
 @media screen and ( max-width: 880px ){
@@ -327,7 +328,7 @@ and ( max-width: 1232px ) {
   
 @media screen and ( max-width: 1080px ){
     .panel p {
-        margin-left: auto;
+        /* margin-left: 0; */
         margin-right: auto;
     }
 }
